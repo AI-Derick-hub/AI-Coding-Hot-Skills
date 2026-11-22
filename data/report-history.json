@@ -1,0 +1,1332 @@
+[
+  {
+    "run_at": "2026-11-22T13:00:24+08:00",
+    "run_date": "2026-11-22",
+    "total_skills": 96,
+    "new_today": 96,
+    "updated_today": 0,
+    "removed_today": 0,
+    "new_items": [
+      {
+        "id": "mattpocock/skills",
+        "name": "skills",
+        "categories": [
+          "Development",
+          "Testing"
+        ],
+        "stars": 329863,
+        "source": "https://github.com/mattpocock/skills",
+        "download": "https://github.com/mattpocock/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/mattpocock/skills",
+        "install_command": "git clone https://github.com/mattpocock/skills.git",
+        "reason": "Public stars: 329,863, which meets the 2,000-star bar. At least 4,618 new stars in the last 7 days, at least 28,887 new stars in the last 30 days (counted through 2026-11-21). Summary: Skills for Real Engineers. Straight from my .agents directory."
+      },
+      {
+        "id": "obra/superpowers",
+        "name": "superpowers",
+        "categories": [
+          "Requirements",
+          "Development"
+        ],
+        "stars": 323834,
+        "source": "https://github.com/obra/superpowers",
+        "download": "https://github.com/obra/superpowers/archive/refs/heads/main.zip",
+        "link": "https://github.com/obra/superpowers",
+        "install_command": "git clone https://github.com/obra/superpowers.git",
+        "reason": "Public stars: 323,834, which meets the 2,000-star bar. At least 5,896 new stars in the last 7 days, at least 20,667 new stars in the last 30 days (counted through 2026-11-21). Summary: An agentic skills framework & software development methodology that works."
+      },
+      {
+        "id": "multica-ai/andrej-karpathy-skills",
+        "name": "andrej-karpathy-skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 234940,
+        "source": "https://github.com/multica-ai/andrej-karpathy-skills",
+        "download": "https://github.com/multica-ai/andrej-karpathy-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/multica-ai/andrej-karpathy-skills",
+        "install_command": "git clone https://github.com/multica-ai/andrej-karpathy-skills.git",
+        "reason": "Public stars: 234,940, which meets the 2,000-star bar. At least 1,552 new stars in the last 7 days, at least 12,760 new stars in the last 30 days (counted through 2026-11-21). Summary: A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's o…"
+      },
+      {
+        "id": "anthropics/skills",
+        "name": "skills",
+        "categories": [
+          "Development",
+          "Generate PPT"
+        ],
+        "stars": 198574,
+        "source": "https://github.com/anthropics/skills",
+        "download": "https://github.com/anthropics/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/anthropics/skills",
+        "install_command": "git clone https://github.com/anthropics/skills.git",
+        "reason": "Public stars: 198,574, which meets the 2,000-star bar. At least 3,165 new stars in the last 7 days, at least 15,739 new stars in the last 30 days (counted through 2026-11-21). Official repository from anthropics. Summary: Public repository for Agent Skills"
+      },
+      {
+        "id": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "name": "ui-ux-pro-max-skill",
+        "categories": [
+          "Development"
+        ],
+        "stars": 152563,
+        "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "download": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "install_command": "git clone https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
+        "reason": "Public stars: 152,563, which meets the 2,000-star bar. At least 2,559 new stars in the last 7 days, at least 13,523 new stars in the last 30 days (counted through 2026-11-21). Summary: An AI skill that provides design intelligence for building professional UI/UX across mult…"
+      },
+      {
+        "id": "leonxlnx/taste-skill",
+        "name": "taste-skill",
+        "categories": [
+          "Development"
+        ],
+        "stars": 119797,
+        "source": "https://github.com/Leonxlnx/taste-skill",
+        "download": "https://github.com/Leonxlnx/taste-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/Leonxlnx/taste-skill",
+        "install_command": "git clone https://github.com/Leonxlnx/taste-skill.git",
+        "reason": "Public stars: 119,797, which meets the 2,000-star bar. At least 3,480 new stars in the last 7 days, at least 18,526 new stars in the last 30 days (counted through 2026-11-21). Summary: Agent skills that give coding agents taste: art direction, reference images and a browser…"
+      },
+      {
+        "id": "addyosmani/agent-skills",
+        "name": "agent-skills",
+        "categories": [
+          "Requirements",
+          "Development",
+          "Testing"
+        ],
+        "stars": 119618,
+        "source": "https://github.com/addyosmani/agent-skills",
+        "download": "https://github.com/addyosmani/agent-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/addyosmani/agent-skills",
+        "install_command": "git clone https://github.com/addyosmani/agent-skills.git",
+        "reason": "Public stars: 119,618, which meets the 2,000-star bar. At least 1,633 new stars in the last 7 days, at least 10,032 new stars in the last 30 days (counted through 2026-11-21). Summary: Production-grade engineering skills for AI coding agents."
+      },
+      {
+        "id": "tt-a1i/archify",
+        "name": "archify",
+        "categories": [
+          "Development",
+          "Design diagrams"
+        ],
+        "stars": 98618,
+        "source": "https://github.com/tt-a1i/archify",
+        "download": "https://github.com/tt-a1i/archify/releases/download/v3.2.0/archify.zip",
+        "link": "https://github.com/tt-a1i/archify",
+        "install_command": "git clone https://github.com/tt-a1i/archify.git",
+        "reason": "Public stars: 98,618, which meets the 2,000-star bar. At least 1,737 new stars in the last 7 days, at least 10,553 new stars in the last 30 days (counted through 2026-11-21). Summary: Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for…"
+      },
+      {
+        "id": "composiohq/awesome-claude-skills",
+        "name": "awesome-claude-skills",
+        "categories": [
+          "Requirements",
+          "Development",
+          "Testing",
+          "Generate PPT"
+        ],
+        "stars": 80020,
+        "source": "https://github.com/ComposioHQ/awesome-claude-skills",
+        "download": "https://github.com/ComposioHQ/awesome-claude-skills/archive/refs/heads/master.zip",
+        "link": "https://github.com/ComposioHQ/awesome-claude-skills",
+        "install_command": "git clone https://github.com/ComposioHQ/awesome-claude-skills.git",
+        "reason": "Public stars: 80,020, which meets the 2,000-star bar. At least 464 new stars in the last 7 days, at least 2,454 new stars in the last 30 days (counted through 2026-11-21). Summary: A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI w…"
+      },
+      {
+        "id": "cloudflare/security-audit-skill",
+        "name": "security-audit-skill",
+        "categories": [
+          "Development"
+        ],
+        "stars": 76755,
+        "source": "https://github.com/cloudflare/security-audit-skill",
+        "download": "https://github.com/cloudflare/security-audit-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/cloudflare/security-audit-skill",
+        "install_command": "git clone https://github.com/cloudflare/security-audit-skill.git",
+        "reason": "Public stars: 76,755, which meets the 2,000-star bar. At least 3,434 new stars in the last 7 days, at least 34,451 new stars in the last 30 days (counted through 2026-11-21). Summary: A coding-agent skill for multi-phase security audits with independently verified, machine…"
+      },
+      {
+        "id": "cathrynlavery/diagram-design",
+        "name": "diagram-design",
+        "categories": [
+          "Design diagrams"
+        ],
+        "stars": 69881,
+        "source": "https://github.com/cathrynlavery/diagram-design",
+        "download": "https://github.com/cathrynlavery/diagram-design/archive/refs/heads/main.zip",
+        "link": "https://github.com/cathrynlavery/diagram-design",
+        "install_command": "git clone https://github.com/cathrynlavery/diagram-design.git",
+        "reason": "Public stars: 69,881, which meets the 2,000-star bar. At least 2,469 new stars in the last 7 days, at least 9,693 new stars in the last 30 days (counted through 2026-11-21). Summary: Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Q…"
+      },
+      {
+        "id": "emilkowalski/skills",
+        "name": "skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 58691,
+        "source": "https://github.com/emilkowalski/skills",
+        "download": "https://github.com/emilkowalski/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/emilkowalski/skills",
+        "install_command": "git clone https://github.com/emilkowalski/skills.git",
+        "reason": "Public stars: 58,691, which meets the 2,000-star bar. At least 1,449 new stars in the last 7 days, at least 9,816 new stars in the last 30 days (counted through 2026-11-21). Summary: Skills for Designers and Engineers."
+      },
+      {
+        "id": "hesreallyhim/awesome-claude-code",
+        "name": "awesome-claude-code",
+        "categories": [
+          "Development"
+        ],
+        "stars": 58543,
+        "source": "https://github.com/hesreallyhim/awesome-claude-code",
+        "download": "https://github.com/hesreallyhim/awesome-claude-code/archive/refs/heads/main.zip",
+        "link": "https://github.com/hesreallyhim/awesome-claude-code",
+        "install_command": "git clone https://github.com/hesreallyhim/awesome-claude-code.git",
+        "reason": "Public stars: 58,543, which meets the 2,000-star bar. At least 458 new stars in the last 7 days, at least 2,332 new stars in the last 30 days (counted through 2026-11-21). Summary: A hand-picked collection of the finest of resources for the most awesome of agents, Claud…"
+      },
+      {
+        "id": "sickn33/agentic-awesome-skills",
+        "name": "agentic-awesome-skills",
+        "categories": [
+          "Requirements",
+          "Development"
+        ],
+        "stars": 50112,
+        "source": "https://github.com/sickn33/agentic-awesome-skills",
+        "download": "https://github.com/sickn33/agentic-awesome-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/sickn33/agentic-awesome-skills",
+        "install_command": "git clone https://github.com/sickn33/agentic-awesome-skills.git",
+        "reason": "Public stars: 50,112, which meets the 2,000-star bar. At least 362 new stars in the last 7 days, at least 1,826 new stars in the last 30 days (counted through 2026-11-21). Summary: 3,000+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core a…"
+      },
+      {
+        "id": "wshobson/agents",
+        "name": "agents",
+        "categories": [
+          "Development",
+          "Testing"
+        ],
+        "stars": 42781,
+        "source": "https://github.com/wshobson/agents",
+        "download": "https://github.com/wshobson/agents/archive/refs/heads/main.zip",
+        "link": "https://github.com/wshobson/agents",
+        "install_command": "git clone https://github.com/wshobson/agents.git",
+        "reason": "Public stars: 42,781, which meets the 2,000-star bar. At least 239 new stars in the last 7 days, at least 1,256 new stars in the last 30 days (counted through 2026-11-21). Summary: Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antig…"
+      },
+      {
+        "id": "github/awesome-copilot",
+        "name": "awesome-copilot",
+        "categories": [
+          "Development"
+        ],
+        "stars": 41431,
+        "source": "https://github.com/github/awesome-copilot",
+        "download": "https://github.com/github/awesome-copilot/archive/refs/heads/main.zip",
+        "link": "https://github.com/github/awesome-copilot",
+        "install_command": "git clone https://github.com/github/awesome-copilot.git",
+        "reason": "Public stars: 41,431, which meets the 2,000-star bar. At least 259 new stars in the last 7 days, at least 1,217 new stars in the last 30 days (counted through 2026-11-21). Official repository from github. Summary: Community-contributed instructions, agents, skills, and configurations to help you make t…"
+      },
+      {
+        "id": "voltagent/awesome-agent-skills",
+        "name": "awesome-agent-skills",
+        "categories": [
+          "Development",
+          "Testing",
+          "Generate PPT"
+        ],
+        "stars": 37425,
+        "source": "https://github.com/VoltAgent/awesome-agent-skills",
+        "download": "https://github.com/VoltAgent/awesome-agent-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/VoltAgent/awesome-agent-skills",
+        "install_command": "git clone https://github.com/VoltAgent/awesome-agent-skills.git",
+        "reason": "Public stars: 37,425, which meets the 2,000-star bar. At least 218 new stars in the last 7 days, at least 1,269 new stars in the last 30 days (counted through 2026-11-21). Summary: A curated collection of 1000+ agent skills from official dev teams and the community, com…"
+      },
+      {
+        "id": "vercel-labs/agent-skills",
+        "name": "agent-skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 34680,
+        "source": "https://github.com/vercel-labs/agent-skills",
+        "download": "https://github.com/vercel-labs/agent-skills/releases/download/agent-skills-5a37a6329fbad3666c3207392a6a7c0110e92efb/vercel-composition-patterns.tar.gz",
+        "link": "https://github.com/vercel-labs/agent-skills",
+        "install_command": "git clone https://github.com/vercel-labs/agent-skills.git",
+        "reason": "Public stars: 34,680, which meets the 2,000-star bar. At least 554 new stars in the last 7 days, at least 1,870 new stars in the last 30 days (counted through 2026-11-21). Official repository from vercel-labs. Summary: Vercel's official collection of agent skills"
+      },
+      {
+        "id": "alchaincyf/huashu-design",
+        "name": "huashu-design",
+        "categories": [
+          "Design diagrams",
+          "Generate PPT"
+        ],
+        "stars": 30291,
+        "source": "https://github.com/alchaincyf/huashu-design",
+        "download": "https://github.com/alchaincyf/huashu-design/archive/refs/heads/master.zip",
+        "link": "https://github.com/alchaincyf/huashu-design",
+        "install_command": "git clone https://github.com/alchaincyf/huashu-design.git",
+        "reason": "Public stars: 30,291, which meets the 2,000-star bar. At least 697 new stars in the last 7 days, at least 4,415 new stars in the last 30 days (counted through 2026-11-21). Summary: Huashu Design 3.4. One sentence in an agent returns deliverable design: web pages, app pr…"
+      },
+      {
+        "id": "alirezarezvani/claude-skills",
+        "name": "claude-skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 30257,
+        "source": "https://github.com/alirezarezvani/claude-skills",
+        "download": "https://github.com/alirezarezvani/claude-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/alirezarezvani/claude-skills",
+        "install_command": "git clone https://github.com/alirezarezvani/claude-skills.git",
+        "reason": "Public stars: 30,257, which meets the 2,000-star bar. At least 407 new stars in the last 7 days, at least 1,726 new stars in the last 30 days (counted through 2026-11-21). Summary: 410 Claude Code skills & agent skills & plugins (120+ Agents, custom commands, 410+ skill…"
+      },
+      {
+        "id": "op7418/guizang-ppt-skill",
+        "name": "guizang-ppt-skill",
+        "categories": [
+          "Requirements",
+          "Generate PPT"
+        ],
+        "stars": 30235,
+        "source": "https://github.com/op7418/guizang-ppt-skill",
+        "download": "https://github.com/op7418/guizang-ppt-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/op7418/guizang-ppt-skill",
+        "install_command": "git clone https://github.com/op7418/guizang-ppt-skill.git",
+        "reason": "Public stars: 30,235, which meets the 2,000-star bar. At least 398 new stars in the last 7 days, at least 1,776 new stars in the last 30 days (counted through 2026-11-21). Summary: AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss lay…"
+      },
+      {
+        "id": "openai/skills",
+        "name": "skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 28882,
+        "source": "https://github.com/openai/skills",
+        "download": "https://github.com/openai/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/openai/skills",
+        "install_command": "git clone https://github.com/openai/skills.git",
+        "reason": "Public stars: 28,882, which meets the 2,000-star bar. At least 132 new stars in the last 7 days, at least 705 new stars in the last 30 days (counted through 2026-11-21). Official repository from openai. Summary: Skills Catalog for Codex"
+      },
+      {
+        "id": "othmanadi/planning-with-files",
+        "name": "planning-with-files",
+        "categories": [
+          "Requirements",
+          "Development"
+        ],
+        "stars": 28179,
+        "source": "https://github.com/OthmanAdi/planning-with-files",
+        "download": "https://github.com/OthmanAdi/planning-with-files/archive/refs/heads/master.zip",
+        "link": "https://github.com/OthmanAdi/planning-with-files",
+        "install_command": "git clone https://github.com/OthmanAdi/planning-with-files.git",
+        "reason": "Public stars: 28,179, which meets the 2,000-star bar. At least 115 new stars in the last 7 days, at least 642 new stars in the last 30 days (counted through 2026-11-21). Summary: Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof m…"
+      },
+      {
+        "id": "jimliu/baoyu-skills",
+        "name": "baoyu-skills",
+        "categories": [
+          "Design diagrams"
+        ],
+        "stars": 27784,
+        "source": "https://github.com/JimLiu/baoyu-skills",
+        "download": "https://github.com/JimLiu/baoyu-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/JimLiu/baoyu-skills",
+        "install_command": "git clone https://github.com/JimLiu/baoyu-skills.git",
+        "reason": "Public stars: 27,784, which meets the 2,000-star bar. At least 206 new stars in the last 7 days, at least 934 new stars in the last 30 days (counted through 2026-11-21)."
+      },
+      {
+        "id": "agentskills/agentskills",
+        "name": "agentskills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 27514,
+        "source": "https://github.com/agentskills/agentskills",
+        "download": "https://github.com/agentskills/agentskills/archive/refs/heads/main.zip",
+        "link": "https://github.com/agentskills/agentskills",
+        "install_command": "git clone https://github.com/agentskills/agentskills.git",
+        "reason": "Public stars: 27,514, which meets the 2,000-star bar. At least 188 new stars in the last 7 days, at least 1,024 new stars in the last 30 days (counted through 2026-11-21). Summary: Specification and documentation for Agent Skills"
+      },
+      {
+        "id": "google/skills",
+        "name": "skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 24527,
+        "source": "https://github.com/google/skills",
+        "download": "https://github.com/google/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/google/skills",
+        "install_command": "git clone https://github.com/google/skills.git",
+        "reason": "Public stars: 24,527, which meets the 2,000-star bar. At least 191 new stars in the last 7 days, at least 3,062 new stars in the last 30 days (counted through 2026-11-21). Official repository from google. Summary: Agent Skills for Google products and technologies"
+      },
+      {
+        "id": "kkkkhazix/khazix-skills",
+        "name": "khazix-skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 22448,
+        "source": "https://github.com/KKKKhazix/khazix-skills",
+        "download": "https://github.com/KKKKhazix/khazix-skills/releases/download/v1.3.1/aihot-1.3.1.zip",
+        "link": "https://github.com/KKKKhazix/khazix-skills",
+        "install_command": "git clone https://github.com/KKKKhazix/khazix-skills.git",
+        "reason": "Public stars: 22,448, which meets the 2,000-star bar. At least 181 new stars in the last 7 days, at least 893 new stars in the last 30 days (counted through 2026-11-21). Summary: Open AI skill collection from Kazike. Agent skills include leader (define a goal), neat-f…"
+      },
+      {
+        "id": "greensock/gsap-skills",
+        "name": "gsap-skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 18882,
+        "source": "https://github.com/greensock/gsap-skills",
+        "download": "https://github.com/greensock/gsap-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/greensock/gsap-skills",
+        "install_command": "git clone https://github.com/greensock/gsap-skills.git",
+        "reason": "Public stars: 18,882, which meets the 2,000-star bar. At least 382 new stars in the last 7 days, at least 1,948 new stars in the last 30 days (counted through 2026-11-21). Summary: Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSA…"
+      },
+      {
+        "id": "muratcankoylan/agent-skills-for-context-engineering",
+        "name": "Agent-Skills-for-Context-Engineering",
+        "categories": [
+          "Development"
+        ],
+        "stars": 18394,
+        "source": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "download": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/archive/refs/heads/main.zip",
+        "link": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "install_command": "git clone https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering.git",
+        "reason": "Public stars: 18,394, which meets the 2,000-star bar. At least 42 new stars in the last 7 days, at least 238 new stars in the last 30 days (counted through 2026-11-21). Summary: A comprehensive collection of Agent Skills for context engineering, multi-agent architect…"
+      },
+      {
+        "id": "composio-community/awesome-codex-skills",
+        "name": "awesome-codex-skills",
+        "categories": [
+          "Development",
+          "Testing"
+        ],
+        "stars": 17384,
+        "source": "https://github.com/composio-community/awesome-codex-skills",
+        "download": "https://github.com/composio-community/awesome-codex-skills/archive/refs/heads/master.zip",
+        "link": "https://github.com/composio-community/awesome-codex-skills",
+        "install_command": "git clone https://github.com/composio-community/awesome-codex-skills.git",
+        "reason": "Public stars: 17,384, which meets the 2,000-star bar. At least 70 new stars in the last 7 days, at least 437 new stars in the last 30 days (counted through 2026-11-21). Summary: A curated list of practical Codex skills for automating workflows across the Codex CLI an…"
+      },
+      {
+        "id": "travisvn/awesome-claude-skills",
+        "name": "awesome-claude-skills",
+        "categories": [
+          "Development",
+          "Testing",
+          "Generate PPT"
+        ],
+        "stars": 15897,
+        "source": "https://github.com/travisvn/awesome-claude-skills",
+        "download": "https://github.com/travisvn/awesome-claude-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/travisvn/awesome-claude-skills",
+        "install_command": "git clone https://github.com/travisvn/awesome-claude-skills.git",
+        "reason": "Public stars: 15,897, which meets the 2,000-star bar. At least 77 new stars in the last 7 days, at least 409 new stars in the last 30 days (counted through 2026-11-21). Summary: A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI w…"
+      },
+      {
+        "id": "orchestra-research/ai-research-skills",
+        "name": "AI-Research-SKILLs",
+        "categories": [
+          "Development"
+        ],
+        "stars": 14729,
+        "source": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+        "download": "https://github.com/Orchestra-Research/AI-Research-SKILLs/archive/refs/heads/main.zip",
+        "link": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+        "install_command": "git clone https://github.com/Orchestra-Research/AI-Research-SKILLs.git",
+        "reason": "Public stars: 14,729, which meets the 2,000-star bar. At least 154 new stars in the last 7 days, at least 860 new stars in the last 30 days (counted through 2026-11-21). Summary: Comprehensive open-source library of AI research and engineering skills for any AI model.…"
+      },
+      {
+        "id": "tw93/kami",
+        "name": "Kami",
+        "categories": [
+          "Generate PPT"
+        ],
+        "stars": 12601,
+        "source": "https://github.com/tw93/Kami",
+        "download": "https://github.com/tw93/Kami/releases/download/V1.20.0/kami.zip",
+        "link": "https://github.com/tw93/Kami",
+        "install_command": "git clone https://github.com/tw93/Kami.git",
+        "reason": "Public stars: 12,601, which meets the 2,000-star bar. At least 58 new stars in the last 7 days, at least 570 new stars in the last 30 days (counted through 2026-11-21). Summary: 👩‍🚒 Good content deserves good paper. Layout rules and templates that let AI agents expor…"
+      },
+      {
+        "id": "jakubkrehel/skills",
+        "name": "skills",
+        "categories": [
+          "Development",
+          "Testing"
+        ],
+        "stars": 12556,
+        "source": "https://github.com/jakubkrehel/skills",
+        "download": "https://github.com/jakubkrehel/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/jakubkrehel/skills",
+        "install_command": "git clone https://github.com/jakubkrehel/skills.git",
+        "reason": "Public stars: 12,556, which meets the 2,000-star bar. At least 354 new stars in the last 7 days, at least 4,409 new stars in the last 30 days (counted through 2026-11-21). Summary: A collection of agent skills that help you build great interfaces."
+      },
+      {
+        "id": "jeffallan/claude-skills",
+        "name": "claude-skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 12476,
+        "source": "https://github.com/Jeffallan/claude-skills",
+        "download": "https://github.com/Jeffallan/claude-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/Jeffallan/claude-skills",
+        "install_command": "git clone https://github.com/Jeffallan/claude-skills.git",
+        "reason": "Public stars: 12,476, which meets the 2,000-star bar. At least 103 new stars in the last 7 days, at least 481 new stars in the last 30 days (counted through 2026-11-21). Summary: 67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert p…"
+      },
+      {
+        "id": "google-labs-code/stitch-skills",
+        "name": "stitch-skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 11533,
+        "source": "https://github.com/google-labs-code/stitch-skills",
+        "download": "https://github.com/google-labs-code/stitch-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/google-labs-code/stitch-skills",
+        "install_command": "git clone https://github.com/google-labs-code/stitch-skills.git",
+        "reason": "Public stars: 11,533, which meets the 2,000-star bar. At least 2,059 new stars in the last 7 days, at least 3,000 new stars in the last 30 days (counted through 2026-11-21). Summary: A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows…"
+      },
+      {
+        "id": "chuspeeism/dashi-ppt-skill",
+        "name": "dashi-ppt-skill",
+        "categories": [
+          "Generate PPT"
+        ],
+        "stars": 10919,
+        "source": "https://github.com/chuspeeism/dashi-ppt-skill",
+        "download": "https://github.com/chuspeeism/dashi-ppt-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/chuspeeism/dashi-ppt-skill",
+        "install_command": "git clone https://github.com/chuspeeism/dashi-ppt-skill.git",
+        "reason": "Public stars: 10,919, which meets the 2,000-star bar. At least 190 new stars in the last 7 days, at least 1,082 new stars in the last 30 days (counted through 2026-11-21). Summary: An AI-agent skill that generates browser-editable presentations from multiple visual them…"
+      },
+      {
+        "id": "agents365-ai/drawio-skill",
+        "name": "drawio-skill",
+        "categories": [
+          "Testing",
+          "Design diagrams",
+          "Generate PPT"
+        ],
+        "stars": 10890,
+        "source": "https://github.com/Agents365-ai/drawio-skill",
+        "download": "https://github.com/Agents365-ai/drawio-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/Agents365-ai/drawio-skill",
+        "install_command": "git clone https://github.com/Agents365-ai/drawio-skill.git",
+        "reason": "Public stars: 10,890, which meets the 2,000-star bar. At least 109 new stars in the last 7 days, at least 603 new stars in the last 30 days (counted through 2026-11-21). Summary: Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Pro…"
+      },
+      {
+        "id": "janestreet/agent_skills",
+        "name": "agent_skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 10582,
+        "source": "https://github.com/janestreet/agent_skills",
+        "download": "https://github.com/janestreet/agent_skills/archive/refs/heads/master.zip",
+        "link": "https://github.com/janestreet/agent_skills",
+        "install_command": "git clone https://github.com/janestreet/agent_skills.git",
+        "reason": "Public stars: 10,582, which meets the 2,000-star bar. At least 1,392 new stars in the last 7 days, at least 10,582 new stars in the last 30 days (counted through 2026-11-21). Summary: Agent skills"
+      },
+      {
+        "id": "behisecc/awesome-claude-skills",
+        "name": "awesome-claude-skills",
+        "categories": [
+          "Development",
+          "Testing",
+          "Generate PPT"
+        ],
+        "stars": 10466,
+        "source": "https://github.com/BehiSecc/awesome-claude-skills",
+        "download": "https://github.com/BehiSecc/awesome-claude-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/BehiSecc/awesome-claude-skills",
+        "install_command": "git clone https://github.com/BehiSecc/awesome-claude-skills.git",
+        "reason": "Public stars: 10,466, which meets the 2,000-star bar. At least 37 new stars in the last 7 days, at least 196 new stars in the last 30 days (counted through 2026-11-21). Summary: A curated list of Claude Skills."
+      },
+      {
+        "id": "jakeschincariol/replica-skill",
+        "name": "replica-skill",
+        "categories": [
+          "Development"
+        ],
+        "stars": 10269,
+        "source": "https://github.com/Jakeschincariol/replica-skill",
+        "download": "https://github.com/Jakeschincariol/replica-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/Jakeschincariol/replica-skill",
+        "install_command": "git clone https://github.com/Jakeschincariol/replica-skill.git",
+        "reason": "Public stars: 10,269, which meets the 2,000-star bar. At least 810 new stars in the last 7 days, at least 5,265 new stars in the last 30 days (counted through 2026-11-21). Summary: Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it fo…"
+      },
+      {
+        "id": "gamedev-skills/awesome-gamedev-agent-skills",
+        "name": "awesome-gamedev-agent-skills",
+        "categories": [
+          "Development",
+          "Testing"
+        ],
+        "stars": 10063,
+        "source": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+        "download": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+        "install_command": "git clone https://github.com/gamedev-skills/awesome-gamedev-agent-skills.git",
+        "reason": "Public stars: 10,063, which meets the 2,000-star bar. At least 1,022 new stars in the last 7 days, at least 6,466 new stars in the last 30 days (counted through 2026-11-21). Summary: Make games with your AI coding agent: 79 game-dev skills and a router for Godot, Unity, U…"
+      },
+      {
+        "id": "anbeime/skill",
+        "name": "skill",
+        "categories": [
+          "Development"
+        ],
+        "stars": 9795,
+        "source": "https://github.com/anbeime/skill",
+        "download": "https://github.com/anbeime/skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/anbeime/skill",
+        "install_command": "git clone https://github.com/anbeime/skill.git",
+        "reason": "Public stars: 9,795, which meets the 2,000-star bar. At least 195 new stars in the last 7 days, at least 1,249 new stars in the last 30 days (counted through 2026-11-21). Summary: The most comprehensive and frequently updated AI agent skill library, with curated packs…"
+      },
+      {
+        "id": "gentleman-programming/gentle-ai",
+        "name": "gentle-ai",
+        "categories": [
+          "Development",
+          "Testing"
+        ],
+        "stars": 9458,
+        "source": "https://github.com/Gentleman-Programming/gentle-ai",
+        "download": "https://github.com/Gentleman-Programming/gentle-ai/releases/download/v4.6.0/gentle-ai-release-provenance-v1.tar.gz",
+        "link": "https://github.com/Gentleman-Programming/gentle-ai",
+        "install_command": "git clone https://github.com/Gentleman-Programming/gentle-ai.git",
+        "reason": "Public stars: 9,458, which meets the 2,000-star bar. At least 229 new stars in the last 7 days, at least 1,523 new stars in the last 30 days (counted through 2026-11-21). Summary: Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode,…"
+      },
+      {
+        "id": "jnmetacode/superpowers-zh",
+        "name": "superpowers-zh",
+        "categories": [
+          "Development",
+          "Testing"
+        ],
+        "stars": 8579,
+        "source": "https://github.com/jnMetaCode/superpowers-zh",
+        "download": "https://github.com/jnMetaCode/superpowers-zh/archive/refs/heads/main.zip",
+        "link": "https://github.com/jnMetaCode/superpowers-zh",
+        "install_command": "git clone https://github.com/jnMetaCode/superpowers-zh.git",
+        "reason": "Public stars: 8,579, which meets the 2,000-star bar. At least 51 new stars in the last 7 days, at least 264 new stars in the last 30 days (counted through 2026-11-21). Summary: Chinese-enhanced edition of superpowers (250k+ stars): a full translation plus 4 original…"
+      },
+      {
+        "id": "deanpeters/product-manager-skills",
+        "name": "Product-Manager-Skills",
+        "categories": [
+          "Requirements",
+          "Development",
+          "Testing"
+        ],
+        "stars": 8116,
+        "source": "https://github.com/deanpeters/Product-Manager-Skills",
+        "download": "https://github.com/deanpeters/Product-Manager-Skills/releases/download/v0.86/01-core-pm-starter-pack.zip",
+        "link": "https://github.com/deanpeters/Product-Manager-Skills",
+        "install_command": "git clone https://github.com/deanpeters/Product-Manager-Skills.git",
+        "reason": "Public stars: 8,116, which meets the 2,000-star bar. At least 81 new stars in the last 7 days, at least 498 new stars in the last 30 days (counted through 2026-11-21). Summary: Product Management skills framework built on battle-tested methods for Claude Code, Cowor…"
+      },
+      {
+        "id": "ningzimu/codex-ppt-skill",
+        "name": "codex-ppt-skill",
+        "categories": [
+          "Generate PPT"
+        ],
+        "stars": 8086,
+        "source": "https://github.com/ningzimu/codex-ppt-skill",
+        "download": "https://github.com/ningzimu/codex-ppt-skill/releases/download/v0.6.0/codex-ppt-skill-v0.6.0.zip",
+        "link": "https://github.com/ningzimu/codex-ppt-skill",
+        "install_command": "git clone https://github.com/ningzimu/codex-ppt-skill.git",
+        "reason": "Public stars: 8,086, which meets the 2,000-star bar. At least 162 new stars in the last 7 days, at least 861 new stars in the last 30 days (counted through 2026-11-21). Summary: GPT-Image-2 PPT Generator Skill for Creating Image-Based PowerPoint Presentations in Code…"
+      },
+      {
+        "id": "mengto/skills",
+        "name": "Skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 7996,
+        "source": "https://github.com/MengTo/Skills",
+        "download": "https://github.com/MengTo/Skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/MengTo/Skills",
+        "install_command": "git clone https://github.com/MengTo/Skills.git",
+        "reason": "Public stars: 7,996, which meets the 2,000-star bar. At least 380 new stars in the last 7 days, at least 1,047 new stars in the last 30 days (counted through 2026-11-21). Summary: Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding…"
+      },
+      {
+        "id": "remotion-dev/skills",
+        "name": "skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 7740,
+        "source": "https://github.com/remotion-dev/skills",
+        "download": "https://github.com/remotion-dev/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/remotion-dev/skills",
+        "install_command": "git clone https://github.com/remotion-dev/skills.git",
+        "reason": "Public stars: 7,740, which meets the 2,000-star bar. At least 437 new stars in the last 7 days, at least 2,170 new stars in the last 30 days (counted through 2026-11-21). Summary: Agent Skills"
+      },
+      {
+        "id": "tw93/waza",
+        "name": "Waza",
+        "categories": [
+          "Development",
+          "Testing"
+        ],
+        "stars": 7628,
+        "source": "https://github.com/tw93/Waza",
+        "download": "https://github.com/tw93/Waza/releases/download/v3.42.0/waza.zip",
+        "link": "https://github.com/tw93/Waza",
+        "install_command": "git clone https://github.com/tw93/Waza.git",
+        "reason": "Public stars: 7,628, which meets the 2,000-star bar. At least 32 new stars in the last 7 days, at least 297 new stars in the last 30 days (counted through 2026-11-21). Summary: 🥷 Engineering habits you already know, turned into skills AI assistants like Claude Code,…"
+      },
+      {
+        "id": "htdt/godogen",
+        "name": "godogen",
+        "categories": [
+          "Development"
+        ],
+        "stars": 7379,
+        "source": "https://github.com/htdt/godogen",
+        "download": "https://github.com/htdt/godogen/archive/refs/heads/master.zip",
+        "link": "https://github.com/htdt/godogen",
+        "install_command": "git clone https://github.com/htdt/godogen.git",
+        "reason": "Public stars: 7,379, which meets the 2,000-star bar. At least 30 new stars in the last 7 days, at least 206 new stars in the last 30 days (counted through 2026-11-21). Summary: Skills for Claude Code, Codex and Antigravity to build games, and anything else a game en…"
+      },
+      {
+        "id": "tech-leads-club/agent-skills",
+        "name": "agent-skills",
+        "categories": [
+          "Requirements",
+          "Development"
+        ],
+        "stars": 7191,
+        "source": "https://github.com/tech-leads-club/agent-skills",
+        "download": "https://github.com/tech-leads-club/agent-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/tech-leads-club/agent-skills",
+        "install_command": "git clone https://github.com/tech-leads-club/agent-skills.git",
+        "reason": "Public stars: 7,191, which meets the 2,000-star bar. At least 28 new stars in the last 7 days, at least 123 new stars in the last 30 days (counted through 2026-11-21). Summary: The secure, validated skill registry for professional AI coding agents. Extend Antigravit…"
+      },
+      {
+        "id": "alchaincyf/darwin-skill",
+        "name": "darwin-skill",
+        "categories": [
+          "Testing"
+        ],
+        "stars": 7022,
+        "source": "https://github.com/alchaincyf/darwin-skill",
+        "download": "https://github.com/alchaincyf/darwin-skill/archive/refs/heads/master.zip",
+        "link": "https://github.com/alchaincyf/darwin-skill",
+        "install_command": "git clone https://github.com/alchaincyf/darwin-skill.git",
+        "reason": "Public stars: 7,022, which meets the 2,000-star bar. At least 89 new stars in the last 7 days, at least 482 new stars in the last 30 days (counted through 2026-11-21). Summary: Darwin skill: a system that keeps evolving a skill by evaluating, improving, testing, the…"
+      },
+      {
+        "id": "czlonkowski/n8n-skills",
+        "name": "n8n-skills",
+        "categories": [
+          "Development",
+          "Testing"
+        ],
+        "stars": 6691,
+        "source": "https://github.com/czlonkowski/n8n-skills",
+        "download": "https://github.com/czlonkowski/n8n-skills/releases/download/v1.37.1/n8n-agents-v1.37.1.zip",
+        "link": "https://github.com/czlonkowski/n8n-skills",
+        "install_command": "git clone https://github.com/czlonkowski/n8n-skills.git",
+        "reason": "Public stars: 6,691, which meets the 2,000-star bar. At least 41 new stars in the last 7 days, at least 188 new stars in the last 30 days (counted through 2026-11-21). Summary: n8n skillset for Claude Code to build flawless n8n workflows"
+      },
+      {
+        "id": "heilcheng/awesome-agent-skills",
+        "name": "awesome-agent-skills",
+        "categories": [
+          "Development",
+          "Testing",
+          "Generate PPT"
+        ],
+        "stars": 6419,
+        "source": "https://github.com/heilcheng/awesome-agent-skills",
+        "download": "https://github.com/heilcheng/awesome-agent-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/heilcheng/awesome-agent-skills",
+        "install_command": "git clone https://github.com/heilcheng/awesome-agent-skills.git",
+        "reason": "Public stars: 6,419, which meets the 2,000-star bar. At least 28 new stars in the last 7 days, at least 124 new stars in the last 30 days (counted through 2026-11-21). Summary: Tutorials, Guides and Agent Skills Directories"
+      },
+      {
+        "id": "dotnet/skills",
+        "name": "skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 6320,
+        "source": "https://github.com/dotnet/skills",
+        "download": "https://github.com/dotnet/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/dotnet/skills",
+        "install_command": "git clone https://github.com/dotnet/skills.git",
+        "reason": "Public stars: 6,320, which meets the 2,000-star bar. At least 97 new stars in the last 7 days, at least 620 new stars in the last 30 days (counted through 2026-11-21). Summary: Repository for skills to assist AI coding agents with .NET and C#"
+      },
+      {
+        "id": "antfu/skills",
+        "name": "skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 6092,
+        "source": "https://github.com/antfu/skills",
+        "download": "https://github.com/antfu/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/antfu/skills",
+        "install_command": "git clone https://github.com/antfu/skills.git",
+        "reason": "Public stars: 6,092, which meets the 2,000-star bar. At least 19 new stars in the last 7 days, at least 100 new stars in the last 30 days (counted through 2026-11-21). Summary: Anthony Fu's curated collection of agent skills."
+      },
+      {
+        "id": "vinvcn/mattpocock-skills-zh-cn",
+        "name": "mattpocock-skills-zh-CN",
+        "categories": [
+          "Development",
+          "Testing"
+        ],
+        "stars": 6014,
+        "source": "https://github.com/vinvcn/mattpocock-skills-zh-CN",
+        "download": "https://github.com/vinvcn/mattpocock-skills-zh-CN/archive/refs/heads/main.zip",
+        "link": "https://github.com/vinvcn/mattpocock-skills-zh-CN",
+        "install_command": "git clone https://github.com/vinvcn/mattpocock-skills-zh-CN.git",
+        "reason": "Public stars: 6,014, which meets the 2,000-star bar. At least 182 new stars in the last 7 days, at least 797 new stars in the last 30 days (counted through 2026-11-21). Summary: Simplified Chinese localization of Matt Pocock's skills. Each update is reviewed by hand…"
+      },
+      {
+        "id": "appllama/appllama-skills",
+        "name": "appllama-skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 5618,
+        "source": "https://github.com/Appllama/appllama-skills",
+        "download": "https://github.com/Appllama/appllama-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/Appllama/appllama-skills",
+        "install_command": "git clone https://github.com/Appllama/appllama-skills.git",
+        "reason": "Public stars: 5,618, which meets the 2,000-star bar. At least 420 new stars in the last 7 days, at least 2,648 new stars in the last 30 days (counted through 2026-11-21). Summary: A builder, not just a researcher. Agent skills that turn top-grossing app patterns into n…"
+      },
+      {
+        "id": "nateherkai/scroll-craft",
+        "name": "scroll-craft",
+        "categories": [
+          "Development"
+        ],
+        "stars": 5330,
+        "source": "https://github.com/nateherkai/scroll-craft",
+        "download": "https://github.com/nateherkai/scroll-craft/archive/refs/heads/main.zip",
+        "link": "https://github.com/nateherkai/scroll-craft",
+        "install_command": "git clone https://github.com/nateherkai/scroll-craft.git",
+        "reason": "Public stars: 5,330, which meets the 2,000-star bar. At least 222 new stars in the last 7 days, at least 1,396 new stars in the last 30 days (counted through 2026-11-21). Summary: An agent skill for building premium, immersive, scroll-driven websites. Works with Codex,…"
+      },
+      {
+        "id": "coleam00/excalidraw-diagram-skill",
+        "name": "excalidraw-diagram-skill",
+        "categories": [
+          "Development",
+          "Design diagrams"
+        ],
+        "stars": 5316,
+        "source": "https://github.com/coleam00/excalidraw-diagram-skill",
+        "download": "https://github.com/coleam00/excalidraw-diagram-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/coleam00/excalidraw-diagram-skill",
+        "install_command": "git clone https://github.com/coleam00/excalidraw-diagram-skill.git",
+        "reason": "Public stars: 5,316, which meets the 2,000-star bar. At least 51 new stars in the last 7 days, at least 240 new stars in the last 30 days (counted through 2026-11-21). Summary: Skill to give Claude Code (and any coding agent) the ability to generate beautiful and pr…"
+      },
+      {
+        "id": "libukai/awesome-agent-skills",
+        "name": "awesome-agent-skills",
+        "categories": [
+          "Development",
+          "Testing"
+        ],
+        "stars": 5228,
+        "source": "https://github.com/libukai/awesome-agent-skills",
+        "download": "https://github.com/libukai/awesome-agent-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/libukai/awesome-agent-skills",
+        "install_command": "git clone https://github.com/libukai/awesome-agent-skills.git",
+        "reason": "Public stars: 5,228, which meets the 2,000-star bar. At least 14 new stars in the last 7 days, at least 41 new stars in the last 30 days (counted through 2026-11-21). Summary: The ultimate guide to Agent Skills: a quick start, recommended resources, selected skills…"
+      },
+      {
+        "id": "backnotprop/pstack",
+        "name": "pstack",
+        "categories": [
+          "Development",
+          "Testing"
+        ],
+        "stars": 4732,
+        "source": "https://github.com/backnotprop/pstack",
+        "download": "https://github.com/backnotprop/pstack/archive/refs/heads/main.zip",
+        "link": "https://github.com/backnotprop/pstack",
+        "install_command": "git clone https://github.com/backnotprop/pstack.git",
+        "reason": "Public stars: 4,732, which meets the 2,000-star bar. At least 461 new stars in the last 7 days, at least 2,091 new stars in the last 30 days (counted through 2026-11-21). Summary: Use pstack with claude, codex, pi - Skills and principles for rigorous AI-assisted engine…"
+      },
+      {
+        "id": "xianyu110/awesome-openclaw-tutorial",
+        "name": "awesome-openclaw-tutorial",
+        "categories": [
+          "Development"
+        ],
+        "stars": 4586,
+        "source": "https://github.com/xianyu110/awesome-openclaw-tutorial",
+        "download": "https://github.com/xianyu110/awesome-openclaw-tutorial/archive/refs/heads/main.zip",
+        "link": "https://github.com/xianyu110/awesome-openclaw-tutorial",
+        "install_command": "git clone https://github.com/xianyu110/awesome-openclaw-tutorial.git",
+        "reason": "Public stars: 4,586, which meets the 2,000-star bar. At least 9 new stars in the last 7 days, at least 36 new stars in the last 30 days (counted through 2026-11-21). Summary: OpenClaw tutorial in Chinese (4,500+ stars, also published as a book): install, configure…"
+      },
+      {
+        "id": "davidondrej/skills",
+        "name": "skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 4356,
+        "source": "https://github.com/davidondrej/skills",
+        "download": "https://github.com/davidondrej/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/davidondrej/skills",
+        "install_command": "git clone https://github.com/davidondrej/skills.git",
+        "reason": "Public stars: 4,356, which meets the 2,000-star bar. At least 35 new stars in the last 7 days, at least 202 new stars in the last 30 days (counted through 2026-11-21). Summary: access to david ondrej's personal agent skills"
+      },
+      {
+        "id": "plannotator/effective-html",
+        "name": "effective-html",
+        "categories": [
+          "Requirements",
+          "Development",
+          "Design diagrams"
+        ],
+        "stars": 4289,
+        "source": "https://github.com/plannotator/effective-html",
+        "download": "https://github.com/plannotator/effective-html/archive/refs/heads/main.zip",
+        "link": "https://github.com/plannotator/effective-html",
+        "install_command": "git clone https://github.com/plannotator/effective-html.git",
+        "reason": "Public stars: 4,289, which meets the 2,000-star bar. At least 125 new stars in the last 7 days, at least 563 new stars in the last 30 days (counted through 2026-11-21). Summary: Agent skills for useful HTML artifacts, wireframes, interactive prototypes, plans, and di…"
+      },
+      {
+        "id": "expo/skills",
+        "name": "skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 4206,
+        "source": "https://github.com/expo/skills",
+        "download": "https://github.com/expo/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/expo/skills",
+        "install_command": "git clone https://github.com/expo/skills.git",
+        "reason": "Public stars: 4,206, which meets the 2,000-star bar. At least 47 new stars in the last 7 days, at least 1,214 new stars in the last 30 days (counted through 2026-11-21). Summary: A collection of AI agent skills for working with Expo projects and Expo Application Servi…"
+      },
+      {
+        "id": "nvidia/skills",
+        "name": "skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 4107,
+        "source": "https://github.com/NVIDIA/skills",
+        "download": "https://github.com/NVIDIA/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/NVIDIA/skills",
+        "install_command": "git clone https://github.com/NVIDIA/skills.git",
+        "reason": "Public stars: 4,107, which meets the 2,000-star bar. At least 97 new stars in the last 7 days, at least 391 new stars in the last 30 days (counted through 2026-11-21). Summary: Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agen…"
+      },
+      {
+        "id": "lennney/stop-that-shit",
+        "name": "stop-that-shit",
+        "categories": [
+          "Requirements",
+          "Development"
+        ],
+        "stars": 4052,
+        "source": "https://github.com/lennney/stop-that-shit",
+        "download": "https://github.com/lennney/stop-that-shit/releases/download/0.2.6/stop-that-shit-0.2.6.zip",
+        "link": "https://github.com/lennney/stop-that-shit",
+        "install_command": "git clone https://github.com/lennney/stop-that-shit.git",
+        "reason": "Public stars: 4,052, which meets the 2,000-star bar. At least 137 new stars in the last 7 days, at least 994 new stars in the last 30 days (counted through 2026-11-21). Summary: Stop That Shit. A multi-platform hook and skill guard for Codex/GPT coding agents that bl…"
+      },
+      {
+        "id": "benjitaylor/skills",
+        "name": "skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 3965,
+        "source": "https://github.com/benjitaylor/skills",
+        "download": "https://github.com/benjitaylor/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/benjitaylor/skills",
+        "install_command": "git clone https://github.com/benjitaylor/skills.git",
+        "reason": "Public stars: 3,965, which meets the 2,000-star bar. At least 590 new stars in the last 7 days, at least 3,965 new stars in the last 30 days (counted through 2026-11-21). Summary: Skills for AI coding agents."
+      },
+      {
+        "id": "avdlee/swiftui-agent-skill",
+        "name": "SwiftUI-Agent-Skill",
+        "categories": [
+          "Development"
+        ],
+        "stars": 3937,
+        "source": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
+        "download": "https://github.com/AvdLee/SwiftUI-Agent-Skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
+        "install_command": "git clone https://github.com/AvdLee/SwiftUI-Agent-Skill.git",
+        "reason": "Public stars: 3,937, which meets the 2,000-star bar. At least 29 new stars in the last 7 days, at least 198 new stars in the last 30 days (counted through 2026-11-21). Summary: Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent Skills open form…"
+      },
+      {
+        "id": "samber/cc-skills-golang",
+        "name": "cc-skills-golang",
+        "categories": [
+          "Development",
+          "Testing"
+        ],
+        "stars": 3912,
+        "source": "https://github.com/samber/cc-skills-golang",
+        "download": "https://github.com/samber/cc-skills-golang/archive/refs/heads/main.zip",
+        "link": "https://github.com/samber/cc-skills-golang",
+        "install_command": "git clone https://github.com/samber/cc-skills-golang.git",
+        "reason": "Public stars: 3,912, which meets the 2,000-star bar. At least 51 new stars in the last 7 days, at least 318 new stars in the last 30 days (counted through 2026-11-21). Summary: 🧑‍🎨 A collection of Golang agentic skills that works"
+      },
+      {
+        "id": "foryourhealth111-pixel/vibe-skills",
+        "name": "Vibe-Skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 3837,
+        "source": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
+        "download": "https://github.com/foryourhealth111-pixel/Vibe-Skills/releases/download/v4.1.2/vibe-skills-4.1.2-public.zip",
+        "link": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
+        "install_command": "git clone https://github.com/foryourhealth111-pixel/Vibe-Skills.git",
+        "reason": "Public stars: 3,837, which meets the 2,000-star bar. At least 17 new stars in the last 7 days, at least 85 new stars in the last 30 days (counted through 2026-11-21). Summary: Intelligent Skill routing and workflow orchestration for AI agents — +21.12 pp reward, −2…"
+      },
+      {
+        "id": "gotalab/cc-sdd",
+        "name": "cc-sdd",
+        "categories": [
+          "Requirements",
+          "Development"
+        ],
+        "stars": 3774,
+        "source": "https://github.com/gotalab/cc-sdd",
+        "download": "https://github.com/gotalab/cc-sdd/archive/refs/heads/main.zip",
+        "link": "https://github.com/gotalab/cc-sdd",
+        "install_command": "git clone https://github.com/gotalab/cc-sdd.git",
+        "reason": "Public stars: 3,774, which meets the 2,000-star bar. At least 11 new stars in the last 7 days, at least 49 new stars in the last 30 days (counted through 2026-11-21). Summary: Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD…"
+      },
+      {
+        "id": "bergside/awesome-design-skills",
+        "name": "awesome-design-skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 3764,
+        "source": "https://github.com/bergside/awesome-design-skills",
+        "download": "https://github.com/bergside/awesome-design-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/bergside/awesome-design-skills",
+        "install_command": "git clone https://github.com/bergside/awesome-design-skills.git",
+        "reason": "Public stars: 3,764, which meets the 2,000-star bar. At least 94 new stars in the last 7 days, at least 455 new stars in the last 30 days (counted through 2026-11-21). Summary: List of 67 awesome DESIGN.md and SKILL.md design skill files for agentic tools like Claud…"
+      },
+      {
+        "id": "browserbase/skills",
+        "name": "skills",
+        "categories": [
+          "Development",
+          "Testing"
+        ],
+        "stars": 3758,
+        "source": "https://github.com/browserbase/skills",
+        "download": "https://github.com/browserbase/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/browserbase/skills",
+        "install_command": "git clone https://github.com/browserbase/skills.git",
+        "reason": "Public stars: 3,758, which meets the 2,000-star bar. At least 4 new stars in the last 7 days, at least 25 new stars in the last 30 days (counted through 2026-11-21). Summary: Browserbase's official collection of agent skills to access the web."
+      },
+      {
+        "id": "oil-oil/oil-ui",
+        "name": "oil-ui",
+        "categories": [
+          "Development"
+        ],
+        "stars": 3752,
+        "source": "https://github.com/oil-oil/oil-ui",
+        "download": "https://github.com/oil-oil/oil-ui/releases/download/v0.34.5/oil-ui-0.34.5.tar.gz",
+        "link": "https://github.com/oil-oil/oil-ui",
+        "install_command": "git clone https://github.com/oil-oil/oil-ui.git",
+        "reason": "Public stars: 3,752, which meets the 2,000-star bar. At least 337 new stars in the last 7 days, at least 1,699 new stars in the last 30 days (counted through 2026-11-21). Summary: UI design skill for Claude Code, Codex, and other AI agents: explore distinct directions,…"
+      },
+      {
+        "id": "markdown-viewer/skills",
+        "name": "skills",
+        "categories": [
+          "Development",
+          "Design diagrams"
+        ],
+        "stars": 3432,
+        "source": "https://github.com/markdown-viewer/skills",
+        "download": "https://github.com/markdown-viewer/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/markdown-viewer/skills",
+        "install_command": "git clone https://github.com/markdown-viewer/skills.git",
+        "reason": "Public stars: 3,432, which meets the 2,000-star bar. At least 32 new stars in the last 7 days, at least 64 new stars in the last 30 days (counted through 2026-11-21). Summary: Opinionated skills for AI coding agents to create stunning diagrams and visualizations di…"
+      },
+      {
+        "id": "vuejs-ai/skills",
+        "name": "skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 3365,
+        "source": "https://github.com/vuejs-ai/skills",
+        "download": "https://github.com/vuejs-ai/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/vuejs-ai/skills",
+        "install_command": "git clone https://github.com/vuejs-ai/skills.git",
+        "reason": "Public stars: 3,365, which meets the 2,000-star bar. At least 21 new stars in the last 7 days, at least 252 new stars in the last 30 days (counted through 2026-11-21). Summary: Agent skills for Vue 3 development"
+      },
+      {
+        "id": "ciembor/agent-rules-books",
+        "name": "agent-rules-books",
+        "categories": [
+          "Development"
+        ],
+        "stars": 3328,
+        "source": "https://github.com/ciembor/agent-rules-books",
+        "download": "https://github.com/ciembor/agent-rules-books/releases/download/v0.5/agent-rules-books-v0.5.zip",
+        "link": "https://github.com/ciembor/agent-rules-books",
+        "install_command": "git clone https://github.com/ciembor/agent-rules-books.git",
+        "reason": "Public stars: 3,328, which meets the 2,000-star bar. At least 47 new stars in the last 7 days, at least 235 new stars in the last 30 days (counted through 2026-11-21). Summary: AGENTS.md rules / skills for AI coding agents: Codex, Cursor & Claude Code. Inspired by C…"
+      },
+      {
+        "id": "microsoft/skills",
+        "name": "skills",
+        "categories": [
+          "Development",
+          "Testing"
+        ],
+        "stars": 3232,
+        "source": "https://github.com/microsoft/skills",
+        "download": "https://github.com/microsoft/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/microsoft/skills",
+        "install_command": "git clone https://github.com/microsoft/skills.git",
+        "reason": "Public stars: 3,232, which meets the 2,000-star bar. At least 25 new stars in the last 7 days, at least 94 new stars in the last 30 days (counted through 2026-11-21). Official repository from microsoft. Summary: Skills, MCP servers, Custom Agents, Agents.md for SDKs to ground Coding Agents"
+      },
+      {
+        "id": "plugin87/ux-ui-agent-skills",
+        "name": "ux-ui-agent-skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 3217,
+        "source": "https://github.com/plugin87/ux-ui-agent-skills",
+        "download": "https://github.com/plugin87/ux-ui-agent-skills/releases/download/v3.1.1/ux-ui-agent-skills-gemini.tar.gz",
+        "link": "https://github.com/plugin87/ux-ui-agent-skills",
+        "install_command": "git clone https://github.com/plugin87/ux-ui-agent-skills.git",
+        "reason": "Public stars: 3,217, which meets the 2,000-star bar. At least 43 new stars in the last 7 days, at least 311 new stars in the last 30 days (counted through 2026-11-21). Summary: Design-system skills for Claude Code, Codex, Cursor, Copilot and Gemini CLI: DTCG tokens,…"
+      },
+      {
+        "id": "supabase/agent-skills",
+        "name": "agent-skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 3121,
+        "source": "https://github.com/supabase/agent-skills",
+        "download": "https://github.com/supabase/agent-skills/releases/download/v0.1.9/supabase-postgres-best-practices.tar.gz",
+        "link": "https://github.com/supabase/agent-skills",
+        "install_command": "git clone https://github.com/supabase/agent-skills.git",
+        "reason": "Public stars: 3,121, which meets the 2,000-star bar. At least 35 new stars in the last 7 days, at least 212 new stars in the last 30 days (counted through 2026-11-21). Summary: Agent Skills to help developers using AI agents with Supabase"
+      },
+      {
+        "id": "addyosmani/web-quality-skills",
+        "name": "web-quality-skills",
+        "categories": [
+          "Testing"
+        ],
+        "stars": 3117,
+        "source": "https://github.com/addyosmani/web-quality-skills",
+        "download": "https://github.com/addyosmani/web-quality-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/addyosmani/web-quality-skills",
+        "install_command": "git clone https://github.com/addyosmani/web-quality-skills.git",
+        "reason": "Public stars: 3,117, which meets the 2,000-star bar. At least 25 new stars in the last 7 days, at least 143 new stars in the last 30 days (counted through 2026-11-21). Summary: Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals."
+      },
+      {
+        "id": "twostraws/swift-agent-skills",
+        "name": "Swift-Agent-Skills",
+        "categories": [
+          "Development",
+          "Testing"
+        ],
+        "stars": 3064,
+        "source": "https://github.com/twostraws/Swift-Agent-Skills",
+        "download": "https://github.com/twostraws/Swift-Agent-Skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/twostraws/Swift-Agent-Skills",
+        "install_command": "git clone https://github.com/twostraws/Swift-Agent-Skills.git",
+        "reason": "Public stars: 3,064, which meets the 2,000-star bar. At least 28 new stars in the last 7 days, at least 154 new stars in the last 30 days (counted through 2026-11-21). Summary: A curated directory of open-source AI agent skills for Swift and Apple platform developme…"
+      },
+      {
+        "id": "typesafe-ai/skills",
+        "name": "skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 2912,
+        "source": "https://github.com/typesafe-ai/skills",
+        "download": "https://github.com/typesafe-ai/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/typesafe-ai/skills",
+        "install_command": "git clone https://github.com/typesafe-ai/skills.git",
+        "reason": "Public stars: 2,912, which meets the 2,000-star bar. At least 13 new stars in the last 7 days, at least 154 new stars in the last 30 days (counted through 2026-11-21). Summary: Agent skills for building with TypeSafe's System One API"
+      },
+      {
+        "id": "majidmanzarpour/threejs-game-skills",
+        "name": "threejs-game-skills",
+        "categories": [
+          "Testing"
+        ],
+        "stars": 2874,
+        "source": "https://github.com/majidmanzarpour/threejs-game-skills",
+        "download": "https://github.com/majidmanzarpour/threejs-game-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/majidmanzarpour/threejs-game-skills",
+        "install_command": "git clone https://github.com/majidmanzarpour/threejs-game-skills.git",
+        "reason": "Public stars: 2,874, which meets the 2,000-star bar. At least 54 new stars in the last 7 days, at least 301 new stars in the last 30 days (counted through 2026-11-21). Summary: Agent skills for building playable, polished Three.js browser games with gameplay, AAA-st…"
+      },
+      {
+        "id": "rohitg00/awesome-claude-code-toolkit",
+        "name": "awesome-claude-code-toolkit",
+        "categories": [
+          "Development"
+        ],
+        "stars": 2858,
+        "source": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "download": "https://github.com/rohitg00/awesome-claude-code-toolkit/archive/refs/heads/main.zip",
+        "link": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "install_command": "git clone https://github.com/rohitg00/awesome-claude-code-toolkit.git",
+        "reason": "Public stars: 2,858, which meets the 2,000-star bar. At least 18 new stars in the last 7 days, at least 138 new stars in the last 30 days (counted through 2026-11-21). Summary: The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills, 42 comma…"
+      },
+      {
+        "id": "caru-ini/stack-diagram",
+        "name": "stack-diagram",
+        "categories": [
+          "Design diagrams"
+        ],
+        "stars": 2695,
+        "source": "https://github.com/caru-ini/stack-diagram",
+        "download": "https://github.com/caru-ini/stack-diagram/releases/download/v0.7.0/stack-diagram.zip",
+        "link": "https://github.com/caru-ini/stack-diagram",
+        "install_command": "git clone https://github.com/caru-ini/stack-diagram.git",
+        "reason": "Public stars: 2,695, which meets the 2,000-star bar. At least 169 new stars in the last 7 days, at least 2,694 new stars in the last 30 days (counted through 2026-11-21). Summary: Agent skill: describe your stack in a sentence, get an architecture diagram with official…"
+      },
+      {
+        "id": "badlogic/pi-skills",
+        "name": "pi-skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 2663,
+        "source": "https://github.com/badlogic/pi-skills",
+        "download": "https://github.com/badlogic/pi-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/badlogic/pi-skills",
+        "install_command": "git clone https://github.com/badlogic/pi-skills.git",
+        "reason": "Public stars: 2,663, which meets the 2,000-star bar. At least 4 new stars in the last 7 days, at least 31 new stars in the last 30 days (counted through 2026-11-21). Summary: Skills for pi coding agent (compatible with Claude Code and Codex CLI)"
+      },
+      {
+        "id": "amelnagdy/delegate-skills",
+        "name": "delegate-skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 2647,
+        "source": "https://github.com/amElnagdy/delegate-skills",
+        "download": "https://github.com/amElnagdy/delegate-skills/archive/refs/heads/master.zip",
+        "link": "https://github.com/amElnagdy/delegate-skills",
+        "install_command": "git clone https://github.com/amElnagdy/delegate-skills.git",
+        "reason": "Public stars: 2,647, which meets the 2,000-star bar. At least 40 new stars in the last 7 days, at least 176 new stars in the last 30 days (counted through 2026-11-21). Summary: Delegate a coding task to a separate coding agent CLI, review the diff, land the commit y…"
+      },
+      {
+        "id": "apify/agent-skills",
+        "name": "agent-skills",
+        "categories": [
+          "Development"
+        ],
+        "stars": 2515,
+        "source": "https://github.com/apify/agent-skills",
+        "download": "https://github.com/apify/agent-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/apify/agent-skills",
+        "install_command": "git clone https://github.com/apify/agent-skills.git",
+        "reason": "Public stars: 2,515, which meets the 2,000-star bar. At least 16 new stars in the last 7 days, at least 62 new stars in the last 30 days (counted through 2026-11-21). Summary: Collection of Apify agent skills"
+      },
+      {
+        "id": "alchaincyf/huashu-skills",
+        "name": "huashu-skills",
+        "categories": [
+          "Requirements",
+          "Development",
+          "Generate PPT"
+        ],
+        "stars": 2320,
+        "source": "https://github.com/alchaincyf/huashu-skills",
+        "download": "https://github.com/alchaincyf/huashu-skills/archive/refs/heads/master.zip",
+        "link": "https://github.com/alchaincyf/huashu-skills",
+        "install_command": "git clone https://github.com/alchaincyf/huashu-skills.git",
+        "reason": "Public stars: 2,320, which meets the 2,000-star bar. At least 37 new stars in the last 7 days, at least 357 new stars in the last 30 days (counted through 2026-11-21). Summary: Catalog of Huashu's open-source agent skills: 16 flagship, 14 persona, and 22 built-in sk…"
+      },
+      {
+        "id": "awesome-skills/code-review-skill",
+        "name": "code-review-skill",
+        "categories": [
+          "Testing"
+        ],
+        "stars": 2304,
+        "source": "https://github.com/awesome-skills/code-review-skill",
+        "download": "https://github.com/awesome-skills/code-review-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/awesome-skills/code-review-skill",
+        "install_command": "git clone https://github.com/awesome-skills/code-review-skill.git",
+        "reason": "Public stars: 2,304, which meets the 2,000-star bar. At least 34 new stars in the last 7 days, at least 173 new stars in the last 30 days (counted through 2026-11-21). Summary: A comprehensive code review skill for Claude Code, covering React 19, Vue 3, Rust, TypeSc…"
+      },
+      {
+        "id": "daveebbelaar/bama",
+        "name": "bama",
+        "categories": [
+          "Development",
+          "Testing"
+        ],
+        "stars": 1934,
+        "source": "https://github.com/daveebbelaar/bama",
+        "download": "https://github.com/daveebbelaar/bama/archive/refs/heads/main.zip",
+        "link": "https://github.com/daveebbelaar/bama",
+        "install_command": "git clone https://github.com/daveebbelaar/bama.git",
+        "reason": "Current stars: 1,934, below 2,000, but at least 98 new stars in the last 7 days, at least 1,933 new stars in the last 30 days (counted through 2026-11-21), which meets the fast-growth bar. Summary: BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and te…"
+      },
+      {
+        "id": "sybil-solutions/inference-optimisation-skill",
+        "name": "inference-optimisation-skill",
+        "categories": [
+          "Development"
+        ],
+        "stars": 1739,
+        "source": "https://github.com/sybil-solutions/inference-optimisation-skill",
+        "download": "https://github.com/sybil-solutions/inference-optimisation-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/sybil-solutions/inference-optimisation-skill",
+        "install_command": "git clone https://github.com/sybil-solutions/inference-optimisation-skill.git",
+        "reason": "Current stars: 1,739, below 2,000, but at least 1,738 new stars in the last 7 days, at least 1,738 new stars in the last 30 days (counted through 2026-11-21), which meets the fast-growth bar. Summary: Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, pref…"
+      }
+    ],
+    "criteria": {
+      "schema_version": 1,
+      "storage": "JSON and Markdown files in this repository. No database and no external datastore.",
+      "unit": "One public GitHub repository (a skill, a skill pack, or an official skill catalog)",
+      "star_threshold": 2000,
+      "growth": {
+        "source": "Daily counts from GET /repos/{owner}/{repo}/stargazers/history. If that endpoint is unavailable, use the daily snapshots in data/star-snapshots.json.",
+        "stars_7d_min": 100,
+        "stars_7d_ratio_min": 0.1,
+        "stars_30d_min": 250,
+        "stars_30d_ratio_min": 0.25,
+        "window": "UTC calendar days ending on the run date, including that date. If GitHub has not posted the current day yet, the counted days are a lower bound.",
+        "logic": "Below the star bar, qualify on either the 7-day absolute count and share, or the 30-day absolute count and share."
+      },
+      "categories": [
+        "Requirements",
+        "Development",
+        "Testing",
+        "Design diagrams",
+        "Generate PPT"
+      ]
+    }
+  }
+]
