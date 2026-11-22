@@ -749,11 +749,23 @@ def render_page(payload: dict) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hot AI Coding Skills</title>
   <meta name="description" content="A searchable catalog of hot AI coding skills. Data comes from public GitHub repositories and is updated daily.">
-  <meta name="theme-color" content="#1a1714">
+  <meta name="theme-color" content="#000000">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
+  <div class="sky" aria-hidden="true">
+    <svg class="circuit" viewBox="0 0 1200 280" preserveAspectRatio="xMaxYMin slice">
+      <path d="M760 70 H920 V150 H1080 V90 H1180"/>
+      <path d="M920 150 V220 H1040"/>
+      <circle cx="920" cy="70" r="3.5"/>
+      <circle cx="1080" cy="150" r="3.5"/>
+      <circle cx="1180" cy="90" r="4"/>
+    </svg>
+  </div>
   <a class="skip" href="#grid">Skip to the skill list</a>
   <header class="masthead">
     <div class="wrap">

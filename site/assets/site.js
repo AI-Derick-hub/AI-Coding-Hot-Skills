@@ -50,7 +50,7 @@
     const sorters = {
       stars: (a, b) => Number(b.dataset.stars) - Number(a.dataset.stars),
       updated: (a, b) => (b.dataset.pushed || "").localeCompare(a.dataset.pushed || ""),
-      name: (a, b) => (a.dataset.name || "").localeCompare(b.dataset.name || "", "zh"),
+      name: (a, b) => (a.dataset.name || "").localeCompare(b.dataset.name || "", "en"),
       new: (a, b) => Number(b.dataset.new) - Number(a.dataset.new) || Number(b.dataset.stars) - Number(a.dataset.stars),
     };
     visible.sort(sorters[state.sort] || sorters.stars);
