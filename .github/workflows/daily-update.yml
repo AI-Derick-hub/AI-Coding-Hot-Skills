@@ -17,8 +17,10 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout main
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -45,5 +47,5 @@ jobs:
             echo "No catalog changes to commit."
           else
             git commit -m "chore: daily skill update $(TZ=Asia/Shanghai date +%F)"
-            git push
+            git push origin HEAD:main
           fi

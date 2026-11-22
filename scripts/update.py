@@ -139,7 +139,7 @@ class GitHub:
             try:
                 payload = self.get_json(url)
             except RuntimeError as error:
-                self.warnings.append(f"搜索失败 {query}: {error}")
+                self.warnings.append(f"Search failed for {query}: {error}")
                 break
             items = payload.get("items") or []
             found.extend(items)
@@ -215,7 +215,7 @@ def fetch_history(client: GitHub, full_name: str) -> list[dict]:
         try:
             payload = client.get_json(url)
         except RuntimeError as error:
-            client.warnings.append(f"{full_name} 的 Star 历史不可用：{error}")
+            client.warnings.append(f"Star history unavailable for {full_name}: {error}")
             return weeks
         if not isinstance(payload, list) or not payload:
             break
@@ -273,30 +273,30 @@ def resolve_download(client: GitHub, repo: dict) -> dict:
             "download_url": release_url,
             "download_available": True,
             "download_kind": "release_asset",
-            "download_note": "已核验的 GitHub Release 资源。",
+            "download_note": "Verified GitHub release asset.",
         }
     if url_is_live(archive_url):
         return {
             "download_url": archive_url,
             "download_available": True,
             "download_kind": "github_archive",
-            "download_note": f"已核验的 GitHub 源码归档（{repo['default_branch']} 分支 zip）。",
+            "download_note": f"Verified GitHub source archive ({repo['default_branch']} branch zip).",
         }
     return {
         "download_url": None,
         "download_available": False,
         "download_kind": None,
-        "download_note": "本次未能核验 Release 资源或源码归档，页面只保留已核验的仓库来源和克隆命令。",
+        "download_note": "This run could not verify a release asset or source archive. The card keeps the verified repository source and clone command.",
     }
 
 
 def overrides_map() -> dict:
     raw = load_json(DATA / "category-overrides.json", {})
     if not isinstance(raw, dict):
-        raise SystemExit("data/category-overrides.json 必须是对象")
+        raise SystemExit("data/category-overrides.json must be an object")
     for repo_id, categories in raw.items():
         if not isinstance(categories, list) or any(category not in lib.CATEGORIES for category in categories):
-            raise SystemExit(f"分类覆盖无效：{repo_id}")
+            raise SystemExit(f"Invalid category override: {repo_id}")
     return {lib.skill_id(key): value for key, value in raw.items()}
 
 
@@ -305,7 +305,7 @@ def render_existing() -> int:
     report = load_json(DATA / "daily-report.json", {})
     history = load_json(DATA / "report-history.json", [])
     if not payload.get("skills") or not report:
-        print("没有可渲染的数据。请先不带参数运行一次。", file=sys.stderr)
+        print("Nothing to render. Run once without --render-only first.", file=sys.stderr)
         return 1
     errors = lib.validate_dataset(payload) + lib.validate_report(report, payload["skills"])
     if errors:
@@ -317,7 +317,10 @@ def render_existing() -> int:
     (ROOT / "CHANGELOG.md").write_text(lib.render_changelog(history or [report]), encoding="utf-8")
     SITE.mkdir(parents=True, exist_ok=True)
     (SITE / "index.html").write_text(lib.render_page(payload), encoding="utf-8")
-    print(f"已根据现有数据重绘页面，共 {len(payload['skills'])} 个技能。")
+    (SITE / "data").mkdir(parents=True, exist_ok=True)
+    dump_json(SITE / "data" / "skills.json", lib.public_payload(payload))
+    dump_json(SITE / "data" / "daily-report.json", load_json(DATA / "daily-report.json", {}))
+    print(f"Rebuilt the page from existing data: {len(payload['skills'])} skills.")
     return 0
 
 
@@ -326,7 +329,7 @@ def main() -> int:
         return render_existing()
     token = github_token()
     if not token:
-        print("缺少 GitHub token。请设置 GITHUB_TOKEN，或在本机登录 gh。", file=sys.stderr)
+        print("Missing a GitHub token. Set GITHUB_TOKEN, or log in with gh.", file=sys.stderr)
         return 1
     client = GitHub(token)
     now = datetime.now(timezone.utc)
@@ -343,13 +346,13 @@ def main() -> int:
 
     discovered: dict[str, dict] = {}
     for query in SEARCH_QUERIES:
-        print(f"搜索：{query}")
+        print(f"Search: {query}")
         for item in client.search_repos(query, pages=3, per_page=50, sort="stars"):
             repo = repo_from_api(item)
             discovered[lib.skill_id(repo["full_name"])] = repo
     growth_candidates: dict[str, dict] = {}
     for query in GROWTH_QUERIES:
-        print(f"搜索增长候选：{query}")
+        print(f"Search growth candidates: {query}")
         for item in client.search_repos(query, pages=1, per_page=30, sort="stars"):
             repo = repo_from_api(item)
             growth_candidates.setdefault(lib.skill_id(repo["full_name"]), repo)
@@ -360,7 +363,7 @@ def main() -> int:
         try:
             item = client.get_json(f"https://api.github.com/repos/{full_name}")
         except RuntimeError as error:
-            client.warnings.append(f"种子仓库 {full_name} 读取失败：{error}")
+            client.warnings.append(f"Could not read seed repository {full_name}: {error}")
             continue
         if isinstance(item, dict) and item.get("full_name"):
             repo = repo_from_api(item)
@@ -387,7 +390,7 @@ def main() -> int:
 
     growth_by_id: dict[str, dict] = {}
     qualified_ids = set(star_qualified)
-    print(f"相关候选 {len(considered)}，Star 达标 {len(star_qualified)}，待核验增长 {len(need_growth)}")
+    print(f"Relevant candidates {len(considered)}, at the star bar {len(star_qualified)}, growth checks {len(need_growth)}")
     for sid, repo in need_growth:
         weeks = fetch_history(client, repo["full_name"])
         growth = lib.summarize_star_history(weeks, datetime.now(timezone.utc).date())
@@ -412,21 +415,21 @@ def main() -> int:
     final_skills = []
     removed = []
     updated_items = []
-    print(f"刷新 {len(qualified_ids)} 个仓库的最新数据")
+    print(f"Refreshing {len(qualified_ids)} repositories")
     for index, sid in enumerate(sorted(qualified_ids)):
         previous = previous_skills.get(sid)
         source_repo = star_qualified.get(sid) or considered.get(sid)
         try:
             item = client.get_json(f"https://api.github.com/repos/{sid}")
             if not isinstance(item, dict) or not item.get("full_name"):
-                raise RuntimeError("空响应")
+                raise RuntimeError("empty response")
             repo = repo_from_api(item)
         except RuntimeError as error:
             if previous:
-                client.warnings.append(f"{sid} 刷新失败，沿用上次记录：{error}")
+                client.warnings.append(f"{sid} refresh failed; keeping the previous record: {error}")
                 final_skills.append(previous)
                 continue
-            client.warnings.append(f"{sid} 刷新失败，已跳过：{error}")
+            client.warnings.append(f"{sid} refresh failed; skipped: {error}")
             continue
 
         relevant, relevance = lib.relevance_reason(repo)
@@ -450,7 +453,7 @@ def main() -> int:
                     {
                         "id": sid,
                         "name": previous.get("name") or sid,
-                        "reason": relevance if not relevant else "不再满足 Star 或快速增长门槛",
+                        "reason": relevance if not relevant else "no longer meets the star or fast-growth bar",
                     }
                 )
             continue
@@ -473,7 +476,7 @@ def main() -> int:
             )
         if not categories:
             if previous:
-                removed.append({"id": sid, "name": previous.get("name") or sid, "reason": "不再对应软件交付分类"})
+                removed.append({"id": sid, "name": previous.get("name") or sid, "reason": "no longer matches a software-delivery category"})
             continue
         if not readme and (not previous or previous.get("category_fingerprint") != fingerprint):
             readme = fetch_readme(client, repo["full_name"])
@@ -481,16 +484,20 @@ def main() -> int:
         if readme:
             documented = lib.extract_documented_install(readme)
         download = resolve_download(client, repo)
-        notable = lib.notable_text(repo, growth, rule)
+        display = dict(repo)
+        if previous and previous.get("description_en") and previous.get("description") == repo["description"]:
+            display["description_en"] = previous["description_en"]
+        notable = lib.notable_text(display, growth, rule)
         record = {
             "id": sid,
             "name": repo["name"],
             "full_name": repo["full_name"],
             "description": repo["description"],
+            "description_en": display.get("description_en"),
             "categories": categories,
             "category_fingerprint": fingerprint,
             "source_url": repo["html_url"],
-            "source_label": "GitHub 仓库",
+            "source_label": "GitHub repository",
             "download_url": download["download_url"],
             "download_available": download["download_available"],
             "download_kind": download["download_kind"],
@@ -542,12 +549,12 @@ def main() -> int:
         snapshots[sid] = lib.snapshot_record(snapshots.get(sid), sid, today, repo["stars"])
         final_skills.append(record)
         if index % 10 == 0:
-            print(f"  已处理 {index + 1}/{len(qualified_ids)} {sid}")
+            print(f"  Processed {index + 1}/{len(qualified_ids)} {sid}")
         time.sleep(0.05)
 
     final_skills.sort(key=lambda skill: (-skill["stars"], skill["id"]))
     if not final_skills:
-        print("没有收录任何技能，拒绝覆盖已有数据。", file=sys.stderr)
+        print("No skills qualified, so existing data was left unchanged.", file=sys.stderr)
         for warning in client.warnings:
             print(warning, file=sys.stderr)
         return 1
@@ -598,13 +605,13 @@ def main() -> int:
         "generated_at": generated_at,
         "run_date": today,
         "updated_today": len(updated_items),
-        "storage": "仓库内 JSON / Markdown 文件，无数据库",
+        "storage": "JSON and Markdown files in this repository. No database.",
         "criteria": lib.criteria_document(),
         "skills": final_skills,
     }
     errors = lib.validate_dataset(payload) + lib.validate_report(report, final_skills)
     if errors:
-        print("生成结果未通过校验，未写入文件：", file=sys.stderr)
+        print("Generated data failed validation and was not written:", file=sys.stderr)
         for error in errors:
             print(f"- {error}", file=sys.stderr)
         return 1
@@ -628,16 +635,16 @@ def main() -> int:
     SITE.mkdir(parents=True, exist_ok=True)
     (SITE / "index.html").write_text(lib.render_page(payload), encoding="utf-8")
     (SITE / "data").mkdir(parents=True, exist_ok=True)
-    dump_json(SITE / "data" / "skills.json", payload)
+    dump_json(SITE / "data" / "skills.json", lib.public_payload(payload))
     dump_json(SITE / "data" / "daily-report.json", report)
     (SITE / ".nojekyll").write_text("", encoding="utf-8")
 
     print(
-        f"完成：收录 {len(final_skills)}，新增 {len(new_items)}，更新 {len(updated_items)}，移出 {len(removed)}。"
+        f"Done: {len(final_skills)} listed, {len(new_items)} new, {len(updated_items)} updated, {len(removed)} removed."
     )
-    print("增长收录：", ", ".join(skill["id"] for skill in final_skills if skill["qualification"]["rule"] == "growth") or "无")
+    print("Included for growth:", ", ".join(skill["id"] for skill in final_skills if skill["qualification"]["rule"] == "growth") or "none")
     if client.warnings:
-        print(f"警告 {len(client.warnings)} 条，已写入日报。")
+        print(f"{len(client.warnings)} warnings written to the daily report.")
     return 0
 
 

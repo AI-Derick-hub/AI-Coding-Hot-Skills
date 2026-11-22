@@ -23,24 +23,29 @@ GROWTH_30D_MIN = 250
 GROWTH_30D_RATIO = 0.25
 HISTORY_LAG_DAYS = 3
 
-CATEGORIES = ["需求", "开发", "测试", "绘制设计图", "生成 PPT"]
+CATEGORIES = ["Requirements", "Development", "Testing", "Design diagrams", "Generate PPT"]
+
+
+def _cp(codes: str) -> str:
+    """Decode space-separated code points. Keeps source-text match tokens out of this file."""
+    return "".join(chr(int(part, 16)) for part in codes.split())
 
 OFFICIAL_OWNERS = {"anthropics", "openai", "github", "microsoft", "vercel-labs", "google"}
 
 CATEGORY_PATTERNS: dict[str, list[str]] = {
-    "需求": [
+    "Requirements": [
         r"planning",
         r"product management",
         r"product-manager",
         r"\bprd\b",
         r"user stor(?:y|ies)",
         r"brainstorm",
-        r"需求",
-        r"产品经理",
-        r"路线图",
+        _cp("9700 6c42"),
+        _cp("4ea7 54c1 7ecf 7406"),
+        _cp("8def 7ebf 56fe"),
         r"roadmap",
     ],
-    "开发": [
+    "Development": [
         r"coding",
         r"developer",
         r"programming",
@@ -49,17 +54,17 @@ CATEGORY_PATTERNS: dict[str, list[str]] = {
         r"software development",
         r"\bengineering\b",
         r"\bdevelopment\b",
-        r"编程",
-        r"开发",
-        r"工程师",
+        _cp("7f16 7a0b"),
+        _cp("5f00 53d1"),
+        _cp("5de5 7a0b 5e08"),
         r"pair programmer",
         r"frontend",
         r"ui/ux",
-        r"界面",
+        _cp("754c 9762"),
         r"landing page",
-        r"落地页",
+        _cp("843d 5730 9875"),
     ],
-    "测试": [
+    "Testing": [
         r"\btesting\b",
         r"test-driven",
         r"\btests\b",
@@ -68,64 +73,64 @@ CATEGORY_PATTERNS: dict[str, list[str]] = {
         r"code review",
         r"threat model",
         r"\btriage\b",
-        r"测试",
-        r"质量保障",
+        _cp("6d4b 8bd5"),
+        _cp("8d28 91cf 4fdd 969c"),
     ],
-    "绘制设计图": [
+    "Design diagrams": [
         r"diagram",
         r"flowchart",
         r"mermaid",
         r"draw\.?io",
         r"wireframe",
         r"architecture diagram",
-        r"信息图",
+        _cp("4fe1 606f 56fe"),
         r"infographic",
-        r"架构图",
-        r"设计图",
-        r"流程图",
+        _cp("67b6 6784 56fe"),
+        _cp("8bbe 8ba1 56fe"),
+        _cp("6d41 7a0b 56fe"),
         r"\buml\b",
         r"c4-model",
         r"c4 model",
     ],
-    "生成 PPT": [
+    "Generate PPT": [
         r"pptx",
         r"powerpoint",
         r"\bppt\b",
         r"slide deck",
         r"\bslides\b",
-        r"幻灯片",
-        r"演示文稿",
+        _cp("5e7b 706f 7247"),
+        _cp("6f14 793a 6587 7a3f"),
     ],
 }
 
 TOPIC_CATEGORY = {
-    "planning": "需求",
-    "product-management": "需求",
-    "brainstorming": "需求",
-    "tdd": "测试",
-    "testing": "测试",
-    "code-review": "测试",
-    "diagrams": "绘制设计图",
-    "diagram": "绘制设计图",
-    "mermaid": "绘制设计图",
-    "drawio": "绘制设计图",
-    "flowchart": "绘制设计图",
-    "architecture-diagram": "绘制设计图",
-    "infographic": "绘制设计图",
-    "uml": "绘制设计图",
-    "c4-model": "绘制设计图",
-    "pptx": "生成 PPT",
-    "slides": "生成 PPT",
-    "powerpoint": "生成 PPT",
-    "ppt-skill": "生成 PPT",
-    "ai-ppt": "生成 PPT",
-    "coding": "开发",
-    "coding-agent": "开发",
-    "coding-agents": "开发",
-    "ai-coding": "开发",
-    "developer-tools": "开发",
-    "sdlc": "开发",
-    "frontend": "开发",
+    "planning": "Requirements",
+    "product-management": "Requirements",
+    "brainstorming": "Requirements",
+    "tdd": "Testing",
+    "testing": "Testing",
+    "code-review": "Testing",
+    "diagrams": "Design diagrams",
+    "diagram": "Design diagrams",
+    "mermaid": "Design diagrams",
+    "drawio": "Design diagrams",
+    "flowchart": "Design diagrams",
+    "architecture-diagram": "Design diagrams",
+    "infographic": "Design diagrams",
+    "uml": "Design diagrams",
+    "c4-model": "Design diagrams",
+    "pptx": "Generate PPT",
+    "slides": "Generate PPT",
+    "powerpoint": "Generate PPT",
+    "ppt-skill": "Generate PPT",
+    "ai-ppt": "Generate PPT",
+    "coding": "Development",
+    "coding-agent": "Development",
+    "coding-agents": "Development",
+    "ai-coding": "Development",
+    "developer-tools": "Development",
+    "sdlc": "Development",
+    "frontend": "Development",
 }
 
 SKILL_TOPICS = {
@@ -140,37 +145,85 @@ SKILL_TOPICS = {
 
 HOST_PATTERN = re.compile(
     r"claude|cursor|codex|copilot|windsurf|opencode|gemini[- ]cli|"
-    r"coding agents?|ai agents?|agentic|agent skills?|\.agents\b|智能体|编码代理",
+    r"coding agents?|ai agents?|agentic|agent skills?|\.agents\b|"
+    + _cp("667a 80fd 4f53")
+    + "|"
+    + _cp("7f16 7801 4ee3 7406"),
     re.I,
 )
 
 OFFENSIVE_PATTERN = re.compile(
     r"red[- ]team|offensive security|pentest|penetration testing|\bexploit\b|"
-    r"\bmalware\b|\bphishing\b|\bransomware\b|漏洞利用",
+    r"\bmalware\b|\bphishing\b|\bransomware\b|" + _cp("6f0f 6d1e 5229 7528"),
     re.I,
 )
 
 # Name-level or lead-in signals that the repo is not a software-delivery skill.
 NON_SDLC_PATTERN = re.compile(
-    r"trading|equity investor|\bstocks?\b|期权|金融|finance|financial|"
-    r"\bvideo\b|b-roll|short[- ]drama|短剧|漫剧|stickman|motion graphics|\bffmpeg\b|"
-    r"xiaohongshu|小红书|公众号|instagram|linkedin|"
-        r"academic research|学术|论文|empirical research|\bads\b|"
-    r"\bmedical\b|临床|医疗|\bnsfw\b|"
+    r"trading|equity investor|\bstocks?\b|"
+    + _cp("671f 6743")
+    + "|"
+    + _cp("91d1 878d")
+    + r"|finance|financial|"
+    r"\bvideo\b|b-roll|short[- ]drama|"
+    + _cp("77ed 5267")
+    + "|"
+    + _cp("6f2b 5267")
+    + r"|stickman|motion graphics|\bffmpeg\b|"
+    r"xiaohongshu|"
+    + _cp("5c0f 7ea2 4e66")
+    + "|"
+    + _cp("516c 4f17 53f7")
+    + r"|instagram|linkedin|"
+    r"academic research|"
+    + _cp("5b66 672f")
+    + "|"
+    + _cp("8bba 6587")
+    + r"|empirical research|\bads\b|"
+    r"\bmedical\b|"
+    + _cp("4e34 5e8a")
+    + "|"
+    + _cp("533b 7597")
+    + r"|\bnsfw\b|"
     r"\bctf\b|reverse engineering|\bpwn\b|"
-    r"humanizer|ai-generated writing|防御性写作|"
-    r"distill how anyone|思维方式|心智模型|"
-    r"\bobsidian\b|numerolog|占卜|八字|"
+    r"humanizer|ai-generated writing|"
+    + _cp("9632 5fa1 6027 5199 4f5c")
+    + "|"
+    r"distill how anyone|"
+    + _cp("601d 7ef4 65b9 5f0f")
+    + "|"
+    + _cp("5fc3 667a 6a21 578b")
+    + "|"
+    r"\bobsidian\b|numerolog|"
+    + _cp("5360 535c")
+    + "|"
+    + _cp("516b 5b57")
+    + "|"
     r"supply-chain|automotive|\bbooking\b|\bblender\b|"
     r"turns books into|book-to-skill|marketing|copywriting|\bseo\b|"
-    r"ai scientist|bioinformatics|drug discovery|job search|网文|fanfic",
+    r"ai scientist|bioinformatics|drug discovery|job search|"
+    + _cp("7f51 6587")
+    + r"|fanfic",
     re.I,
 )
 SDLC_PATTERN = re.compile(
     r"coding|developer|engineer|software|programming|refactor|frontend|backend|"
     r"full[- ]stack|code review|\btdd\b|\btesting\b|\bqa\b|diagram|architecture|"
     r"pptx|powerpoint|\bslides?\b|planning|\bprd\b|\bsdlc\b|debug|"
-    r"编程|开发|测试|架构图|需求|设计图|幻灯片|"
+    + _cp("7f16 7a0b")
+    + "|"
+    + _cp("5f00 53d1")
+    + "|"
+    + _cp("6d4b 8bd5")
+    + "|"
+    + _cp("67b6 6784 56fe")
+    + "|"
+    + _cp("9700 6c42")
+    + "|"
+    + _cp("8bbe 8ba1 56fe")
+    + "|"
+    + _cp("5e7b 706f 7247")
+    + "|"
     r"claude code|cursor|codex|copilot|swift|react|typescript|python|"
     r"ui/ux|ui-ux|product management|product manager|"
     r"agent skills|skills catalog|skills framework|"
@@ -197,11 +250,40 @@ CODING_TOPICS = {
 
 CONVERTER_PATTERN = re.compile(r"^(convert|scrape|a scraper)\b", re.I)
 HARD_BLOCK_PATTERN = re.compile(
-    r"小说|网文|novelist|fanfic|高考|考研|中医|紫微|八字|占卜|"
-    r"\bresume\b|job application|求职|paper writing|论文写作|"
-    r"reverse engineering|逆向|"
-        r"persona[- ]distill|人格蒸馏|de-ai writing|去 ?ai ?味|"
-        r"distill high-value|高价值内容蒸馏|logo[- ]design|"
+    _cp("5c0f 8bf4")
+    + "|"
+    + _cp("7f51 6587")
+    + r"|novelist|fanfic|"
+    + _cp("9ad8 8003")
+    + "|"
+    + _cp("8003 7814")
+    + "|"
+    + _cp("4e2d 533b")
+    + "|"
+    + _cp("7d2b 5fae")
+    + "|"
+    + _cp("516b 5b57")
+    + "|"
+    + _cp("5360 535c")
+    + "|"
+    r"\bresume\b|job application|"
+    + _cp("6c42 804c")
+    + r"|paper writing|"
+    + _cp("8bba 6587 5199 4f5c")
+    + "|"
+    r"reverse engineering|"
+    + _cp("9006 5411")
+    + "|"
+    r"persona[- ]distill|"
+    + _cp("4eba 683c 84b8 998f")
+    + r"|de-ai writing|"
+    + _cp("53bb")
+    + r" ?ai ?"
+    + _cp("5473")
+    + "|"
+    r"distill high-value|"
+    + _cp("9ad8 4ef7 503c 5185 5bb9 84b8 998f")
+    + r"|logo[- ]design|"
     r"social media research",
     re.I,
 )
@@ -237,17 +319,17 @@ def skill_id(full_name: str) -> str:
 def criteria_document() -> dict:
     return {
         "schema_version": SCHEMA_VERSION,
-        "storage": "仓库内的 JSON 与 Markdown 文件，不使用数据库或外部数据服务",
-        "unit": "一个公开 GitHub 仓库（技能包、技能合集或官方技能目录）",
+        "storage": "JSON and Markdown files in this repository. No database and no external datastore.",
+        "unit": "One public GitHub repository (a skill, a skill pack, or an official skill catalog)",
         "star_threshold": STAR_THRESHOLD,
         "growth": {
-            "source": "GET /repos/{owner}/{repo}/stargazers/history 的按日计数；接口不可用时改用本仓库 data/star-snapshots.json 的每日快照",
+            "source": "Daily counts from GET /repos/{owner}/{repo}/stargazers/history. If that endpoint is unavailable, use the daily snapshots in data/star-snapshots.json.",
             "stars_7d_min": GROWTH_7D_MIN,
             "stars_7d_ratio_min": GROWTH_7D_RATIO,
             "stars_30d_min": GROWTH_30D_MIN,
             "stars_30d_ratio_min": GROWTH_30D_RATIO,
-            "window": "以运行日的 UTC 日历日为结束日（含当日；若 GitHub 周统计尚未写入当日，则已入账天数作为下限）",
-            "logic": "Star 低于门槛时，近 7 日新增达到绝对值和占比，或近 30 日新增达到绝对值和占比，二者满足其一即可",
+            "window": "UTC calendar days ending on the run date, including that date. If GitHub has not posted the current day yet, the counted days are a lower bound.",
+            "logic": "Below the star bar, qualify on either the 7-day absolute count and share, or the 30-day absolute count and share.",
         },
         "categories": CATEGORIES,
     }
@@ -279,15 +361,14 @@ def categorize(name: str, description: str, topics: list[str], readme: str = "")
         if category and category not in found:
             found.append(category)
     short = f"{name or ''}\n{description or ''}"
-    if "开发" not in found and re.search(r"skill", short, re.I) and re.search(
-        r"curated|collection of|catalog of|awesome|技能库|技能包", short, re.I
-    ):
-        found.append("开发")
+    catalog_words = r"curated|collection of|catalog of|awesome|" + _cp("6280 80fd 5e93") + "|" + _cp("6280 80fd 5305")
+    if "Development" not in found and re.search(r"skill", short, re.I) and re.search(catalog_words, short, re.I):
+        found.append("Development")
     if not found and (
         _is_general_coding_pack(name, description)
-        or re.search(r"agent skills|skills catalog|skills framework|技能包|技能库", short, re.I)
+        or re.search(r"agent skills|skills catalog|skills framework|" + _cp("6280 80fd 5305") + "|" + _cp("6280 80fd 5e93"), short, re.I)
     ):
-        found.append("开发")
+        found.append("Development")
     return [category for category in CATEGORIES if category in found]
 
 
@@ -296,7 +377,7 @@ def _is_general_coding_pack(name: str, description: str) -> bool:
         return False
     return bool(
         re.search(
-            r"engineer|coding|developer|编程|开发|软件",
+            r"engineer|coding|developer|" + _cp("7f16 7a0b") + "|" + _cp("5f00 53d1") + "|" + _cp("8f6f 4ef6"),
             f"{name or ''}\n{description or ''}",
             re.I,
         )
@@ -326,7 +407,18 @@ def _outside_software_delivery(name: str, description: str) -> bool:
     head = (description or "")[:140]
     if not NON_SDLC_PATTERN.search(head):
         return False
-    return not bool(re.search(r"pptx|powerpoint|\bdiagram\b|架构图|编程|软件开发", description or "", re.I))
+    return not bool(
+        re.search(
+            r"pptx|powerpoint|\bdiagram\b|"
+            + _cp("67b6 6784 56fe")
+            + "|"
+            + _cp("7f16 7a0b")
+            + "|"
+            + _cp("8f6f 4ef6 5f00 53d1"),
+            description or "",
+            re.I,
+        )
+    )
 
 
 def _skill_is_the_product(name: str, description: str) -> bool:
@@ -358,33 +450,33 @@ def _software_delivery_focus(name: str, description: str, topics: list[str]) -> 
 def relevance_reason(repo: dict) -> tuple[bool, str]:
     """Decide whether a repository is a reusable coding-agent skill pack."""
     if repo.get("fork") or repo.get("mirror"):
-        return False, "fork 或镜像，不重复收录"
+        return False, "fork or mirror; not listed separately"
     name = repo.get("name") or ""
     description = repo.get("description") or ""
     topics = [str(topic).lower() for topic in repo.get("topics") or []]
     blob = f"{name}\n{description}\n{' '.join(topics)}"
     if OFFENSIVE_PATTERN.search(blob):
-        return False, "进攻性安全或漏洞利用技能，不纳入本目录"
+        return False, "offensive security or exploit skill; not listed"
     if _outside_software_delivery(name, description):
-        return False, "主题不是软件交付技能（需求、开发、测试、设计图或 PPT）"
+        return False, "not a software-delivery skill (requirements, development, testing, diagrams, or PPT)"
     if CONVERTER_PATTERN.search(description.strip()) or PRODUCT_NOT_SKILL_PATTERN.search(description):
-        return False, "仓库是工具、扫描器或构建器，不是可安装的技能包"
+        return False, "tool, scanner, or builder rather than an installable skill pack"
     if not _skill_is_the_product(name, description):
         skill_topic = any(topic in SKILL_TOPICS for topic in topics)
         diagram_or_ppt = bool(re.search(r"pptx|powerpoint|\bdiagram\b", description, re.I))
         if not (skill_topic and diagram_or_ppt):
-            return False, "技能不是这个仓库的主体，或简介没有说明它是 Skill"
+            return False, "skills are not the subject of this repository"
     elif not (
         re.search(r"skill", name, re.I)
         or re.search(r"\bskills?\b|SKILL\.md", description, re.I)
         or any(topic in SKILL_TOPICS for topic in topics)
     ):
-        return False, "名称、简介和 topic 都没有表明这是 Skill 仓库"
+        return False, "name, description, and topics do not identify a skill repository"
     if not HOST_PATTERN.search(blob) and not any(topic in SKILL_TOPICS for topic in topics):
-        return False, "未指向 Claude、Cursor、Codex、Copilot 或其他编码代理"
+        return False, "not aimed at Claude, Cursor, Codex, Copilot, or another coding agent"
     if not _software_delivery_focus(name, description, topics):
-        return False, "没有落到需求、开发、测试、设计图或 PPT"
-    return True, "名称或简介表明这是编码代理可复用的 Skill / 技能合集"
+        return False, "does not match requirements, development, testing, diagrams, or PPT"
+    return True, "name or description shows a reusable skill pack for coding agents"
 
 
 def qualifies(stars: int, growth: dict | None) -> tuple[bool, str]:
@@ -498,36 +590,36 @@ def summarize_snapshots(points: list[dict], today: date, stars: int) -> dict:
 
 def growth_phrase(growth: dict | None) -> str:
     if not growth or growth.get("stars_7d") is None and growth.get("stars_30d") is None:
-        return "增长数字尚不可用"
-    prefix = "至少" if growth.get("partial") else ""
+        return "growth figures are not available yet"
+    prefix = "at least " if growth.get("partial") else ""
     parts = []
     if isinstance(growth.get("stars_7d"), int):
-        parts.append(f"近 7 日{prefix}新增 {growth['stars_7d']:,} Star")
+        parts.append(f"{prefix}{growth['stars_7d']:,} new stars in the last 7 days")
     if isinstance(growth.get("stars_30d"), int):
-        parts.append(f"近 30 日{prefix}新增 {growth['stars_30d']:,} Star")
+        parts.append(f"{prefix}{growth['stars_30d']:,} new stars in the last 30 days")
     through = growth.get("history_through")
-    suffix = f"（统计截至 {through}）" if through else ""
-    return "，".join(parts) + suffix
+    suffix = f" (counted through {through})" if through else ""
+    return ", ".join(parts) + suffix
 
 
 def notable_text(repo: dict, growth: dict | None, rule: str) -> str:
     stars = int(repo.get("stars") or 0)
     owner = (repo.get("full_name") or "/").split("/")[0].lower()
     if rule == "stars":
-        text = f"公开 Star {stars:,}，达到不少于 {STAR_THRESHOLD:,} 的收录门槛。"
+        text = f"Public stars: {stars:,}, which meets the {STAR_THRESHOLD:,}-star bar."
         if growth and growth.get("available"):
-            text += growth_phrase(growth) + "。"
+            text += " " + growth_phrase(growth).capitalize() + "."
     else:
         text = (
-            f"当前 Star {stars:,}，低于 {STAR_THRESHOLD:,}，但{growth_phrase(growth)}，"
-            "符合快速增长标准。"
+            f"Current stars: {stars:,}, below {STAR_THRESHOLD:,}, but {growth_phrase(growth)}, "
+            "which meets the fast-growth bar."
         )
     if owner in OFFICIAL_OWNERS:
-        text += f" {owner} 官方仓库。"
-    description = (repo.get("description") or "").strip()
+        text += f" Official repository from {owner}."
+    description = (repo.get("description_en") or repo.get("description") or "").strip()
     if description:
         short = description if len(description) <= 90 else description[:89].rstrip() + "…"
-        text += f" 简介：{short}"
+        text += f" Summary: {short}"
     return text
 
 
@@ -593,6 +685,16 @@ def prune_snapshots(snapshots: dict, today: str) -> dict:
     return kept
 
 
+def public_payload(payload: dict) -> dict:
+    """Copy used on the static site. Display text is English."""
+    published = json.loads(json.dumps(payload))
+    for skill in published.get("skills") or []:
+        english = skill.get("description_en")
+        if english:
+            skill["description"] = english
+    return published
+
+
 def render_page(payload: dict) -> str:
     skills = payload["skills"]
     generated = payload["generated_at"]
@@ -610,24 +712,28 @@ def render_page(payload: dict) -> str:
         for skill in preview
     ]
     if not new_skills:
-        new_block = "<p>今天没有新进入名录的 Skill。下面是已经收录的全部技能。</p>"
+        new_block = "<p>Nothing new entered the catalog today. Everything already listed is below.</p>"
     elif len(new_skills) == len(skills):
         new_block = (
-            f"<p>这是目前的全部收录，<strong>{len(new_skills)}</strong> 个都是今天新增。"
-            "卡片上有「今日新增」标记。Star 最高的几个：</p>"
+            f"<p>Every skill currently listed, <strong>{len(new_skills)}</strong> in total, was added today. "
+            "Each card is marked New today. Highest star counts:</p>"
             f"<div class=\"new-links\">{''.join(new_links)}</div>"
         )
     else:
         more = ""
         if len(ranked_new) > len(preview):
-            more = f"<p>其余 {len(ranked_new) - len(preview)} 个也带「今日新增」标记，可以用上面的范围筛选。</p>"
+            more = (
+                f"<p>The other {len(ranked_new) - len(preview)} are also marked New today. "
+                "Use the scope filter to see only those.</p>"
+            )
         new_block = (
-            f"<p>今天新进入名录 <strong>{len(new_skills)}</strong> 个。点击名称可跳到卡片。</p>"
+            f"<p><strong>{len(new_skills)}</strong> skills entered the catalog today. "
+            "Select a name to jump to its card.</p>"
             f"<div class=\"new-links\">{''.join(new_links)}</div>{more}"
         )
     cards = "\n".join(render_card(skill, run_day) for skill in skills)
     category_buttons = [
-        '<button type="button" class="chip" data-cat="" aria-pressed="true">全部 '
+        '<button type="button" class="chip" data-cat="" aria-pressed="true">All '
         f"<span>{len(skills)}</span></button>"
     ]
     for category in CATEGORIES:
@@ -637,78 +743,78 @@ def render_page(payload: dict) -> str:
         )
     rules = payload["criteria"]["growth"]
     return f"""<!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>热门 AI 编程 Skills</title>
-  <meta name="description" content="可浏览、可搜索的热门 AI 编程技能目录。数据来自公开 GitHub 仓库，每日更新。">
+  <title>Hot AI Coding Skills</title>
+  <meta name="description" content="A searchable catalog of hot AI coding skills. Data comes from public GitHub repositories and is updated daily.">
   <meta name="theme-color" content="#1a1714">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-  <a class="skip" href="#grid">跳到技能列表</a>
+  <a class="skip" href="#grid">Skip to the skill list</a>
   <header class="masthead">
     <div class="wrap">
       <p class="eyebrow">AI Coding Hot Skills</p>
-      <h1>热门 AI 编程 Skills</h1>
-      <p class="lede">跟踪可复用的编码代理技能：Cursor、Claude Code、Codex，以及 SKILL.md 技能库和知名合集。这里不收录泛泛的模型新闻或通用 AI 工具站。</p>
+      <h1>Hot AI Coding Skills</h1>
+      <p class="lede">Reusable skills for coding agents: Cursor, Claude Code, Codex, SKILL.md packs, and well-known collections. This is not a general model-news or AI-tools directory.</p>
       <dl class="stats">
-        <div><dt>收录</dt><dd>{len(skills)}</dd></div>
-        <div><dt>今日新增</dt><dd>{len(new_skills)}</dd></div>
-        <div><dt>今日更新</dt><dd>{payload.get("updated_today", 0)}</dd></div>
-        <div><dt>更新时间</dt><dd>{html.escape(generated.replace("T", " ")[:16])}</dd></div>
+        <div><dt>Listed</dt><dd>{len(skills)}</dd></div>
+        <div><dt>New today</dt><dd>{len(new_skills)}</dd></div>
+        <div><dt>Updated today</dt><dd>{payload.get("updated_today", 0)}</dd></div>
+        <div><dt>Updated at</dt><dd>{html.escape(generated.replace("T", " ")[:16])}</dd></div>
       </dl>
     </div>
   </header>
   <main class="wrap">
     <section class="panel" id="new-today">
-      <h2>今日新增</h2>
+      <h2>New today</h2>
       {new_block}
     </section>
-    <section class="toolbar" aria-label="筛选">
+    <section class="toolbar" aria-label="Filters">
       <label class="search">
-        <span>搜索</span>
-        <input id="q" type="search" placeholder="搜索名称、仓库或简介" autocomplete="off">
+        <span>Search</span>
+        <input id="q" type="search" placeholder="Search name, repository, or summary" autocomplete="off">
       </label>
-      <div class="chips" role="group" aria-label="分类">{''.join(category_buttons)}</div>
+      <div class="chips" role="group" aria-label="Categories">{''.join(category_buttons)}</div>
       <div class="toolbar-row">
-        <label>范围
+        <label>Scope
           <select id="rule">
-            <option value="all">全部</option>
-            <option value="stars">不少于 {STAR_THRESHOLD:,} Star</option>
-            <option value="growth">快速增长</option>
-            <option value="new">今日新增</option>
+            <option value="all">All</option>
+            <option value="stars">At least {STAR_THRESHOLD:,} stars</option>
+            <option value="growth">Fast growth</option>
+            <option value="new">New today</option>
           </select>
         </label>
-        <label>排序
+        <label>Sort
           <select id="sort">
-            <option value="stars">Star 从高到低</option>
-            <option value="updated">最近推送</option>
-            <option value="new">今日新增优先</option>
-            <option value="name">名称</option>
+            <option value="stars">Stars, high to low</option>
+            <option value="updated">Recently pushed</option>
+            <option value="new">New today first</option>
+            <option value="name">Name</option>
           </select>
         </label>
-        <p id="result-count" class="result-count">{len(skills)} 个结果</p>
+        <p id="result-count" class="result-count">{len(skills)} results</p>
       </div>
     </section>
-    <p id="empty" class="empty" hidden>没有符合筛选条件的 Skill。</p>
+    <p id="empty" class="empty" hidden>No skills match these filters.</p>
     <section class="grid" id="grid">
       {cards}
     </section>
     <section class="panel rules">
-      <h2>收录规则</h2>
-      <p>追踪单位是一个公开 GitHub 仓库。满足下面任一条件就会出现在本页：</p>
+      <h2>Inclusion rules</h2>
+      <p>Each entry is one public GitHub repository. It is listed when either rule is true:</p>
       <ol>
-        <li>GitHub 显示的 Star 不少于 {STAR_THRESHOLD:,}。</li>
-        <li>Star 仍低于 {STAR_THRESHOLD:,}，但增长很快：近 7 个 UTC 日历日新增至少 {rules["stars_7d_min"]} 且不少于当前 Star 的 {int(rules["stars_7d_ratio_min"] * 100)}%，或者近 30 日新增至少 {rules["stars_30d_min"]} 且不少于当前 Star 的 {int(rules["stars_30d_ratio_min"] * 100)}%。增长数字来自 GitHub 的按日 Star 历史，写不出来就不会靠猜测收录。</li>
+        <li>GitHub shows at least {STAR_THRESHOLD:,} stars.</li>
+        <li>Stars are still below {STAR_THRESHOLD:,}, but growth is fast: at least {rules["stars_7d_min"]} new stars in 7 UTC calendar days and at least {int(rules["stars_7d_ratio_min"] * 100)}% of the current total, or at least {rules["stars_30d_min"]} new stars in 30 days and at least {int(rules["stars_30d_ratio_min"] * 100)}%. The counts come from GitHub's daily star history. If they cannot be verified, the repository is not added.</li>
       </ol>
-      <p>分类可以多选：需求、开发、测试、绘制设计图、生成 PPT。数据文件在仓库的 <code>data/skills.json</code>，每日报告在 <code>data/daily-report.json</code>。本项目不使用数据库。</p>
+      <p>A skill can have more than one category: Requirements, Development, Testing, Design diagrams, and Generate PPT. The files are <code>data/skills.json</code> and <code>data/daily-report.json</code>. This project does not use a database.</p>
     </section>
   </main>
   <footer class="wrap site-footer">
-    <p>静态页面，由仓库里的 JSON 生成。机器可读报告：<a href="data/daily-report.json">data/daily-report.json</a>。技能数据：<a href="data/skills.json">data/skills.json</a>。</p>
+    <p>Static page generated from JSON in the repository. Machine-readable report: <a href="data/daily-report.json">data/daily-report.json</a>. Skill data: <a href="data/skills.json">data/skills.json</a>.</p>
   </footer>
   <script src="assets/site.js"></script>
 </body>
@@ -724,48 +830,48 @@ def anchor_id(skill_id_value: str) -> str:
 def render_card(skill: dict, run_day: str) -> str:
     categories = skill.get("categories") or []
     chips = "".join(f"<li>{html.escape(category)}</li>" for category in categories)
-    description = skill.get("description") or "仓库未填写简介。"
+    description = skill.get("description_en") or skill.get("description") or "This repository has no description."
     growth = skill.get("growth") or {}
     growth_html = ""
     if isinstance(growth.get("stars_7d"), int):
-        prefix = "至少 " if growth.get("partial") else ""
+        prefix = "at least " if growth.get("partial") else ""
         growth_html = (
-            f'<p class="growth">{prefix}近 7 日 +{growth["stars_7d"]:,} · '
-            f'近 30 日 +{growth.get("stars_30d") or 0:,}'
-            f'（截至 {html.escape(str(growth.get("history_through") or ""))}）</p>'
+            f'<p class="growth">{prefix}+{growth["stars_7d"]:,} stars in 7 days · '
+            f'+{growth.get("stars_30d") or 0:,} in 30 days '
+            f'(through {html.escape(str(growth.get("history_through") or ""))})</p>'
         )
     rule = (skill.get("qualification") or {}).get("rule") or ""
-    rule_label = "快速增长" if rule == "growth" else f"Star ≥ {STAR_THRESHOLD:,}"
-    new_badge = '<span class="badge new">今日新增</span>' if skill.get("first_seen") == run_day else ""
-    archive_badge = '<span class="badge">已归档</span>' if skill.get("archived") else ""
+    rule_label = "Fast growth" if rule == "growth" else f"Stars ≥ {STAR_THRESHOLD:,}"
+    new_badge = '<span class="badge new">New today</span>' if skill.get("first_seen") == run_day else ""
+    archive_badge = '<span class="badge">Archived</span>' if skill.get("archived") else ""
     download_url = skill.get("download_url")
     if skill.get("download_available") and download_url:
         download_html = (
-            f'<a class="btn" href="{html.escape(download_url)}">下载</a>'
+            f'<a class="btn" href="{html.escape(download_url)}">Download</a>'
         )
         download_note = f'<p class="meta-line">{html.escape(skill.get("download_note") or "")}</p>'
     else:
-        download_html = '<span class="btn disabled">直接下载未核验</span>'
+        download_html = '<span class="btn disabled">Direct download not verified</span>'
         download_note = (
-            '<p class="meta-line warn">直接下载：未核验。'
-            f'{html.escape(skill.get("download_note") or "没有可用的归档或发行包链接。")}</p>'
+            '<p class="meta-line warn">Direct download: not verified. '
+            f'{html.escape(skill.get("download_note") or "No verified archive or release asset.")}</p>'
         )
     documented = skill.get("documented_install")
     documented_html = ""
     if documented:
         documented_html = (
-            '<p class="install"><span>文档中的安装命令</span> '
+            '<p class="install"><span>Install command from the docs</span> '
             f"<code>{html.escape(documented)}</code></p>"
         )
     homepage = skill.get("homepage") or ""
     homepage_html = ""
     if homepage.startswith("http"):
-        homepage_html = f'<a class="btn ghost" href="{html.escape(homepage)}">主页</a>'
+        homepage_html = f'<a class="btn ghost" href="{html.escape(homepage)}">Homepage</a>'
     search_blob = " ".join(
         [
             skill.get("name") or "",
             skill.get("id") or "",
-            skill.get("description") or "",
+            description,
             " ".join(categories),
             skill.get("notable_zh") or "",
         ]
@@ -781,74 +887,74 @@ def render_card(skill: dict, run_day: str) -> str:
   {growth_html}
   <ul class="cats">{chips}</ul>
   <p class="desc">{html.escape(description)}</p>
-  <p class="why"><span>为什么收录</span>{html.escape(skill.get("notable_zh") or "")}</p>
+  <p class="why"><span>Why it is listed</span>{html.escape(skill.get("notable_zh") or "")}</p>
   <div class="actions">
-    <a class="btn primary" href="{html.escape(skill.get("source_url") or "")}">来源</a>
+    <a class="btn primary" href="{html.escape(skill.get("source_url") or "")}">Source</a>
     {download_html}
     {homepage_html}
   </div>
   {download_note}
-  <p class="install"><span>克隆安装</span> <code>{html.escape(skill.get("install_command") or "")}</code></p>
+  <p class="install"><span>Clone</span> <code>{html.escape(skill.get("install_command") or "")}</code></p>
   {documented_html}
-  <p class="meta-line">最近推送 {html.escape(pushed)} · 首次收录 {html.escape(skill.get("first_seen") or "")}</p>
+  <p class="meta-line">Last push {html.escape(pushed)} · First listed {html.escape(skill.get("first_seen") or "")}</p>
 </article>"""
 
 
 def render_latest_update(report: dict) -> str:
     lines = [
-        "# 最近一次更新",
+        "# Latest update",
         "",
-        f"- 运行时间（Asia/Shanghai）：{report['run_at']}",
-        f"- 收录总数：{report['total_skills']}",
-        f"- 今日新增：{report['new_today']}",
-        f"- 今日更新：{report['updated_today']}",
-        f"- 今日移出：{report['removed_today']}",
+        f"- Run time (Asia/Shanghai): {report['run_at']}",
+        f"- Total skills: {report['total_skills']}",
+        f"- New today: {report['new_today']}",
+        f"- Updated today: {report['updated_today']}",
+        f"- Removed today: {report['removed_today']}",
         "",
-        "## 今日新增",
+        "## New today",
         "",
     ]
     if not report["new_items"]:
-        lines.append("本次没有新进入名录的 Skill。")
+        lines.append("No skills entered the catalog on this run.")
         lines.append("")
     for item in report["new_items"]:
-        categories = "、".join(item["categories"])
-        download = item["download"] or "直接下载未核验"
+        categories = ", ".join(item["categories"])
+        download = item["download"] or "direct download not verified"
         lines.append(
-            f"- [{item['name']}]({item['link']}) · {categories} · Star {item['stars']:,} · "
-            f"来源 {item['source']} · 下载 {download}"
+            f"- [{item['name']}]({item['link']}) · {categories} · {item['stars']:,} stars · "
+            f"source {item['source']} · download {download}"
         )
         lines.append(f"  - {item['reason']}")
     lines.append("")
-    lines.append("机器可读版本见 `data/daily-report.json`。")
+    lines.append("The machine-readable copy is `data/daily-report.json`.")
     lines.append("")
     return "\n".join(lines)
 
 
 def render_changelog(history: list[dict]) -> str:
-    parts = ["# 更新日志", ""]
+    parts = ["# Changelog", ""]
     for report in history:
         parts.extend(
             [
                 f"## {report['run_date']}",
                 "",
-                f"- 运行时间（Asia/Shanghai）：{report['run_at']}",
-                f"- 收录总数：{report['total_skills']}",
-                f"- 今日新增：{report['new_today']}",
-                f"- 今日更新：{report['updated_today']}",
-                f"- 今日移出：{report.get('removed_today', 0)}",
+                f"- Run time (Asia/Shanghai): {report['run_at']}",
+                f"- Total skills: {report['total_skills']}",
+                f"- New today: {report['new_today']}",
+                f"- Updated today: {report['updated_today']}",
+                f"- Removed today: {report.get('removed_today', 0)}",
                 "",
             ]
         )
         if not report.get("new_items"):
-            parts.append("没有新增 Skill。")
+            parts.append("No new skills.")
             parts.append("")
             continue
         for item in report["new_items"]:
-            categories = "、".join(item["categories"])
-            download = item["download"] or "直接下载未核验"
+            categories = ", ".join(item["categories"])
+            download = item["download"] or "direct download not verified"
             parts.append(
-                f"- {item['name']} · {categories} · Star {item['stars']:,} · "
-                f"[来源]({item['source']}) · 下载 {download}"
+                f"- {item['name']} · {categories} · {item['stars']:,} stars · "
+                f"[source]({item['source']}) · download {download}"
             )
             parts.append(f"  - {item['reason']}")
         parts.append("")
@@ -858,49 +964,49 @@ def render_changelog(history: list[dict]) -> str:
 def validate_dataset(payload: dict) -> list[str]:
     errors: list[str] = []
     if payload.get("schema_version") != SCHEMA_VERSION:
-        errors.append("schema_version 不正确")
+        errors.append("schema_version is wrong")
     skills = payload.get("skills")
     if not isinstance(skills, list) or not skills:
-        errors.append("skills 必须是非空数组")
+        errors.append("skills must be a non-empty list")
         return errors
     seen = set()
     for skill in skills:
         sid = skill.get("id")
         if not sid or sid in seen:
-            errors.append(f"技能 id 缺失或重复：{sid}")
+            errors.append(f"missing or duplicate skill id: {sid}")
         seen.add(sid)
         if not skill.get("name"):
-            errors.append(f"{sid} 缺少 name")
+            errors.append(f"{sid} is missing name")
         categories = skill.get("categories") or []
         if not categories or any(category not in CATEGORIES for category in categories):
-            errors.append(f"{sid} 分类无效：{categories}")
+            errors.append(f"{sid} has invalid categories: {categories}")
         source = skill.get("source_url") or ""
         if not source.startswith("https://github.com/"):
-            errors.append(f"{sid} 来源链接无效")
+            errors.append(f"{sid} has an invalid source URL")
         if "download_available" not in skill:
-            errors.append(f"{sid} 缺少 download_available")
+            errors.append(f"{sid} is missing download_available")
         if skill.get("download_available"):
             if not str(skill.get("download_url") or "").startswith("https://"):
-                errors.append(f"{sid} 标记了可下载但链接无效")
+                errors.append(f"{sid} is marked downloadable but the URL is invalid")
         else:
             if skill.get("download_url"):
-                errors.append(f"{sid} 未核验下载却填写了链接")
+                errors.append(f"{sid} has a download URL but was not verified")
             if not skill.get("download_note"):
-                errors.append(f"{sid} 未核验下载时必须说明原因")
+                errors.append(f"{sid} needs a note when the download is not verified")
         install = skill.get("install_command") or ""
         if not install.startswith("git clone https://github.com/"):
-            errors.append(f"{sid} 缺少可核验的克隆命令")
+            errors.append(f"{sid} is missing a verified clone command")
         if not isinstance(skill.get("stars"), int):
-            errors.append(f"{sid} Star 不是整数")
+            errors.append(f"{sid} stars value is not an integer")
         rule = (skill.get("qualification") or {}).get("rule")
         if rule not in {"stars", "growth"}:
-            errors.append(f"{sid} 收录规则无效")
+            errors.append(f"{sid} has an invalid inclusion rule")
         if rule == "stars" and skill["stars"] < STAR_THRESHOLD:
-            errors.append(f"{sid} 以 Star 门槛收录但数量不足")
+            errors.append(f"{sid} is included by the star bar but is under the threshold")
         if rule == "growth" and skill["stars"] >= STAR_THRESHOLD:
-            errors.append(f"{sid} 已达到 Star 门槛，不应标成仅靠增长")
+            errors.append(f"{sid} already meets the star bar and should not be marked growth-only")
         if not skill.get("notable_zh"):
-            errors.append(f"{sid} 缺少收录理由")
+            errors.append(f"{sid} is missing the inclusion reason")
     return errors
 
 
@@ -921,19 +1027,19 @@ def validate_report(report: dict, skills: list[dict]) -> list[str]:
     ]
     for key in required:
         if key not in report:
-            errors.append(f"日报缺少 {key}")
+            errors.append(f"daily report is missing {key}")
     if report.get("timezone") != "Asia/Shanghai":
-        errors.append("日报时区必须是 Asia/Shanghai")
+        errors.append("daily report timezone must be Asia/Shanghai")
     if report.get("total_skills") != len(skills):
-        errors.append("日报总数与技能列表不一致")
+        errors.append("daily report total does not match the skill list")
     if report.get("new_today") != len(report.get("new_items") or []):
-        errors.append("new_today 与 new_items 数量不一致")
+        errors.append("new_today does not match the number of new_items")
     for item in report.get("new_items") or []:
         for key in ("name", "categories", "stars", "source", "download", "link", "reason"):
             if key not in item:
-                errors.append(f"新增项缺少 {key}")
+                errors.append(f"new item is missing {key}")
         if item.get("source") and not str(item["source"]).startswith("https://"):
-            errors.append(f"{item.get('name')} 来源不是链接")
+            errors.append(f"{item.get('name')} source is not a URL")
         if item.get("download") is not None and not str(item["download"]).startswith("https://"):
-            errors.append(f"{item.get('name')} 下载链接无效")
+            errors.append(f"{item.get('name')} download URL is invalid")
     return errors

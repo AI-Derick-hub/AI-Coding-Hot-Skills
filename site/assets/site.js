@@ -55,7 +55,7 @@
     };
     visible.sort(sorters[state.sort] || sorters.stars);
     visible.forEach((card) => grid.appendChild(card));
-    count.textContent = `${visible.length} 个结果`;
+    count.textContent = `${visible.length} results`;
     empty.hidden = visible.length !== 0;
   }
 

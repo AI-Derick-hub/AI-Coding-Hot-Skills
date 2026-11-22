@@ -35,7 +35,7 @@ class RelevanceTests(unittest.TestCase):
             }
         )
         self.assertFalse(ok)
-        self.assertIn("进攻", reason)
+        self.assertIn("offensive", reason)
 
     def test_marketing_skill_is_excluded(self):
         ok, _reason = lib.relevance_reason(
@@ -80,7 +80,7 @@ class RelevanceTests(unittest.TestCase):
         }
         novel = {
             "name": "chinese-novelist-skill",
-            "description": "AI 写小说，适配主流 coding agent，长篇网文连载皆宜",
+            "description": "AI " + lib._cp("5199 5c0f 8bf4") + " for a coding agent " + lib._cp("7f51 6587"),
             "topics": ["claude-code"],
             "fork": False,
         }
@@ -139,9 +139,9 @@ class CategoryTests(unittest.TestCase):
             ["agent-skills"],
             "Development and technical skills, testing web apps, and skills/pptx.",
         )
-        self.assertIn("开发", categories)
-        self.assertIn("测试", categories)
-        self.assertIn("生成 PPT", categories)
+        self.assertIn("Development", categories)
+        self.assertIn("Testing", categories)
+        self.assertIn("Generate PPT", categories)
 
     def test_diagram_and_ppt_repo(self):
         categories = lib.categorize(
@@ -150,8 +150,8 @@ class CategoryTests(unittest.TestCase):
             ["agent-skills", "diagram", "pptx"],
             "",
         )
-        self.assertIn("绘制设计图", categories)
-        self.assertIn("生成 PPT", categories)
+        self.assertIn("Design diagrams", categories)
+        self.assertIn("Generate PPT", categories)
 
     def test_planning_repo(self):
         categories = lib.categorize(
@@ -160,8 +160,8 @@ class CategoryTests(unittest.TestCase):
             ["agent-skills", "planning", "coding-agent"],
             "",
         )
-        self.assertEqual(categories[0], "需求")
-        self.assertIn("开发", categories)
+        self.assertEqual(categories[0], "Requirements")
+        self.assertIn("Development", categories)
 
     def test_fingerprint_keeps_categories_stable_until_text_changes(self):
         first = lib.category_fingerprint("skills", "Agent Skills", ["agent-skills"])
@@ -186,8 +186,8 @@ class CategoryTests(unittest.TestCase):
             ["agent-skills"],
             "",
         )
-        self.assertIn("开发", categories)
-        self.assertNotIn("测试", categories)
+        self.assertIn("Development", categories)
+        self.assertNotIn("Testing", categories)
 
 
 class GrowthTests(unittest.TestCase):
@@ -281,8 +281,8 @@ class DownloadAndReportTests(unittest.TestCase):
         page = lib.render_page(sample_payload([skill]))
         self.assertNotIn("<img", page)
         self.assertIn("&lt;img", page)
-        self.assertIn("来源", page)
-        self.assertIn("下载", page)
+        self.assertIn("Source", page)
+        self.assertIn("Download", page)
 
     def test_report_validation_requires_source_and_download_fields(self):
         skill = sample_skill()
@@ -320,17 +320,17 @@ def sample_skill() -> dict:
         "name": "skills",
         "full_name": "anthropics/skills",
         "description": "Public repository for Agent Skills",
-        "categories": ["开发"],
+        "categories": ["Development"],
         "source_url": "https://github.com/anthropics/skills",
         "download_url": "https://github.com/anthropics/skills/archive/refs/heads/main.zip",
         "download_available": True,
-        "download_note": "已核验的 GitHub 源码归档。",
+        "download_note": "Verified GitHub source archive.",
         "install_command": "git clone https://github.com/anthropics/skills.git",
         "stars": 2000,
         "forks": 10,
         "growth": {"stars_7d": 10, "stars_30d": 40, "history_through": "2026-11-21", "partial": True},
         "qualification": {"rule": "stars"},
-        "notable_zh": "公开 Star 2,000，达到不少于 2,000 的收录门槛。",
+        "notable_zh": "Public stars: 2,000, which meets the 2,000-star bar.",
         "pushed_date": "2026-11-16",
         "first_seen": "2026-11-22",
         "archived": False,

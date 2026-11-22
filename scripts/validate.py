@@ -18,7 +18,7 @@ def main() -> int:
     page_path = ROOT / "site" / "index.html"
     errors = []
     if not skills_path.exists() or not report_path.exists() or not page_path.exists():
-        print("缺少 data/skills.json、data/daily-report.json 或 site/index.html。请先运行 scripts/update.py。")
+        print("Missing data/skills.json, data/daily-report.json, or site/index.html. Run scripts/update.py first.")
         return 1
     payload = json.loads(skills_path.read_text(encoding="utf-8"))
     report = json.loads(report_path.read_text(encoding="utf-8"))
@@ -27,29 +27,29 @@ def main() -> int:
     errors.extend(lib.validate_report(report, payload["skills"]))
     for skill in payload["skills"]:
         if skill["name"] not in page:
-            errors.append(f"页面缺少 {skill['name']}")
+            errors.append(f"page is missing {skill['name']}")
         if skill["source_url"] not in page:
-            errors.append(f"页面缺少来源 {skill['id']}")
+            errors.append(f"page is missing the source for {skill['id']}")
         if skill.get("download_available") and skill["download_url"] not in page:
-            errors.append(f"页面缺少下载链接 {skill['id']}")
-    for phrase in ("热门 AI 编程 Skills", "来源", "下载", "今日新增", "data/daily-report.json"):
+            errors.append(f"page is missing the download for {skill['id']}")
+    for phrase in ("Hot AI Coding Skills", "Source", "Download", "New today", "data/daily-report.json"):
         if phrase not in page:
-            errors.append(f"页面缺少文案：{phrase}")
+            errors.append(f"page is missing copy: {phrase}")
     latest = ROOT / "docs" / "latest-update.md"
     if not latest.exists():
-        errors.append("缺少 docs/latest-update.md")
+        errors.append("missing docs/latest-update.md")
     elif report["run_at"] not in latest.read_text(encoding="utf-8"):
-        errors.append("latest-update.md 与日报时间不一致")
+        errors.append("latest-update.md does not match the report timestamp")
     published_skills = ROOT / "site" / "data" / "skills.json"
     published_report = ROOT / "site" / "data" / "daily-report.json"
     if not published_skills.exists() or not published_report.exists():
-        errors.append("站点副本缺少 data/skills.json 或 data/daily-report.json")
+        errors.append("the published site is missing data/skills.json or data/daily-report.json")
     if errors:
-        print("校验失败：")
+        print("Validation failed:")
         for error in errors:
             print(f"- {error}")
         return 1
-    print(f"校验通过：{len(payload['skills'])} 个技能，日报 {report['run_date']}。")
+    print(f"Validation passed: {len(payload['skills'])} skills, report {report['run_date']}.")
     return 0
 
 
