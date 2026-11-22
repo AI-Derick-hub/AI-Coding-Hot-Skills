@@ -1,0 +1,1310 @@
+[
+  {
+    "run_at": "2026-11-22T13:00:24+08:00",
+    "run_date": "2026-11-22",
+    "total_skills": 96,
+    "new_today": 96,
+    "updated_today": 0,
+    "removed_today": 0,
+    "new_items": [
+      {
+        "id": "mattpocock/skills",
+        "name": "skills",
+        "categories": [
+          "开发",
+          "测试"
+        ],
+        "stars": 329863,
+        "source": "https://github.com/mattpocock/skills",
+        "download": "https://github.com/mattpocock/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/mattpocock/skills",
+        "install_command": "git clone https://github.com/mattpocock/skills.git",
+        "reason": "公开 Star 329,863，达到不少于 2,000 的收录门槛。近 7 日至少新增 4,618 Star，近 30 日至少新增 28,887 Star（统计截至 2026-11-21）。 简介：Skills for Real Engineers. Straight from my .agents directory."
+      },
+      {
+        "id": "obra/superpowers",
+        "name": "superpowers",
+        "categories": [
+          "需求",
+          "开发"
+        ],
+        "stars": 323834,
+        "source": "https://github.com/obra/superpowers",
+        "download": "https://github.com/obra/superpowers/archive/refs/heads/main.zip",
+        "link": "https://github.com/obra/superpowers",
+        "install_command": "git clone https://github.com/obra/superpowers.git",
+        "reason": "公开 Star 323,834，达到不少于 2,000 的收录门槛。近 7 日至少新增 5,896 Star，近 30 日至少新增 20,667 Star（统计截至 2026-11-21）。 简介：An agentic skills framework & software development methodology that works."
+      },
+      {
+        "id": "multica-ai/andrej-karpathy-skills",
+        "name": "andrej-karpathy-skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 234940,
+        "source": "https://github.com/multica-ai/andrej-karpathy-skills",
+        "download": "https://github.com/multica-ai/andrej-karpathy-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/multica-ai/andrej-karpathy-skills",
+        "install_command": "git clone https://github.com/multica-ai/andrej-karpathy-skills.git",
+        "reason": "公开 Star 234,940，达到不少于 2,000 的收录门槛。近 7 日至少新增 1,552 Star，近 30 日至少新增 12,760 Star（统计截至 2026-11-21）。 简介：A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's o…"
+      },
+      {
+        "id": "anthropics/skills",
+        "name": "skills",
+        "categories": [
+          "开发",
+          "生成 PPT"
+        ],
+        "stars": 198574,
+        "source": "https://github.com/anthropics/skills",
+        "download": "https://github.com/anthropics/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/anthropics/skills",
+        "install_command": "git clone https://github.com/anthropics/skills.git",
+        "reason": "公开 Star 198,574，达到不少于 2,000 的收录门槛。近 7 日至少新增 3,165 Star，近 30 日至少新增 15,739 Star（统计截至 2026-11-21）。 anthropics 官方仓库。 简介：Public repository for Agent Skills"
+      },
+      {
+        "id": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "name": "ui-ux-pro-max-skill",
+        "categories": [
+          "开发"
+        ],
+        "stars": 152563,
+        "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "download": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "install_command": "git clone https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
+        "reason": "公开 Star 152,563，达到不少于 2,000 的收录门槛。近 7 日至少新增 2,559 Star，近 30 日至少新增 13,523 Star（统计截至 2026-11-21）。 简介：An AI skill that provides design intelligence for building professional UI/UX across mult…"
+      },
+      {
+        "id": "leonxlnx/taste-skill",
+        "name": "taste-skill",
+        "categories": [
+          "开发"
+        ],
+        "stars": 119797,
+        "source": "https://github.com/Leonxlnx/taste-skill",
+        "download": "https://github.com/Leonxlnx/taste-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/Leonxlnx/taste-skill",
+        "install_command": "git clone https://github.com/Leonxlnx/taste-skill.git",
+        "reason": "公开 Star 119,797，达到不少于 2,000 的收录门槛。近 7 日至少新增 3,480 Star，近 30 日至少新增 18,526 Star（统计截至 2026-11-21）。 简介：Agent skills that give coding agents taste: art direction, reference images and a browser…"
+      },
+      {
+        "id": "addyosmani/agent-skills",
+        "name": "agent-skills",
+        "categories": [
+          "需求",
+          "开发",
+          "测试"
+        ],
+        "stars": 119618,
+        "source": "https://github.com/addyosmani/agent-skills",
+        "download": "https://github.com/addyosmani/agent-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/addyosmani/agent-skills",
+        "install_command": "git clone https://github.com/addyosmani/agent-skills.git",
+        "reason": "公开 Star 119,618，达到不少于 2,000 的收录门槛。近 7 日至少新增 1,633 Star，近 30 日至少新增 10,032 Star（统计截至 2026-11-21）。 简介：Production-grade engineering skills for AI coding agents."
+      },
+      {
+        "id": "tt-a1i/archify",
+        "name": "archify",
+        "categories": [
+          "开发",
+          "绘制设计图"
+        ],
+        "stars": 98618,
+        "source": "https://github.com/tt-a1i/archify",
+        "download": "https://github.com/tt-a1i/archify/releases/download/v3.2.0/archify.zip",
+        "link": "https://github.com/tt-a1i/archify",
+        "install_command": "git clone https://github.com/tt-a1i/archify.git",
+        "reason": "公开 Star 98,618，达到不少于 2,000 的收录门槛。近 7 日至少新增 1,737 Star，近 30 日至少新增 10,553 Star（统计截至 2026-11-21）。 简介：Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for…"
+      },
+      {
+        "id": "composiohq/awesome-claude-skills",
+        "name": "awesome-claude-skills",
+        "categories": [
+          "需求",
+          "开发",
+          "测试",
+          "生成 PPT"
+        ],
+        "stars": 80020,
+        "source": "https://github.com/ComposioHQ/awesome-claude-skills",
+        "download": "https://github.com/ComposioHQ/awesome-claude-skills/archive/refs/heads/master.zip",
+        "link": "https://github.com/ComposioHQ/awesome-claude-skills",
+        "install_command": "git clone https://github.com/ComposioHQ/awesome-claude-skills.git",
+        "reason": "公开 Star 80,020，达到不少于 2,000 的收录门槛。近 7 日至少新增 464 Star，近 30 日至少新增 2,454 Star（统计截至 2026-11-21）。 简介：A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI w…"
+      },
+      {
+        "id": "cloudflare/security-audit-skill",
+        "name": "security-audit-skill",
+        "categories": [
+          "开发"
+        ],
+        "stars": 76755,
+        "source": "https://github.com/cloudflare/security-audit-skill",
+        "download": "https://github.com/cloudflare/security-audit-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/cloudflare/security-audit-skill",
+        "install_command": "git clone https://github.com/cloudflare/security-audit-skill.git",
+        "reason": "公开 Star 76,755，达到不少于 2,000 的收录门槛。近 7 日至少新增 3,434 Star，近 30 日至少新增 34,451 Star（统计截至 2026-11-21）。 简介：A coding-agent skill for multi-phase security audits with independently verified, machine…"
+      },
+      {
+        "id": "cathrynlavery/diagram-design",
+        "name": "diagram-design",
+        "categories": [
+          "绘制设计图"
+        ],
+        "stars": 69881,
+        "source": "https://github.com/cathrynlavery/diagram-design",
+        "download": "https://github.com/cathrynlavery/diagram-design/archive/refs/heads/main.zip",
+        "link": "https://github.com/cathrynlavery/diagram-design",
+        "install_command": "git clone https://github.com/cathrynlavery/diagram-design.git",
+        "reason": "公开 Star 69,881，达到不少于 2,000 的收录门槛。近 7 日至少新增 2,469 Star，近 30 日至少新增 9,693 Star（统计截至 2026-11-21）。 简介：Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Q…"
+      },
+      {
+        "id": "emilkowalski/skills",
+        "name": "skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 58691,
+        "source": "https://github.com/emilkowalski/skills",
+        "download": "https://github.com/emilkowalski/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/emilkowalski/skills",
+        "install_command": "git clone https://github.com/emilkowalski/skills.git",
+        "reason": "公开 Star 58,691，达到不少于 2,000 的收录门槛。近 7 日至少新增 1,449 Star，近 30 日至少新增 9,816 Star（统计截至 2026-11-21）。 简介：Skills for Designers and Engineers."
+      },
+      {
+        "id": "hesreallyhim/awesome-claude-code",
+        "name": "awesome-claude-code",
+        "categories": [
+          "开发"
+        ],
+        "stars": 58543,
+        "source": "https://github.com/hesreallyhim/awesome-claude-code",
+        "download": "https://github.com/hesreallyhim/awesome-claude-code/archive/refs/heads/main.zip",
+        "link": "https://github.com/hesreallyhim/awesome-claude-code",
+        "install_command": "git clone https://github.com/hesreallyhim/awesome-claude-code.git",
+        "reason": "公开 Star 58,543，达到不少于 2,000 的收录门槛。近 7 日至少新增 458 Star，近 30 日至少新增 2,332 Star（统计截至 2026-11-21）。 简介：A hand-picked collection of the finest of resources for the most awesome of agents, Claud…"
+      },
+      {
+        "id": "sickn33/agentic-awesome-skills",
+        "name": "agentic-awesome-skills",
+        "categories": [
+          "需求",
+          "开发"
+        ],
+        "stars": 50112,
+        "source": "https://github.com/sickn33/agentic-awesome-skills",
+        "download": "https://github.com/sickn33/agentic-awesome-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/sickn33/agentic-awesome-skills",
+        "install_command": "git clone https://github.com/sickn33/agentic-awesome-skills.git",
+        "reason": "公开 Star 50,112，达到不少于 2,000 的收录门槛。近 7 日至少新增 362 Star，近 30 日至少新增 1,826 Star（统计截至 2026-11-21）。 简介：3,000+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core a…"
+      },
+      {
+        "id": "wshobson/agents",
+        "name": "agents",
+        "categories": [
+          "开发",
+          "测试"
+        ],
+        "stars": 42781,
+        "source": "https://github.com/wshobson/agents",
+        "download": "https://github.com/wshobson/agents/archive/refs/heads/main.zip",
+        "link": "https://github.com/wshobson/agents",
+        "install_command": "git clone https://github.com/wshobson/agents.git",
+        "reason": "公开 Star 42,781，达到不少于 2,000 的收录门槛。近 7 日至少新增 239 Star，近 30 日至少新增 1,256 Star（统计截至 2026-11-21）。 简介：Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antig…"
+      },
+      {
+        "id": "github/awesome-copilot",
+        "name": "awesome-copilot",
+        "categories": [
+          "开发"
+        ],
+        "stars": 41431,
+        "source": "https://github.com/github/awesome-copilot",
+        "download": "https://github.com/github/awesome-copilot/archive/refs/heads/main.zip",
+        "link": "https://github.com/github/awesome-copilot",
+        "install_command": "git clone https://github.com/github/awesome-copilot.git",
+        "reason": "公开 Star 41,431，达到不少于 2,000 的收录门槛。近 7 日至少新增 259 Star，近 30 日至少新增 1,217 Star（统计截至 2026-11-21）。 github 官方仓库。 简介：Community-contributed instructions, agents, skills, and configurations to help you make t…"
+      },
+      {
+        "id": "voltagent/awesome-agent-skills",
+        "name": "awesome-agent-skills",
+        "categories": [
+          "开发",
+          "测试",
+          "生成 PPT"
+        ],
+        "stars": 37425,
+        "source": "https://github.com/VoltAgent/awesome-agent-skills",
+        "download": "https://github.com/VoltAgent/awesome-agent-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/VoltAgent/awesome-agent-skills",
+        "install_command": "git clone https://github.com/VoltAgent/awesome-agent-skills.git",
+        "reason": "公开 Star 37,425，达到不少于 2,000 的收录门槛。近 7 日至少新增 218 Star，近 30 日至少新增 1,269 Star（统计截至 2026-11-21）。 简介：A curated collection of 1000+ agent skills from official dev teams and the community, com…"
+      },
+      {
+        "id": "vercel-labs/agent-skills",
+        "name": "agent-skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 34680,
+        "source": "https://github.com/vercel-labs/agent-skills",
+        "download": "https://github.com/vercel-labs/agent-skills/releases/download/agent-skills-5a37a6329fbad3666c3207392a6a7c0110e92efb/vercel-composition-patterns.tar.gz",
+        "link": "https://github.com/vercel-labs/agent-skills",
+        "install_command": "git clone https://github.com/vercel-labs/agent-skills.git",
+        "reason": "公开 Star 34,680，达到不少于 2,000 的收录门槛。近 7 日至少新增 554 Star，近 30 日至少新增 1,870 Star（统计截至 2026-11-21）。 vercel-labs 官方仓库。 简介：Vercel's official collection of agent skills"
+      },
+      {
+        "id": "alchaincyf/huashu-design",
+        "name": "huashu-design",
+        "categories": [
+          "绘制设计图",
+          "生成 PPT"
+        ],
+        "stars": 30291,
+        "source": "https://github.com/alchaincyf/huashu-design",
+        "download": "https://github.com/alchaincyf/huashu-design/archive/refs/heads/master.zip",
+        "link": "https://github.com/alchaincyf/huashu-design",
+        "install_command": "git clone https://github.com/alchaincyf/huashu-design.git",
+        "reason": "公开 Star 30,291，达到不少于 2,000 的收录门槛。近 7 日至少新增 697 Star，近 30 日至少新增 4,415 Star（统计截至 2026-11-21）。 简介：Huashu Design 3.4 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / App Store 宣传图 / 小红书图文 / 可编辑 PPTX…"
+      },
+      {
+        "id": "alirezarezvani/claude-skills",
+        "name": "claude-skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 30257,
+        "source": "https://github.com/alirezarezvani/claude-skills",
+        "download": "https://github.com/alirezarezvani/claude-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/alirezarezvani/claude-skills",
+        "install_command": "git clone https://github.com/alirezarezvani/claude-skills.git",
+        "reason": "公开 Star 30,257，达到不少于 2,000 的收录门槛。近 7 日至少新增 407 Star，近 30 日至少新增 1,726 Star（统计截至 2026-11-21）。 简介：410 Claude Code skills & agent skills & plugins (120+ Agents, custom commands, 410+ skill…"
+      },
+      {
+        "id": "op7418/guizang-ppt-skill",
+        "name": "guizang-ppt-skill",
+        "categories": [
+          "需求",
+          "生成 PPT"
+        ],
+        "stars": 30235,
+        "source": "https://github.com/op7418/guizang-ppt-skill",
+        "download": "https://github.com/op7418/guizang-ppt-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/op7418/guizang-ppt-skill",
+        "install_command": "git clone https://github.com/op7418/guizang-ppt-skill.git",
+        "reason": "公开 Star 30,235，达到不少于 2,000 的收录门槛。近 7 日至少新增 398 Star，近 30 日至少新增 1,776 Star（统计截至 2026-11-21）。 简介：AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss lay…"
+      },
+      {
+        "id": "openai/skills",
+        "name": "skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 28882,
+        "source": "https://github.com/openai/skills",
+        "download": "https://github.com/openai/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/openai/skills",
+        "install_command": "git clone https://github.com/openai/skills.git",
+        "reason": "公开 Star 28,882，达到不少于 2,000 的收录门槛。近 7 日至少新增 132 Star，近 30 日至少新增 705 Star（统计截至 2026-11-21）。 openai 官方仓库。 简介：Skills Catalog for Codex"
+      },
+      {
+        "id": "othmanadi/planning-with-files",
+        "name": "planning-with-files",
+        "categories": [
+          "需求",
+          "开发"
+        ],
+        "stars": 28179,
+        "source": "https://github.com/OthmanAdi/planning-with-files",
+        "download": "https://github.com/OthmanAdi/planning-with-files/archive/refs/heads/master.zip",
+        "link": "https://github.com/OthmanAdi/planning-with-files",
+        "install_command": "git clone https://github.com/OthmanAdi/planning-with-files.git",
+        "reason": "公开 Star 28,179，达到不少于 2,000 的收录门槛。近 7 日至少新增 115 Star，近 30 日至少新增 642 Star（统计截至 2026-11-21）。 简介：Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof m…"
+      },
+      {
+        "id": "jimliu/baoyu-skills",
+        "name": "baoyu-skills",
+        "categories": [
+          "绘制设计图"
+        ],
+        "stars": 27784,
+        "source": "https://github.com/JimLiu/baoyu-skills",
+        "download": "https://github.com/JimLiu/baoyu-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/JimLiu/baoyu-skills",
+        "install_command": "git clone https://github.com/JimLiu/baoyu-skills.git",
+        "reason": "公开 Star 27,784，达到不少于 2,000 的收录门槛。近 7 日至少新增 206 Star，近 30 日至少新增 934 Star（统计截至 2026-11-21）。"
+      },
+      {
+        "id": "agentskills/agentskills",
+        "name": "agentskills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 27514,
+        "source": "https://github.com/agentskills/agentskills",
+        "download": "https://github.com/agentskills/agentskills/archive/refs/heads/main.zip",
+        "link": "https://github.com/agentskills/agentskills",
+        "install_command": "git clone https://github.com/agentskills/agentskills.git",
+        "reason": "公开 Star 27,514，达到不少于 2,000 的收录门槛。近 7 日至少新增 188 Star，近 30 日至少新增 1,024 Star（统计截至 2026-11-21）。 简介：Specification and documentation for Agent Skills"
+      },
+      {
+        "id": "google/skills",
+        "name": "skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 24527,
+        "source": "https://github.com/google/skills",
+        "download": "https://github.com/google/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/google/skills",
+        "install_command": "git clone https://github.com/google/skills.git",
+        "reason": "公开 Star 24,527，达到不少于 2,000 的收录门槛。近 7 日至少新增 191 Star，近 30 日至少新增 3,062 Star（统计截至 2026-11-21）。 google 官方仓库。 简介：Agent Skills for Google products and technologies"
+      },
+      {
+        "id": "kkkkhazix/khazix-skills",
+        "name": "khazix-skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 22448,
+        "source": "https://github.com/KKKKhazix/khazix-skills",
+        "download": "https://github.com/KKKKhazix/khazix-skills/releases/download/v1.3.1/aihot-1.3.1.zip",
+        "link": "https://github.com/KKKKhazix/khazix-skills",
+        "install_command": "git clone https://github.com/KKKKhazix/khazix-skills.git",
+        "reason": "公开 Star 22,448，达到不少于 2,000 的收录门槛。近 7 日至少新增 181 Star，近 30 日至少新增 893 Star（统计截至 2026-11-21）。 简介：数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazi…"
+      },
+      {
+        "id": "greensock/gsap-skills",
+        "name": "gsap-skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 18882,
+        "source": "https://github.com/greensock/gsap-skills",
+        "download": "https://github.com/greensock/gsap-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/greensock/gsap-skills",
+        "install_command": "git clone https://github.com/greensock/gsap-skills.git",
+        "reason": "公开 Star 18,882，达到不少于 2,000 的收录门槛。近 7 日至少新增 382 Star，近 30 日至少新增 1,948 Star（统计截至 2026-11-21）。 简介：Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSA…"
+      },
+      {
+        "id": "muratcankoylan/agent-skills-for-context-engineering",
+        "name": "Agent-Skills-for-Context-Engineering",
+        "categories": [
+          "开发"
+        ],
+        "stars": 18394,
+        "source": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "download": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/archive/refs/heads/main.zip",
+        "link": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "install_command": "git clone https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering.git",
+        "reason": "公开 Star 18,394，达到不少于 2,000 的收录门槛。近 7 日至少新增 42 Star，近 30 日至少新增 238 Star（统计截至 2026-11-21）。 简介：A comprehensive collection of Agent Skills for context engineering, multi-agent architect…"
+      },
+      {
+        "id": "composio-community/awesome-codex-skills",
+        "name": "awesome-codex-skills",
+        "categories": [
+          "开发",
+          "测试"
+        ],
+        "stars": 17384,
+        "source": "https://github.com/composio-community/awesome-codex-skills",
+        "download": "https://github.com/composio-community/awesome-codex-skills/archive/refs/heads/master.zip",
+        "link": "https://github.com/composio-community/awesome-codex-skills",
+        "install_command": "git clone https://github.com/composio-community/awesome-codex-skills.git",
+        "reason": "公开 Star 17,384，达到不少于 2,000 的收录门槛。近 7 日至少新增 70 Star，近 30 日至少新增 437 Star（统计截至 2026-11-21）。 简介：A curated list of practical Codex skills for automating workflows across the Codex CLI an…"
+      },
+      {
+        "id": "travisvn/awesome-claude-skills",
+        "name": "awesome-claude-skills",
+        "categories": [
+          "开发",
+          "测试",
+          "生成 PPT"
+        ],
+        "stars": 15897,
+        "source": "https://github.com/travisvn/awesome-claude-skills",
+        "download": "https://github.com/travisvn/awesome-claude-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/travisvn/awesome-claude-skills",
+        "install_command": "git clone https://github.com/travisvn/awesome-claude-skills.git",
+        "reason": "公开 Star 15,897，达到不少于 2,000 的收录门槛。近 7 日至少新增 77 Star，近 30 日至少新增 409 Star（统计截至 2026-11-21）。 简介：A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI w…"
+      },
+      {
+        "id": "orchestra-research/ai-research-skills",
+        "name": "AI-Research-SKILLs",
+        "categories": [
+          "开发"
+        ],
+        "stars": 14729,
+        "source": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+        "download": "https://github.com/Orchestra-Research/AI-Research-SKILLs/archive/refs/heads/main.zip",
+        "link": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+        "install_command": "git clone https://github.com/Orchestra-Research/AI-Research-SKILLs.git",
+        "reason": "公开 Star 14,729，达到不少于 2,000 的收录门槛。近 7 日至少新增 154 Star，近 30 日至少新增 860 Star（统计截至 2026-11-21）。 简介：Comprehensive open-source library of AI research and engineering skills for any AI model.…"
+      },
+      {
+        "id": "tw93/kami",
+        "name": "Kami",
+        "categories": [
+          "生成 PPT"
+        ],
+        "stars": 12601,
+        "source": "https://github.com/tw93/Kami",
+        "download": "https://github.com/tw93/Kami/releases/download/V1.20.0/kami.zip",
+        "link": "https://github.com/tw93/Kami",
+        "install_command": "git clone https://github.com/tw93/Kami.git",
+        "reason": "公开 Star 12,601，达到不少于 2,000 的收录门槛。近 7 日至少新增 58 Star，近 30 日至少新增 570 Star（统计截至 2026-11-21）。 简介：👩‍🚒 Good content deserves good paper. Layout rules and templates that let AI agents expor…"
+      },
+      {
+        "id": "jakubkrehel/skills",
+        "name": "skills",
+        "categories": [
+          "开发",
+          "测试"
+        ],
+        "stars": 12556,
+        "source": "https://github.com/jakubkrehel/skills",
+        "download": "https://github.com/jakubkrehel/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/jakubkrehel/skills",
+        "install_command": "git clone https://github.com/jakubkrehel/skills.git",
+        "reason": "公开 Star 12,556，达到不少于 2,000 的收录门槛。近 7 日至少新增 354 Star，近 30 日至少新增 4,409 Star（统计截至 2026-11-21）。 简介：A collection of agent skills that help you build great interfaces."
+      },
+      {
+        "id": "jeffallan/claude-skills",
+        "name": "claude-skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 12476,
+        "source": "https://github.com/Jeffallan/claude-skills",
+        "download": "https://github.com/Jeffallan/claude-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/Jeffallan/claude-skills",
+        "install_command": "git clone https://github.com/Jeffallan/claude-skills.git",
+        "reason": "公开 Star 12,476，达到不少于 2,000 的收录门槛。近 7 日至少新增 103 Star，近 30 日至少新增 481 Star（统计截至 2026-11-21）。 简介：67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert p…"
+      },
+      {
+        "id": "google-labs-code/stitch-skills",
+        "name": "stitch-skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 11533,
+        "source": "https://github.com/google-labs-code/stitch-skills",
+        "download": "https://github.com/google-labs-code/stitch-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/google-labs-code/stitch-skills",
+        "install_command": "git clone https://github.com/google-labs-code/stitch-skills.git",
+        "reason": "公开 Star 11,533，达到不少于 2,000 的收录门槛。近 7 日至少新增 2,059 Star，近 30 日至少新增 3,000 Star（统计截至 2026-11-21）。 简介：A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows…"
+      },
+      {
+        "id": "chuspeeism/dashi-ppt-skill",
+        "name": "dashi-ppt-skill",
+        "categories": [
+          "生成 PPT"
+        ],
+        "stars": 10919,
+        "source": "https://github.com/chuspeeism/dashi-ppt-skill",
+        "download": "https://github.com/chuspeeism/dashi-ppt-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/chuspeeism/dashi-ppt-skill",
+        "install_command": "git clone https://github.com/chuspeeism/dashi-ppt-skill.git",
+        "reason": "公开 Star 10,919，达到不少于 2,000 的收录门槛。近 7 日至少新增 190 Star，近 30 日至少新增 1,082 Star（统计截至 2026-11-21）。 简介：An AI-agent skill that generates browser-editable presentations from multiple visual them…"
+      },
+      {
+        "id": "agents365-ai/drawio-skill",
+        "name": "drawio-skill",
+        "categories": [
+          "测试",
+          "绘制设计图",
+          "生成 PPT"
+        ],
+        "stars": 10890,
+        "source": "https://github.com/Agents365-ai/drawio-skill",
+        "download": "https://github.com/Agents365-ai/drawio-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/Agents365-ai/drawio-skill",
+        "install_command": "git clone https://github.com/Agents365-ai/drawio-skill.git",
+        "reason": "公开 Star 10,890，达到不少于 2,000 的收录门槛。近 7 日至少新增 109 Star，近 30 日至少新增 603 Star（统计截至 2026-11-21）。 简介：Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Pro…"
+      },
+      {
+        "id": "janestreet/agent_skills",
+        "name": "agent_skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 10582,
+        "source": "https://github.com/janestreet/agent_skills",
+        "download": "https://github.com/janestreet/agent_skills/archive/refs/heads/master.zip",
+        "link": "https://github.com/janestreet/agent_skills",
+        "install_command": "git clone https://github.com/janestreet/agent_skills.git",
+        "reason": "公开 Star 10,582，达到不少于 2,000 的收录门槛。近 7 日至少新增 1,392 Star，近 30 日至少新增 10,582 Star（统计截至 2026-11-21）。 简介：Agent skills"
+      },
+      {
+        "id": "behisecc/awesome-claude-skills",
+        "name": "awesome-claude-skills",
+        "categories": [
+          "开发",
+          "测试",
+          "生成 PPT"
+        ],
+        "stars": 10466,
+        "source": "https://github.com/BehiSecc/awesome-claude-skills",
+        "download": "https://github.com/BehiSecc/awesome-claude-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/BehiSecc/awesome-claude-skills",
+        "install_command": "git clone https://github.com/BehiSecc/awesome-claude-skills.git",
+        "reason": "公开 Star 10,466，达到不少于 2,000 的收录门槛。近 7 日至少新增 37 Star，近 30 日至少新增 196 Star（统计截至 2026-11-21）。 简介：A curated list of Claude Skills."
+      },
+      {
+        "id": "jakeschincariol/replica-skill",
+        "name": "replica-skill",
+        "categories": [
+          "开发"
+        ],
+        "stars": 10269,
+        "source": "https://github.com/Jakeschincariol/replica-skill",
+        "download": "https://github.com/Jakeschincariol/replica-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/Jakeschincariol/replica-skill",
+        "install_command": "git clone https://github.com/Jakeschincariol/replica-skill.git",
+        "reason": "公开 Star 10,269，达到不少于 2,000 的收录门槛。近 7 日至少新增 810 Star，近 30 日至少新增 5,265 Star（统计截至 2026-11-21）。 简介：Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it fo…"
+      },
+      {
+        "id": "gamedev-skills/awesome-gamedev-agent-skills",
+        "name": "awesome-gamedev-agent-skills",
+        "categories": [
+          "开发",
+          "测试"
+        ],
+        "stars": 10063,
+        "source": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+        "download": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+        "install_command": "git clone https://github.com/gamedev-skills/awesome-gamedev-agent-skills.git",
+        "reason": "公开 Star 10,063，达到不少于 2,000 的收录门槛。近 7 日至少新增 1,022 Star，近 30 日至少新增 6,466 Star（统计截至 2026-11-21）。 简介：Make games with your AI coding agent: 79 game-dev skills and a router for Godot, Unity, U…"
+      },
+      {
+        "id": "anbeime/skill",
+        "name": "skill",
+        "categories": [
+          "开发"
+        ],
+        "stars": 9795,
+        "source": "https://github.com/anbeime/skill",
+        "download": "https://github.com/anbeime/skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/anbeime/skill",
+        "install_command": "git clone https://github.com/anbeime/skill.git",
+        "reason": "公开 Star 9,795，达到不少于 2,000 的收录门槛。近 7 日至少新增 195 Star，近 30 日至少新增 1,249 Star（统计截至 2026-11-21）。 简介：收录最全、更新最快的技能Skills商店：精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Sk…"
+      },
+      {
+        "id": "gentleman-programming/gentle-ai",
+        "name": "gentle-ai",
+        "categories": [
+          "开发",
+          "测试"
+        ],
+        "stars": 9458,
+        "source": "https://github.com/Gentleman-Programming/gentle-ai",
+        "download": "https://github.com/Gentleman-Programming/gentle-ai/releases/download/v4.6.0/gentle-ai-release-provenance-v1.tar.gz",
+        "link": "https://github.com/Gentleman-Programming/gentle-ai",
+        "install_command": "git clone https://github.com/Gentleman-Programming/gentle-ai.git",
+        "reason": "公开 Star 9,458，达到不少于 2,000 的收录门槛。近 7 日至少新增 229 Star，近 30 日至少新增 1,523 Star（统计截至 2026-11-21）。 简介：Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode,…"
+      },
+      {
+        "id": "jnmetacode/superpowers-zh",
+        "name": "superpowers-zh",
+        "categories": [
+          "开发",
+          "测试"
+        ],
+        "stars": 8579,
+        "source": "https://github.com/jnMetaCode/superpowers-zh",
+        "download": "https://github.com/jnMetaCode/superpowers-zh/archive/refs/heads/main.zip",
+        "link": "https://github.com/jnMetaCode/superpowers-zh",
+        "install_command": "git clone https://github.com/jnMetaCode/superpowers-zh.git",
+        "reason": "公开 Star 8,579，达到不少于 2,000 的收录门槛。近 7 日至少新增 51 Star，近 30 日至少新增 264 Star（统计截至 2026-11-21）。 简介：🦸 AI 编程超能力 · 中文增强版 — superpowers（250k+ ⭐）完整汉化 + 4 个中国原创 skills，让 Claude Code / Copilot CL…"
+      },
+      {
+        "id": "deanpeters/product-manager-skills",
+        "name": "Product-Manager-Skills",
+        "categories": [
+          "需求",
+          "开发",
+          "测试"
+        ],
+        "stars": 8116,
+        "source": "https://github.com/deanpeters/Product-Manager-Skills",
+        "download": "https://github.com/deanpeters/Product-Manager-Skills/releases/download/v0.86/01-core-pm-starter-pack.zip",
+        "link": "https://github.com/deanpeters/Product-Manager-Skills",
+        "install_command": "git clone https://github.com/deanpeters/Product-Manager-Skills.git",
+        "reason": "公开 Star 8,116，达到不少于 2,000 的收录门槛。近 7 日至少新增 81 Star，近 30 日至少新增 498 Star（统计截至 2026-11-21）。 简介：Product Management skills framework built on battle-tested methods for Claude Code, Cowor…"
+      },
+      {
+        "id": "ningzimu/codex-ppt-skill",
+        "name": "codex-ppt-skill",
+        "categories": [
+          "生成 PPT"
+        ],
+        "stars": 8086,
+        "source": "https://github.com/ningzimu/codex-ppt-skill",
+        "download": "https://github.com/ningzimu/codex-ppt-skill/releases/download/v0.6.0/codex-ppt-skill-v0.6.0.zip",
+        "link": "https://github.com/ningzimu/codex-ppt-skill",
+        "install_command": "git clone https://github.com/ningzimu/codex-ppt-skill.git",
+        "reason": "公开 Star 8,086，达到不少于 2,000 的收录门槛。近 7 日至少新增 162 Star，近 30 日至少新增 861 Star（统计截至 2026-11-21）。 简介：GPT-Image-2 PPT Generator Skill for Creating Image-Based PowerPoint Presentations in Code…"
+      },
+      {
+        "id": "mengto/skills",
+        "name": "Skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 7996,
+        "source": "https://github.com/MengTo/Skills",
+        "download": "https://github.com/MengTo/Skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/MengTo/Skills",
+        "install_command": "git clone https://github.com/MengTo/Skills.git",
+        "reason": "公开 Star 7,996，达到不少于 2,000 的收录门槛。近 7 日至少新增 380 Star，近 30 日至少新增 1,047 Star（统计截至 2026-11-21）。 简介：Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding…"
+      },
+      {
+        "id": "remotion-dev/skills",
+        "name": "skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 7740,
+        "source": "https://github.com/remotion-dev/skills",
+        "download": "https://github.com/remotion-dev/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/remotion-dev/skills",
+        "install_command": "git clone https://github.com/remotion-dev/skills.git",
+        "reason": "公开 Star 7,740，达到不少于 2,000 的收录门槛。近 7 日至少新增 437 Star，近 30 日至少新增 2,170 Star（统计截至 2026-11-21）。 简介：Agent Skills"
+      },
+      {
+        "id": "tw93/waza",
+        "name": "Waza",
+        "categories": [
+          "开发",
+          "测试"
+        ],
+        "stars": 7628,
+        "source": "https://github.com/tw93/Waza",
+        "download": "https://github.com/tw93/Waza/releases/download/v3.42.0/waza.zip",
+        "link": "https://github.com/tw93/Waza",
+        "install_command": "git clone https://github.com/tw93/Waza.git",
+        "reason": "公开 Star 7,628，达到不少于 2,000 的收录门槛。近 7 日至少新增 32 Star，近 30 日至少新增 297 Star（统计截至 2026-11-21）。 简介：🥷 Engineering habits you already know, turned into skills AI assistants like Claude Code,…"
+      },
+      {
+        "id": "htdt/godogen",
+        "name": "godogen",
+        "categories": [
+          "开发"
+        ],
+        "stars": 7379,
+        "source": "https://github.com/htdt/godogen",
+        "download": "https://github.com/htdt/godogen/archive/refs/heads/master.zip",
+        "link": "https://github.com/htdt/godogen",
+        "install_command": "git clone https://github.com/htdt/godogen.git",
+        "reason": "公开 Star 7,379，达到不少于 2,000 的收录门槛。近 7 日至少新增 30 Star，近 30 日至少新增 206 Star（统计截至 2026-11-21）。 简介：Skills for Claude Code, Codex and Antigravity to build games, and anything else a game en…"
+      },
+      {
+        "id": "tech-leads-club/agent-skills",
+        "name": "agent-skills",
+        "categories": [
+          "需求",
+          "开发"
+        ],
+        "stars": 7191,
+        "source": "https://github.com/tech-leads-club/agent-skills",
+        "download": "https://github.com/tech-leads-club/agent-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/tech-leads-club/agent-skills",
+        "install_command": "git clone https://github.com/tech-leads-club/agent-skills.git",
+        "reason": "公开 Star 7,191，达到不少于 2,000 的收录门槛。近 7 日至少新增 28 Star，近 30 日至少新增 123 Star（统计截至 2026-11-21）。 简介：The secure, validated skill registry for professional AI coding agents. Extend Antigravit…"
+      },
+      {
+        "id": "alchaincyf/darwin-skill",
+        "name": "darwin-skill",
+        "categories": [
+          "测试"
+        ],
+        "stars": 7022,
+        "source": "https://github.com/alchaincyf/darwin-skill",
+        "download": "https://github.com/alchaincyf/darwin-skill/archive/refs/heads/master.zip",
+        "link": "https://github.com/alchaincyf/darwin-skill",
+        "install_command": "git clone https://github.com/alchaincyf/darwin-skill.git",
+        "reason": "公开 Star 7,022，达到不少于 2,000 的收录门槛。近 7 日至少新增 89 Star，近 30 日至少新增 482 Star（统计截至 2026-11-21）。 简介：达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill op…"
+      },
+      {
+        "id": "czlonkowski/n8n-skills",
+        "name": "n8n-skills",
+        "categories": [
+          "开发",
+          "测试"
+        ],
+        "stars": 6691,
+        "source": "https://github.com/czlonkowski/n8n-skills",
+        "download": "https://github.com/czlonkowski/n8n-skills/releases/download/v1.37.1/n8n-agents-v1.37.1.zip",
+        "link": "https://github.com/czlonkowski/n8n-skills",
+        "install_command": "git clone https://github.com/czlonkowski/n8n-skills.git",
+        "reason": "公开 Star 6,691，达到不少于 2,000 的收录门槛。近 7 日至少新增 41 Star，近 30 日至少新增 188 Star（统计截至 2026-11-21）。 简介：n8n skillset for Claude Code to build flawless n8n workflows"
+      },
+      {
+        "id": "heilcheng/awesome-agent-skills",
+        "name": "awesome-agent-skills",
+        "categories": [
+          "开发",
+          "测试",
+          "生成 PPT"
+        ],
+        "stars": 6419,
+        "source": "https://github.com/heilcheng/awesome-agent-skills",
+        "download": "https://github.com/heilcheng/awesome-agent-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/heilcheng/awesome-agent-skills",
+        "install_command": "git clone https://github.com/heilcheng/awesome-agent-skills.git",
+        "reason": "公开 Star 6,419，达到不少于 2,000 的收录门槛。近 7 日至少新增 28 Star，近 30 日至少新增 124 Star（统计截至 2026-11-21）。 简介：Tutorials, Guides and Agent Skills Directories"
+      },
+      {
+        "id": "dotnet/skills",
+        "name": "skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 6320,
+        "source": "https://github.com/dotnet/skills",
+        "download": "https://github.com/dotnet/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/dotnet/skills",
+        "install_command": "git clone https://github.com/dotnet/skills.git",
+        "reason": "公开 Star 6,320，达到不少于 2,000 的收录门槛。近 7 日至少新增 97 Star，近 30 日至少新增 620 Star（统计截至 2026-11-21）。 简介：Repository for skills to assist AI coding agents with .NET and C#"
+      },
+      {
+        "id": "antfu/skills",
+        "name": "skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 6092,
+        "source": "https://github.com/antfu/skills",
+        "download": "https://github.com/antfu/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/antfu/skills",
+        "install_command": "git clone https://github.com/antfu/skills.git",
+        "reason": "公开 Star 6,092，达到不少于 2,000 的收录门槛。近 7 日至少新增 19 Star，近 30 日至少新增 100 Star（统计截至 2026-11-21）。 简介：Anthony Fu's curated collection of agent skills."
+      },
+      {
+        "id": "vinvcn/mattpocock-skills-zh-cn",
+        "name": "mattpocock-skills-zh-CN",
+        "categories": [
+          "开发",
+          "测试"
+        ],
+        "stars": 6014,
+        "source": "https://github.com/vinvcn/mattpocock-skills-zh-CN",
+        "download": "https://github.com/vinvcn/mattpocock-skills-zh-CN/archive/refs/heads/main.zip",
+        "link": "https://github.com/vinvcn/mattpocock-skills-zh-CN",
+        "install_command": "git clone https://github.com/vinvcn/mattpocock-skills-zh-CN.git",
+        "reason": "公开 Star 6,014，达到不少于 2,000 的收录门槛。近 7 日至少新增 182 Star，近 30 日至少新增 797 Star（统计截至 2026-11-21）。 简介：Matt Pocock skills 的简体中文本地化：人工审核每一次更新，定期同步上游，支持 Claude、Codex 和 DSH 插件。"
+      },
+      {
+        "id": "appllama/appllama-skills",
+        "name": "appllama-skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 5618,
+        "source": "https://github.com/Appllama/appllama-skills",
+        "download": "https://github.com/Appllama/appllama-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/Appllama/appllama-skills",
+        "install_command": "git clone https://github.com/Appllama/appllama-skills.git",
+        "reason": "公开 Star 5,618，达到不少于 2,000 的收录门槛。近 7 日至少新增 420 Star，近 30 日至少新增 2,648 Star（统计截至 2026-11-21）。 简介：A builder, not just a researcher. Agent skills that turn top-grossing app patterns into n…"
+      },
+      {
+        "id": "nateherkai/scroll-craft",
+        "name": "scroll-craft",
+        "categories": [
+          "开发"
+        ],
+        "stars": 5330,
+        "source": "https://github.com/nateherkai/scroll-craft",
+        "download": "https://github.com/nateherkai/scroll-craft/archive/refs/heads/main.zip",
+        "link": "https://github.com/nateherkai/scroll-craft",
+        "install_command": "git clone https://github.com/nateherkai/scroll-craft.git",
+        "reason": "公开 Star 5,330，达到不少于 2,000 的收录门槛。近 7 日至少新增 222 Star，近 30 日至少新增 1,396 Star（统计截至 2026-11-21）。 简介：An agent skill for building premium, immersive, scroll-driven websites. Works with Codex,…"
+      },
+      {
+        "id": "coleam00/excalidraw-diagram-skill",
+        "name": "excalidraw-diagram-skill",
+        "categories": [
+          "开发",
+          "绘制设计图"
+        ],
+        "stars": 5316,
+        "source": "https://github.com/coleam00/excalidraw-diagram-skill",
+        "download": "https://github.com/coleam00/excalidraw-diagram-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/coleam00/excalidraw-diagram-skill",
+        "install_command": "git clone https://github.com/coleam00/excalidraw-diagram-skill.git",
+        "reason": "公开 Star 5,316，达到不少于 2,000 的收录门槛。近 7 日至少新增 51 Star，近 30 日至少新增 240 Star（统计截至 2026-11-21）。 简介：Skill to give Claude Code (and any coding agent) the ability to generate beautiful and pr…"
+      },
+      {
+        "id": "libukai/awesome-agent-skills",
+        "name": "awesome-agent-skills",
+        "categories": [
+          "开发",
+          "测试"
+        ],
+        "stars": 5228,
+        "source": "https://github.com/libukai/awesome-agent-skills",
+        "download": "https://github.com/libukai/awesome-agent-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/libukai/awesome-agent-skills",
+        "install_command": "git clone https://github.com/libukai/awesome-agent-skills.git",
+        "reason": "公开 Star 5,228，达到不少于 2,000 的收录门槛。近 7 日至少新增 14 Star，近 30 日至少新增 41 Star（统计截至 2026-11-21）。 简介：Agent Skills 终极指南：快速入门、资源推荐、精选技能与实用工具 ｜The Ultimate Guide to Agent Skills: QuickStart, Re…"
+      },
+      {
+        "id": "backnotprop/pstack",
+        "name": "pstack",
+        "categories": [
+          "开发",
+          "测试"
+        ],
+        "stars": 4732,
+        "source": "https://github.com/backnotprop/pstack",
+        "download": "https://github.com/backnotprop/pstack/archive/refs/heads/main.zip",
+        "link": "https://github.com/backnotprop/pstack",
+        "install_command": "git clone https://github.com/backnotprop/pstack.git",
+        "reason": "公开 Star 4,732，达到不少于 2,000 的收录门槛。近 7 日至少新增 461 Star，近 30 日至少新增 2,091 Star（统计截至 2026-11-21）。 简介：Use pstack with claude, codex, pi - Skills and principles for rigorous AI-assisted engine…"
+      },
+      {
+        "id": "xianyu110/awesome-openclaw-tutorial",
+        "name": "awesome-openclaw-tutorial",
+        "categories": [
+          "开发"
+        ],
+        "stars": 4586,
+        "source": "https://github.com/xianyu110/awesome-openclaw-tutorial",
+        "download": "https://github.com/xianyu110/awesome-openclaw-tutorial/archive/refs/heads/main.zip",
+        "link": "https://github.com/xianyu110/awesome-openclaw-tutorial",
+        "install_command": "git clone https://github.com/xianyu110/awesome-openclaw-tutorial.git",
+        "reason": "公开 Star 4,586，达到不少于 2,000 的收录门槛。近 7 日至少新增 9 Star，近 30 日至少新增 36 Star（统计截至 2026-11-21）。 简介：OpenClaw 中文教程（4500+ Star · 已出版纸质书）：安装、配置、Skills、飞书接入与避坑｜作者的 GPT-6 / Codex / Claude Code 新…"
+      },
+      {
+        "id": "davidondrej/skills",
+        "name": "skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 4356,
+        "source": "https://github.com/davidondrej/skills",
+        "download": "https://github.com/davidondrej/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/davidondrej/skills",
+        "install_command": "git clone https://github.com/davidondrej/skills.git",
+        "reason": "公开 Star 4,356，达到不少于 2,000 的收录门槛。近 7 日至少新增 35 Star，近 30 日至少新增 202 Star（统计截至 2026-11-21）。 简介：access to david ondrej's personal agent skills"
+      },
+      {
+        "id": "plannotator/effective-html",
+        "name": "effective-html",
+        "categories": [
+          "需求",
+          "开发",
+          "绘制设计图"
+        ],
+        "stars": 4289,
+        "source": "https://github.com/plannotator/effective-html",
+        "download": "https://github.com/plannotator/effective-html/archive/refs/heads/main.zip",
+        "link": "https://github.com/plannotator/effective-html",
+        "install_command": "git clone https://github.com/plannotator/effective-html.git",
+        "reason": "公开 Star 4,289，达到不少于 2,000 的收录门槛。近 7 日至少新增 125 Star，近 30 日至少新增 563 Star（统计截至 2026-11-21）。 简介：Agent skills for useful HTML artifacts, wireframes, interactive prototypes, plans, and di…"
+      },
+      {
+        "id": "expo/skills",
+        "name": "skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 4206,
+        "source": "https://github.com/expo/skills",
+        "download": "https://github.com/expo/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/expo/skills",
+        "install_command": "git clone https://github.com/expo/skills.git",
+        "reason": "公开 Star 4,206，达到不少于 2,000 的收录门槛。近 7 日至少新增 47 Star，近 30 日至少新增 1,214 Star（统计截至 2026-11-21）。 简介：A collection of AI agent skills for working with Expo projects and Expo Application Servi…"
+      },
+      {
+        "id": "nvidia/skills",
+        "name": "skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 4107,
+        "source": "https://github.com/NVIDIA/skills",
+        "download": "https://github.com/NVIDIA/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/NVIDIA/skills",
+        "install_command": "git clone https://github.com/NVIDIA/skills.git",
+        "reason": "公开 Star 4,107，达到不少于 2,000 的收录门槛。近 7 日至少新增 97 Star，近 30 日至少新增 391 Star（统计截至 2026-11-21）。 简介：Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agen…"
+      },
+      {
+        "id": "lennney/stop-that-shit",
+        "name": "stop-that-shit",
+        "categories": [
+          "需求",
+          "开发"
+        ],
+        "stars": 4052,
+        "source": "https://github.com/lennney/stop-that-shit",
+        "download": "https://github.com/lennney/stop-that-shit/releases/download/0.2.6/stop-that-shit-0.2.6.zip",
+        "link": "https://github.com/lennney/stop-that-shit",
+        "install_command": "git clone https://github.com/lennney/stop-that-shit.git",
+        "reason": "公开 Star 4,052，达到不少于 2,000 的收录门槛。近 7 日至少新增 137 Star，近 30 日至少新增 994 Star（统计截至 2026-11-21）。 简介：Stop That Shit（别再造史了）｜面向 Codex/GPT 场景的多平台 Hook + Skill Guard：拦截 AI coding agent 无需求的哈希、校验…"
+      },
+      {
+        "id": "benjitaylor/skills",
+        "name": "skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 3965,
+        "source": "https://github.com/benjitaylor/skills",
+        "download": "https://github.com/benjitaylor/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/benjitaylor/skills",
+        "install_command": "git clone https://github.com/benjitaylor/skills.git",
+        "reason": "公开 Star 3,965，达到不少于 2,000 的收录门槛。近 7 日至少新增 590 Star，近 30 日至少新增 3,965 Star（统计截至 2026-11-21）。 简介：Skills for AI coding agents."
+      },
+      {
+        "id": "avdlee/swiftui-agent-skill",
+        "name": "SwiftUI-Agent-Skill",
+        "categories": [
+          "开发"
+        ],
+        "stars": 3937,
+        "source": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
+        "download": "https://github.com/AvdLee/SwiftUI-Agent-Skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
+        "install_command": "git clone https://github.com/AvdLee/SwiftUI-Agent-Skill.git",
+        "reason": "公开 Star 3,937，达到不少于 2,000 的收录门槛。近 7 日至少新增 29 Star，近 30 日至少新增 198 Star（统计截至 2026-11-21）。 简介：Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent Skills open form…"
+      },
+      {
+        "id": "samber/cc-skills-golang",
+        "name": "cc-skills-golang",
+        "categories": [
+          "开发",
+          "测试"
+        ],
+        "stars": 3912,
+        "source": "https://github.com/samber/cc-skills-golang",
+        "download": "https://github.com/samber/cc-skills-golang/archive/refs/heads/main.zip",
+        "link": "https://github.com/samber/cc-skills-golang",
+        "install_command": "git clone https://github.com/samber/cc-skills-golang.git",
+        "reason": "公开 Star 3,912，达到不少于 2,000 的收录门槛。近 7 日至少新增 51 Star，近 30 日至少新增 318 Star（统计截至 2026-11-21）。 简介：🧑‍🎨 A collection of Golang agentic skills that works"
+      },
+      {
+        "id": "foryourhealth111-pixel/vibe-skills",
+        "name": "Vibe-Skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 3837,
+        "source": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
+        "download": "https://github.com/foryourhealth111-pixel/Vibe-Skills/releases/download/v4.1.2/vibe-skills-4.1.2-public.zip",
+        "link": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
+        "install_command": "git clone https://github.com/foryourhealth111-pixel/Vibe-Skills.git",
+        "reason": "公开 Star 3,837，达到不少于 2,000 的收录门槛。近 7 日至少新增 17 Star，近 30 日至少新增 85 Star（统计截至 2026-11-21）。 简介：Intelligent Skill routing and workflow orchestration for AI agents — +21.12 pp reward, −2…"
+      },
+      {
+        "id": "gotalab/cc-sdd",
+        "name": "cc-sdd",
+        "categories": [
+          "需求",
+          "开发"
+        ],
+        "stars": 3774,
+        "source": "https://github.com/gotalab/cc-sdd",
+        "download": "https://github.com/gotalab/cc-sdd/archive/refs/heads/main.zip",
+        "link": "https://github.com/gotalab/cc-sdd",
+        "install_command": "git clone https://github.com/gotalab/cc-sdd.git",
+        "reason": "公开 Star 3,774，达到不少于 2,000 的收录门槛。近 7 日至少新增 11 Star，近 30 日至少新增 49 Star（统计截至 2026-11-21）。 简介：Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD…"
+      },
+      {
+        "id": "bergside/awesome-design-skills",
+        "name": "awesome-design-skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 3764,
+        "source": "https://github.com/bergside/awesome-design-skills",
+        "download": "https://github.com/bergside/awesome-design-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/bergside/awesome-design-skills",
+        "install_command": "git clone https://github.com/bergside/awesome-design-skills.git",
+        "reason": "公开 Star 3,764，达到不少于 2,000 的收录门槛。近 7 日至少新增 94 Star，近 30 日至少新增 455 Star（统计截至 2026-11-21）。 简介：List of 67 awesome DESIGN.md and SKILL.md design skill files for agentic tools like Claud…"
+      },
+      {
+        "id": "browserbase/skills",
+        "name": "skills",
+        "categories": [
+          "开发",
+          "测试"
+        ],
+        "stars": 3758,
+        "source": "https://github.com/browserbase/skills",
+        "download": "https://github.com/browserbase/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/browserbase/skills",
+        "install_command": "git clone https://github.com/browserbase/skills.git",
+        "reason": "公开 Star 3,758，达到不少于 2,000 的收录门槛。近 7 日至少新增 4 Star，近 30 日至少新增 25 Star（统计截至 2026-11-21）。 简介：Browserbase's official collection of agent skills to access the web."
+      },
+      {
+        "id": "oil-oil/oil-ui",
+        "name": "oil-ui",
+        "categories": [
+          "开发"
+        ],
+        "stars": 3752,
+        "source": "https://github.com/oil-oil/oil-ui",
+        "download": "https://github.com/oil-oil/oil-ui/releases/download/v0.34.5/oil-ui-0.34.5.tar.gz",
+        "link": "https://github.com/oil-oil/oil-ui",
+        "install_command": "git clone https://github.com/oil-oil/oil-ui.git",
+        "reason": "公开 Star 3,752，达到不少于 2,000 的收录门槛。近 7 日至少新增 337 Star，近 30 日至少新增 1,699 Star（统计截至 2026-11-21）。 简介：UI design skill for Claude Code, Codex and other AI agents: explore distinct directions,…"
+      },
+      {
+        "id": "markdown-viewer/skills",
+        "name": "skills",
+        "categories": [
+          "开发",
+          "绘制设计图"
+        ],
+        "stars": 3432,
+        "source": "https://github.com/markdown-viewer/skills",
+        "download": "https://github.com/markdown-viewer/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/markdown-viewer/skills",
+        "install_command": "git clone https://github.com/markdown-viewer/skills.git",
+        "reason": "公开 Star 3,432，达到不少于 2,000 的收录门槛。近 7 日至少新增 32 Star，近 30 日至少新增 64 Star（统计截至 2026-11-21）。 简介：Opinionated skills for AI coding agents to create stunning diagrams and visualizations di…"
+      },
+      {
+        "id": "vuejs-ai/skills",
+        "name": "skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 3365,
+        "source": "https://github.com/vuejs-ai/skills",
+        "download": "https://github.com/vuejs-ai/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/vuejs-ai/skills",
+        "install_command": "git clone https://github.com/vuejs-ai/skills.git",
+        "reason": "公开 Star 3,365，达到不少于 2,000 的收录门槛。近 7 日至少新增 21 Star，近 30 日至少新增 252 Star（统计截至 2026-11-21）。 简介：Agent skills for Vue 3 development"
+      },
+      {
+        "id": "ciembor/agent-rules-books",
+        "name": "agent-rules-books",
+        "categories": [
+          "开发"
+        ],
+        "stars": 3328,
+        "source": "https://github.com/ciembor/agent-rules-books",
+        "download": "https://github.com/ciembor/agent-rules-books/releases/download/v0.5/agent-rules-books-v0.5.zip",
+        "link": "https://github.com/ciembor/agent-rules-books",
+        "install_command": "git clone https://github.com/ciembor/agent-rules-books.git",
+        "reason": "公开 Star 3,328，达到不少于 2,000 的收录门槛。近 7 日至少新增 47 Star，近 30 日至少新增 235 Star（统计截至 2026-11-21）。 简介：AGENTS.md rules / skills for AI coding agents: Codex, Cursor & Claude Code. Inspired by C…"
+      },
+      {
+        "id": "microsoft/skills",
+        "name": "skills",
+        "categories": [
+          "开发",
+          "测试"
+        ],
+        "stars": 3232,
+        "source": "https://github.com/microsoft/skills",
+        "download": "https://github.com/microsoft/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/microsoft/skills",
+        "install_command": "git clone https://github.com/microsoft/skills.git",
+        "reason": "公开 Star 3,232，达到不少于 2,000 的收录门槛。近 7 日至少新增 25 Star，近 30 日至少新增 94 Star（统计截至 2026-11-21）。 microsoft 官方仓库。 简介：Skills, MCP servers, Custom Agents, Agents.md for SDKs to ground Coding Agents"
+      },
+      {
+        "id": "plugin87/ux-ui-agent-skills",
+        "name": "ux-ui-agent-skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 3217,
+        "source": "https://github.com/plugin87/ux-ui-agent-skills",
+        "download": "https://github.com/plugin87/ux-ui-agent-skills/releases/download/v3.1.1/ux-ui-agent-skills-gemini.tar.gz",
+        "link": "https://github.com/plugin87/ux-ui-agent-skills",
+        "install_command": "git clone https://github.com/plugin87/ux-ui-agent-skills.git",
+        "reason": "公开 Star 3,217，达到不少于 2,000 的收录门槛。近 7 日至少新增 43 Star，近 30 日至少新增 311 Star（统计截至 2026-11-21）。 简介：Design-system skills for Claude Code, Codex, Cursor, Copilot and Gemini CLI: DTCG tokens,…"
+      },
+      {
+        "id": "supabase/agent-skills",
+        "name": "agent-skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 3121,
+        "source": "https://github.com/supabase/agent-skills",
+        "download": "https://github.com/supabase/agent-skills/releases/download/v0.1.9/supabase-postgres-best-practices.tar.gz",
+        "link": "https://github.com/supabase/agent-skills",
+        "install_command": "git clone https://github.com/supabase/agent-skills.git",
+        "reason": "公开 Star 3,121，达到不少于 2,000 的收录门槛。近 7 日至少新增 35 Star，近 30 日至少新增 212 Star（统计截至 2026-11-21）。 简介：Agent Skills to help developers using AI agents with Supabase"
+      },
+      {
+        "id": "addyosmani/web-quality-skills",
+        "name": "web-quality-skills",
+        "categories": [
+          "测试"
+        ],
+        "stars": 3117,
+        "source": "https://github.com/addyosmani/web-quality-skills",
+        "download": "https://github.com/addyosmani/web-quality-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/addyosmani/web-quality-skills",
+        "install_command": "git clone https://github.com/addyosmani/web-quality-skills.git",
+        "reason": "公开 Star 3,117，达到不少于 2,000 的收录门槛。近 7 日至少新增 25 Star，近 30 日至少新增 143 Star（统计截至 2026-11-21）。 简介：Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals."
+      },
+      {
+        "id": "twostraws/swift-agent-skills",
+        "name": "Swift-Agent-Skills",
+        "categories": [
+          "开发",
+          "测试"
+        ],
+        "stars": 3064,
+        "source": "https://github.com/twostraws/Swift-Agent-Skills",
+        "download": "https://github.com/twostraws/Swift-Agent-Skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/twostraws/Swift-Agent-Skills",
+        "install_command": "git clone https://github.com/twostraws/Swift-Agent-Skills.git",
+        "reason": "公开 Star 3,064，达到不少于 2,000 的收录门槛。近 7 日至少新增 28 Star，近 30 日至少新增 154 Star（统计截至 2026-11-21）。 简介：A curated directory of open-source AI agent skills for Swift and Apple platform developme…"
+      },
+      {
+        "id": "typesafe-ai/skills",
+        "name": "skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 2912,
+        "source": "https://github.com/typesafe-ai/skills",
+        "download": "https://github.com/typesafe-ai/skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/typesafe-ai/skills",
+        "install_command": "git clone https://github.com/typesafe-ai/skills.git",
+        "reason": "公开 Star 2,912，达到不少于 2,000 的收录门槛。近 7 日至少新增 13 Star，近 30 日至少新增 154 Star（统计截至 2026-11-21）。 简介：Agent skills for building with TypeSafe's System One API"
+      },
+      {
+        "id": "majidmanzarpour/threejs-game-skills",
+        "name": "threejs-game-skills",
+        "categories": [
+          "测试"
+        ],
+        "stars": 2874,
+        "source": "https://github.com/majidmanzarpour/threejs-game-skills",
+        "download": "https://github.com/majidmanzarpour/threejs-game-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/majidmanzarpour/threejs-game-skills",
+        "install_command": "git clone https://github.com/majidmanzarpour/threejs-game-skills.git",
+        "reason": "公开 Star 2,874，达到不少于 2,000 的收录门槛。近 7 日至少新增 54 Star，近 30 日至少新增 301 Star（统计截至 2026-11-21）。 简介：Agent skills for building playable, polished Three.js browser games with gameplay, AAA-st…"
+      },
+      {
+        "id": "rohitg00/awesome-claude-code-toolkit",
+        "name": "awesome-claude-code-toolkit",
+        "categories": [
+          "开发"
+        ],
+        "stars": 2858,
+        "source": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "download": "https://github.com/rohitg00/awesome-claude-code-toolkit/archive/refs/heads/main.zip",
+        "link": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "install_command": "git clone https://github.com/rohitg00/awesome-claude-code-toolkit.git",
+        "reason": "公开 Star 2,858，达到不少于 2,000 的收录门槛。近 7 日至少新增 18 Star，近 30 日至少新增 138 Star（统计截至 2026-11-21）。 简介：The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills, 42 comma…"
+      },
+      {
+        "id": "caru-ini/stack-diagram",
+        "name": "stack-diagram",
+        "categories": [
+          "绘制设计图"
+        ],
+        "stars": 2695,
+        "source": "https://github.com/caru-ini/stack-diagram",
+        "download": "https://github.com/caru-ini/stack-diagram/releases/download/v0.7.0/stack-diagram.zip",
+        "link": "https://github.com/caru-ini/stack-diagram",
+        "install_command": "git clone https://github.com/caru-ini/stack-diagram.git",
+        "reason": "公开 Star 2,695，达到不少于 2,000 的收录门槛。近 7 日至少新增 169 Star，近 30 日至少新增 2,694 Star（统计截至 2026-11-21）。 简介：Agent skill: describe your stack in a sentence, get an architecture diagram with official…"
+      },
+      {
+        "id": "badlogic/pi-skills",
+        "name": "pi-skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 2663,
+        "source": "https://github.com/badlogic/pi-skills",
+        "download": "https://github.com/badlogic/pi-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/badlogic/pi-skills",
+        "install_command": "git clone https://github.com/badlogic/pi-skills.git",
+        "reason": "公开 Star 2,663，达到不少于 2,000 的收录门槛。近 7 日至少新增 4 Star，近 30 日至少新增 31 Star（统计截至 2026-11-21）。 简介：Skills for pi coding agent (compatible with Claude Code and Codex CLI)"
+      },
+      {
+        "id": "amelnagdy/delegate-skills",
+        "name": "delegate-skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 2647,
+        "source": "https://github.com/amElnagdy/delegate-skills",
+        "download": "https://github.com/amElnagdy/delegate-skills/archive/refs/heads/master.zip",
+        "link": "https://github.com/amElnagdy/delegate-skills",
+        "install_command": "git clone https://github.com/amElnagdy/delegate-skills.git",
+        "reason": "公开 Star 2,647，达到不少于 2,000 的收录门槛。近 7 日至少新增 40 Star，近 30 日至少新增 176 Star（统计截至 2026-11-21）。 简介：Delegate a coding task to a separate coding agent CLI, review the diff, land the commit y…"
+      },
+      {
+        "id": "apify/agent-skills",
+        "name": "agent-skills",
+        "categories": [
+          "开发"
+        ],
+        "stars": 2515,
+        "source": "https://github.com/apify/agent-skills",
+        "download": "https://github.com/apify/agent-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/apify/agent-skills",
+        "install_command": "git clone https://github.com/apify/agent-skills.git",
+        "reason": "公开 Star 2,515，达到不少于 2,000 的收录门槛。近 7 日至少新增 16 Star，近 30 日至少新增 62 Star（统计截至 2026-11-21）。 简介：Collection of Apify agent skills"
+      },
+      {
+        "id": "alchaincyf/huashu-skills",
+        "name": "huashu-skills",
+        "categories": [
+          "需求",
+          "开发",
+          "生成 PPT"
+        ],
+        "stars": 2320,
+        "source": "https://github.com/alchaincyf/huashu-skills",
+        "download": "https://github.com/alchaincyf/huashu-skills/archive/refs/heads/master.zip",
+        "link": "https://github.com/alchaincyf/huashu-skills",
+        "install_command": "git clone https://github.com/alchaincyf/huashu-skills.git",
+        "reason": "公开 Star 2,320，达到不少于 2,000 的收录门槛。近 7 日至少新增 37 Star，近 30 日至少新增 357 Star（统计截至 2026-11-21）。 简介：花叔全部开源 Agent Skills 总目录：16 旗舰 + 14 人物视角 + 22 内置共 52 个 skill，分层分类 + AI Agent 安装协议 + 机器可读 s…"
+      },
+      {
+        "id": "awesome-skills/code-review-skill",
+        "name": "code-review-skill",
+        "categories": [
+          "测试"
+        ],
+        "stars": 2304,
+        "source": "https://github.com/awesome-skills/code-review-skill",
+        "download": "https://github.com/awesome-skills/code-review-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/awesome-skills/code-review-skill",
+        "install_command": "git clone https://github.com/awesome-skills/code-review-skill.git",
+        "reason": "公开 Star 2,304，达到不少于 2,000 的收录门槛。近 7 日至少新增 34 Star，近 30 日至少新增 173 Star（统计截至 2026-11-21）。 简介：A comprehensive code review skill for Claude Code, covering React 19, Vue 3, Rust, TypeSc…"
+      },
+      {
+        "id": "daveebbelaar/bama",
+        "name": "bama",
+        "categories": [
+          "开发",
+          "测试"
+        ],
+        "stars": 1934,
+        "source": "https://github.com/daveebbelaar/bama",
+        "download": "https://github.com/daveebbelaar/bama/archive/refs/heads/main.zip",
+        "link": "https://github.com/daveebbelaar/bama",
+        "install_command": "git clone https://github.com/daveebbelaar/bama.git",
+        "reason": "当前 Star 1,934，低于 2,000，但近 7 日至少新增 98 Star，近 30 日至少新增 1,933 Star（统计截至 2026-11-21），符合快速增长标准。 简介：BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and te…"
+      },
+      {
+        "id": "sybil-solutions/inference-optimisation-skill",
+        "name": "inference-optimisation-skill",
+        "categories": [
+          "开发"
+        ],
+        "stars": 1739,
+        "source": "https://github.com/sybil-solutions/inference-optimisation-skill",
+        "download": "https://github.com/sybil-solutions/inference-optimisation-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/sybil-solutions/inference-optimisation-skill",
+        "install_command": "git clone https://github.com/sybil-solutions/inference-optimisation-skill.git",
+        "reason": "当前 Star 1,739，低于 2,000，但近 7 日至少新增 1,738 Star，近 30 日至少新增 1,738 Star（统计截至 2026-11-21），符合快速增长标准。 简介：Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, pref…"
+      }
+    ]
+  }
+]
