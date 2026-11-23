@@ -1,5 +1,28 @@
 [
   {
+    "run_at": "2026-11-23T08:52:38+08:00",
+    "run_date": "2026-11-23",
+    "total_skills": 97,
+    "new_today": 1,
+    "updated_today": 90,
+    "removed_today": 0,
+    "new_items": [
+      {
+        "id": "trystan-sa/product-engineer-skills",
+        "name": "product-engineer-skills",
+        "categories": [
+          "Testing"
+        ],
+        "stars": 2065,
+        "source": "https://github.com/Trystan-SA/product-engineer-skills",
+        "download": "https://github.com/Trystan-SA/product-engineer-skills/archive/refs/heads/main.zip",
+        "link": "https://github.com/Trystan-SA/product-engineer-skills",
+        "install_command": "git clone https://github.com/Trystan-SA/product-engineer-skills.git",
+        "reason": "Public stars: 2,065, which meets the 2,000-star bar. 6 new stars in the last 7 days, 59 new stars in the last 30 days (counted through 2026-11-28). Summary: Agent skills for product engineers: count the clicks on your happy path, test flows again…"
+      }
+    ]
+  },
+  {
     "run_at": "2026-11-22T13:00:24+08:00",
     "run_date": "2026-11-22",
     "total_skills": 96,
