@@ -75,7 +75,7 @@ When a GitHub description is not in English, `description` keeps the original te
 
 ## Daily update
 
-[`.github/workflows/daily-update.yml`](.github/workflows/daily-update.yml) runs at **00:00 UTC**, which is **08:00 in Asia/Shanghai**. China does not observe daylight saving time. You can also run **Daily skill update** by hand from the Actions tab.
+[`.github/workflows/daily-update.yml`](.github/workflows/daily-update.yml) runs at **23:00 UTC**, which is **07:00 in Asia/Shanghai** on the following calendar day. China does not observe daylight saving time. The report `run_date` is that Shanghai date, so a 23:00 UTC run is dated the next day in Asia/Shanghai. You can also run **Daily skill update** by hand from the Actions tab.
 
 Each run:
 
