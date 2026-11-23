@@ -190,6 +190,13 @@ class CategoryTests(unittest.TestCase):
         self.assertNotIn("Testing", categories)
 
 
+class ScheduleTests(unittest.TestCase):
+    def test_run_date_is_the_shanghai_day_for_a_2300_utc_run(self):
+        moment = datetime(2026, 11, 22, 23, 0, tzinfo=timezone.utc)
+        self.assertEqual(lib.shanghai_now(moment).hour, 7)
+        self.assertEqual(lib.run_date(moment), "2026-11-23")
+
+
 class GrowthTests(unittest.TestCase):
     def test_history_sums_calendar_days(self):
         # 2026-11-15 is a Sunday. days[0] is that date.
