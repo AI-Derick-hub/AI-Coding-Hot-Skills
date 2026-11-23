@@ -7,6 +7,11 @@ on:
       - "site/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
+  # Pushes made with the default GITHUB_TOKEN do not start other workflows.
+  # The daily job commits the rebuilt site that way, so publish after it finishes.
+  workflow_run:
+    workflows: ["Daily skill update"]
+    types: [completed]
 
 permissions:
   contents: read
@@ -19,6 +24,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -26,6 +32,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # The daily job creates its commit during the run, so the workflow_run
+          # head SHA is the commit it started from. Check out current main instead.
+          ref: ${{ github.event_name == 'workflow_run' && 'main' || github.ref }}
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
