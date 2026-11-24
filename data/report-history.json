@@ -1,5 +1,28 @@
 [
   {
+    "run_at": "2026-11-25T07:42:24+08:00",
+    "run_date": "2026-11-25",
+    "total_skills": 101,
+    "new_today": 1,
+    "updated_today": 100,
+    "removed_today": 0,
+    "new_items": [
+      {
+        "id": "xixu-me/apds",
+        "name": "apds",
+        "categories": [
+          "Development"
+        ],
+        "stars": 4759,
+        "source": "https://github.com/xixu-me/apds",
+        "download": "https://github.com/xixu-me/apds/archive/refs/heads/main.zip",
+        "link": "https://github.com/xixu-me/apds",
+        "install_command": "git clone https://github.com/xixu-me/apds.git",
+        "reason": "Public stars: 4,759, which meets the 2,000-star bar. 10 new stars in the last 7 days, 58 new stars in the last 30 days (counted through 2026-11-28). Summary: Curated list of Agent Skills centered on people, relationships, commemorative scenes, and…"
+      }
+    ]
+  },
+  {
     "run_at": "2026-11-24T07:42:47+08:00",
     "run_date": "2026-11-24",
     "total_skills": 100,

@@ -3,7 +3,7 @@
   "timezone": "Asia/Shanghai",
   "repos": {
     "addyosmani/agent-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -16,11 +16,15 @@
         {
           "date": "2026-11-24",
           "stars": 119994
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 120197
         }
       ]
     },
     "addyosmani/web-quality-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -33,11 +37,15 @@
         {
           "date": "2026-11-24",
           "stars": 3123
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 3129
         }
       ]
     },
     "agents365-ai/drawio-skill": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -50,11 +58,15 @@
         {
           "date": "2026-11-24",
           "stars": 10913
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 10927
         }
       ]
     },
     "agentskills/agentskills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -67,11 +79,15 @@
         {
           "date": "2026-11-24",
           "stars": 27570
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 27606
         }
       ]
     },
     "alchaincyf/darwin-skill": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -84,11 +100,15 @@
         {
           "date": "2026-11-24",
           "stars": 7038
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 7050
         }
       ]
     },
     "alchaincyf/huashu-design": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -101,11 +121,15 @@
         {
           "date": "2026-11-24",
           "stars": 30672
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 30828
         }
       ]
     },
     "alchaincyf/huashu-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -118,11 +142,15 @@
         {
           "date": "2026-11-24",
           "stars": 2336
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 2345
         }
       ]
     },
     "alirezarezvani/claude-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -135,11 +163,15 @@
         {
           "date": "2026-11-24",
           "stars": 30360
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 30431
         }
       ]
     },
     "amelnagdy/delegate-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -152,11 +184,15 @@
         {
           "date": "2026-11-24",
           "stars": 2659
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 2664
         }
       ]
     },
     "anbeime/skill": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -169,11 +205,15 @@
         {
           "date": "2026-11-24",
           "stars": 9840
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 9866
         }
       ]
     },
     "antfu/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -186,11 +226,15 @@
         {
           "date": "2026-11-24",
           "stars": 6092
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 6099
         }
       ]
     },
     "anthropics/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -203,11 +247,15 @@
         {
           "date": "2026-11-24",
           "stars": 199461
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 199952
         }
       ]
     },
     "apify/agent-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -220,11 +268,15 @@
         {
           "date": "2026-11-24",
           "stars": 2516
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 2518
         }
       ]
     },
     "appllama/appllama-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -237,11 +289,15 @@
         {
           "date": "2026-11-24",
           "stars": 5647
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 5662
         }
       ]
     },
     "avdlee/swiftui-agent-skill": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -254,11 +310,15 @@
         {
           "date": "2026-11-24",
           "stars": 3943
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 3942
         }
       ]
     },
     "awesome-skills/code-review-skill": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -271,11 +331,15 @@
         {
           "date": "2026-11-24",
           "stars": 2309
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 2315
         }
       ]
     },
     "backnotprop/pstack": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -288,11 +352,15 @@
         {
           "date": "2026-11-24",
           "stars": 4898
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 4992
         }
       ]
     },
     "badlogic/pi-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -305,11 +373,15 @@
         {
           "date": "2026-11-24",
           "stars": 2667
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 2671
         }
       ]
     },
     "behisecc/awesome-claude-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -322,11 +394,15 @@
         {
           "date": "2026-11-24",
           "stars": 10475
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 10482
         }
       ]
     },
     "benjitaylor/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -339,11 +415,15 @@
         {
           "date": "2026-11-24",
           "stars": 4051
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 4140
         }
       ]
     },
     "bergside/awesome-design-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -356,11 +436,15 @@
         {
           "date": "2026-11-24",
           "stars": 3782
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 3792
         }
       ]
     },
     "browserbase/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -373,11 +457,15 @@
         {
           "date": "2026-11-24",
           "stars": 3760
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 3758
         }
       ]
     },
     "caru-ini/stack-diagram": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -390,11 +478,15 @@
         {
           "date": "2026-11-24",
           "stars": 2843
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 2883
         }
       ]
     },
     "cathrynlavery/diagram-design": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -407,11 +499,15 @@
         {
           "date": "2026-11-24",
           "stars": 70944
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 71992
         }
       ]
     },
     "chuspeeism/dashi-ppt-skill": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -424,11 +520,15 @@
         {
           "date": "2026-11-24",
           "stars": 11034
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 11101
         }
       ]
     },
     "ciembor/agent-rules-books": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -441,11 +541,15 @@
         {
           "date": "2026-11-24",
           "stars": 3344
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 3349
         }
       ]
     },
     "cloudflare/security-audit-skill": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -458,11 +562,15 @@
         {
           "date": "2026-11-24",
           "stars": 77538
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 77951
         }
       ]
     },
     "coleam00/excalidraw-diagram-skill": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -475,11 +583,15 @@
         {
           "date": "2026-11-24",
           "stars": 5334
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 5340
         }
       ]
     },
     "composio-community/awesome-codex-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -492,11 +604,15 @@
         {
           "date": "2026-11-24",
           "stars": 17408
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 17420
         }
       ]
     },
     "composiohq/awesome-claude-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -509,11 +625,15 @@
         {
           "date": "2026-11-24",
           "stars": 80172
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 80250
         }
       ]
     },
     "czlonkowski/n8n-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -526,11 +646,15 @@
         {
           "date": "2026-11-24",
           "stars": 6702
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 6707
         }
       ]
     },
     "daveebbelaar/bama": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -543,11 +667,15 @@
         {
           "date": "2026-11-24",
           "stars": 1954
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 1967
         }
       ]
     },
     "davidondrej/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -560,11 +688,15 @@
         {
           "date": "2026-11-24",
           "stars": 4361
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 4364
         }
       ]
     },
     "deanpeters/product-manager-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -577,11 +709,15 @@
         {
           "date": "2026-11-24",
           "stars": 8136
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 8150
         }
       ]
     },
     "dotnet/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -594,11 +730,15 @@
         {
           "date": "2026-11-24",
           "stars": 6340
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 6349
         }
       ]
     },
     "emilkowalski/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -611,11 +751,15 @@
         {
           "date": "2026-11-24",
           "stars": 59078
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 59294
         }
       ]
     },
     "expo/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -628,11 +772,15 @@
         {
           "date": "2026-11-24",
           "stars": 4224
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 4227
         }
       ]
     },
     "foryourhealth111-pixel/vibe-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -645,11 +793,15 @@
         {
           "date": "2026-11-24",
           "stars": 3843
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 3844
         }
       ]
     },
     "gamedev-skills/awesome-gamedev-agent-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -662,11 +814,15 @@
         {
           "date": "2026-11-24",
           "stars": 10594
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 10727
         }
       ]
     },
     "gentleman-programming/gentle-ai": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -679,11 +835,15 @@
         {
           "date": "2026-11-24",
           "stars": 9508
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 9550
         }
       ]
     },
     "github/awesome-copilot": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -696,11 +856,15 @@
         {
           "date": "2026-11-24",
           "stars": 41486
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 41524
         }
       ]
     },
     "google-labs-code/stitch-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -713,11 +877,15 @@
         {
           "date": "2026-11-24",
           "stars": 12264
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 12637
         }
       ]
     },
     "google/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -730,11 +898,15 @@
         {
           "date": "2026-11-24",
           "stars": 24582
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 24619
         }
       ]
     },
     "gotalab/cc-sdd": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -747,11 +919,15 @@
         {
           "date": "2026-11-24",
           "stars": 3775
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 3778
         }
       ]
     },
     "greensock/gsap-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -764,11 +940,15 @@
         {
           "date": "2026-11-24",
           "stars": 18965
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 19019
         }
       ]
     },
     "heilcheng/awesome-agent-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -781,11 +961,15 @@
         {
           "date": "2026-11-24",
           "stars": 6425
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 6434
         }
       ]
     },
     "hesreallyhim/awesome-claude-code": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -798,11 +982,15 @@
         {
           "date": "2026-11-24",
           "stars": 58679
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 58738
         }
       ]
     },
     "htdt/godogen": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -815,11 +1003,15 @@
         {
           "date": "2026-11-24",
           "stars": 7396
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 7402
         }
       ]
     },
     "jakeschincariol/replica-skill": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -832,11 +1024,15 @@
         {
           "date": "2026-11-24",
           "stars": 10447
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 10561
         }
       ]
     },
     "jakubkrehel/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -849,11 +1045,15 @@
         {
           "date": "2026-11-24",
           "stars": 12621
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 12651
         }
       ]
     },
     "janestreet/agent_skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -866,11 +1066,15 @@
         {
           "date": "2026-11-24",
           "stars": 11352
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 11602
         }
       ]
     },
     "jeffallan/claude-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -883,11 +1087,15 @@
         {
           "date": "2026-11-24",
           "stars": 12501
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 12513
         }
       ]
     },
     "jimliu/baoyu-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -900,11 +1108,15 @@
         {
           "date": "2026-11-24",
           "stars": 27827
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 27859
         }
       ]
     },
     "jnmetacode/superpowers-zh": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -917,11 +1129,15 @@
         {
           "date": "2026-11-24",
           "stars": 8585
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 8592
         }
       ]
     },
     "kkkkhazix/khazix-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -934,11 +1150,15 @@
         {
           "date": "2026-11-24",
           "stars": 22485
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 22520
         }
       ]
     },
     "lennney/stop-that-shit": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -951,11 +1171,15 @@
         {
           "date": "2026-11-24",
           "stars": 4079
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 4085
         }
       ]
     },
     "leonxlnx/taste-skill": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -968,11 +1192,15 @@
         {
           "date": "2026-11-24",
           "stars": 120650
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 121106
         }
       ]
     },
     "libukai/awesome-agent-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -985,11 +1213,15 @@
         {
           "date": "2026-11-24",
           "stars": 5231
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 5232
         }
       ]
     },
     "majidmanzarpour/threejs-game-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1002,11 +1234,15 @@
         {
           "date": "2026-11-24",
           "stars": 2887
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 2898
         }
       ]
     },
     "markdown-viewer/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1019,11 +1255,15 @@
         {
           "date": "2026-11-24",
           "stars": 3433
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 3431
         }
       ]
     },
     "mattpocock/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1036,11 +1276,15 @@
         {
           "date": "2026-11-24",
           "stars": 331356
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 332159
         }
       ]
     },
     "mengto/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1053,11 +1297,15 @@
         {
           "date": "2026-11-24",
           "stars": 8140
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 8247
         }
       ]
     },
     "microsoft/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1070,11 +1318,15 @@
         {
           "date": "2026-11-24",
           "stars": 3240
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 3244
         }
       ]
     },
     "multica-ai/andrej-karpathy-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1087,11 +1339,15 @@
         {
           "date": "2026-11-24",
           "stars": 235311
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 235513
         }
       ]
     },
     "muratcankoylan/agent-skills-for-context-engineering": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1104,11 +1360,15 @@
         {
           "date": "2026-11-24",
           "stars": 18409
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 18417
         }
       ]
     },
     "nateherkai/scroll-craft": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1121,11 +1381,15 @@
         {
           "date": "2026-11-24",
           "stars": 5383
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 5430
         }
       ]
     },
     "nextlevelbuilder/ui-ux-pro-max-skill": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1138,11 +1402,15 @@
         {
           "date": "2026-11-24",
           "stars": 153269
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 153745
         }
       ]
     },
     "ningzimu/codex-ppt-skill": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1155,11 +1423,15 @@
         {
           "date": "2026-11-24",
           "stars": 8123
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 8157
         }
       ]
     },
     "nvidia/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1172,11 +1444,15 @@
         {
           "date": "2026-11-24",
           "stars": 4125
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 4138
         }
       ]
     },
     "obra/superpowers": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1189,11 +1465,15 @@
         {
           "date": "2026-11-24",
           "stars": 325027
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 325772
         }
       ]
     },
     "oil-oil/oil-ui": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1206,11 +1486,15 @@
         {
           "date": "2026-11-24",
           "stars": 3927
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 3961
         }
       ]
     },
     "op7418/guizang-ppt-skill": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1223,11 +1507,15 @@
         {
           "date": "2026-11-24",
           "stars": 30313
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 30369
         }
       ]
     },
     "openai/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1240,11 +1528,15 @@
         {
           "date": "2026-11-24",
           "stars": 29018
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 29100
         }
       ]
     },
     "orchestra-research/ai-research-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1257,11 +1549,15 @@
         {
           "date": "2026-11-24",
           "stars": 14770
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 14802
         }
       ]
     },
     "othmanadi/planning-with-files": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1274,11 +1570,15 @@
         {
           "date": "2026-11-24",
           "stars": 28209
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 28222
         }
       ]
     },
     "plannotator/effective-html": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1291,11 +1591,15 @@
         {
           "date": "2026-11-24",
           "stars": 4304
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 4310
         }
       ]
     },
     "plugin87/ux-ui-agent-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1308,11 +1612,15 @@
         {
           "date": "2026-11-24",
           "stars": 3218
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 3229
         }
       ]
     },
     "remotion-dev/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1325,11 +1633,15 @@
         {
           "date": "2026-11-24",
           "stars": 7878
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 7954
         }
       ]
     },
     "rohitg00/awesome-claude-code-toolkit": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1342,11 +1654,15 @@
         {
           "date": "2026-11-24",
           "stars": 2861
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 2865
         }
       ]
     },
     "samber/cc-skills-golang": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1359,11 +1675,15 @@
         {
           "date": "2026-11-24",
           "stars": 3953
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 3966
         }
       ]
     },
     "sickn33/agentic-awesome-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1376,11 +1696,15 @@
         {
           "date": "2026-11-24",
           "stars": 50209
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 50266
         }
       ]
     },
     "supabase/agent-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1393,11 +1717,15 @@
         {
           "date": "2026-11-24",
           "stars": 3129
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 3133
         }
       ]
     },
     "sybil-solutions/inference-optimisation-skill": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1410,11 +1738,15 @@
         {
           "date": "2026-11-24",
           "stars": 2118
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 2555
         }
       ]
     },
     "tech-leads-club/agent-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1427,11 +1759,15 @@
         {
           "date": "2026-11-24",
           "stars": 7200
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 7204
         }
       ]
     },
     "travisvn/awesome-claude-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1444,11 +1780,15 @@
         {
           "date": "2026-11-24",
           "stars": 15923
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 15930
         }
       ]
     },
     "tt-a1i/archify": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1461,11 +1801,15 @@
         {
           "date": "2026-11-24",
           "stars": 99103
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 99517
         }
       ]
     },
     "tw93/kami": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1478,11 +1822,15 @@
         {
           "date": "2026-11-24",
           "stars": 12629
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 12643
         }
       ]
     },
     "tw93/waza": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1495,11 +1843,15 @@
         {
           "date": "2026-11-24",
           "stars": 7638
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 7646
         }
       ]
     },
     "twostraws/swift-agent-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1512,11 +1864,15 @@
         {
           "date": "2026-11-24",
           "stars": 3075
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 3080
         }
       ]
     },
     "typesafe-ai/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1529,11 +1885,15 @@
         {
           "date": "2026-11-24",
           "stars": 2920
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 2916
         }
       ]
     },
     "vercel-labs/agent-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1546,11 +1906,15 @@
         {
           "date": "2026-11-24",
           "stars": 34808
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 34871
         }
       ]
     },
     "vinvcn/mattpocock-skills-zh-cn": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1563,11 +1927,15 @@
         {
           "date": "2026-11-24",
           "stars": 6060
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 6090
         }
       ]
     },
     "voltagent/awesome-agent-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1580,11 +1948,15 @@
         {
           "date": "2026-11-24",
           "stars": 37484
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 37518
         }
       ]
     },
     "vuejs-ai/skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1597,11 +1969,15 @@
         {
           "date": "2026-11-24",
           "stars": 3369
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 3371
         }
       ]
     },
     "wshobson/agents": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1614,11 +1990,15 @@
         {
           "date": "2026-11-24",
           "stars": 42844
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 42866
         }
       ]
     },
     "xianyu110/awesome-openclaw-tutorial": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-22",
@@ -1631,11 +2011,15 @@
         {
           "date": "2026-11-24",
           "stars": 4587
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 4592
         }
       ]
     },
     "trystan-sa/product-engineer-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-23",
@@ -1644,32 +2028,57 @@
         {
           "date": "2026-11-24",
           "stars": 2066
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 2067
         }
       ]
     },
     "ericjujianzou/rederive": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-24",
           "stars": 1606
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 1668
         }
       ]
     },
     "jtydhr88/screenwriting-skills": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-24",
           "stars": 2150
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 2164
         }
       ]
     },
     "xinif-a/apds": {
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "points": [
         {
           "date": "2026-11-24",
+          "stars": 4759
+        },
+        {
+          "date": "2026-11-25",
+          "stars": 4759
+        }
+      ]
+    },
+    "xixu-me/apds": {
+      "last_seen": "2026-11-25",
+      "points": [
+        {
+          "date": "2026-11-25",
           "stars": 4759
         }
       ]
