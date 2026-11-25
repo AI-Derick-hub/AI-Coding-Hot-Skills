@@ -1,5 +1,28 @@
 [
   {
+    "run_at": "2026-11-26T07:42:48+08:00",
+    "run_date": "2026-11-26",
+    "total_skills": 102,
+    "new_today": 1,
+    "updated_today": 95,
+    "removed_today": 0,
+    "new_items": [
+      {
+        "id": "dickwu/apple-design-skill",
+        "name": "apple-design-skill",
+        "categories": [
+          "Development"
+        ],
+        "stars": 3850,
+        "source": "https://github.com/dickwu/apple-design-skill",
+        "download": "https://github.com/dickwu/apple-design-skill/archive/refs/heads/main.zip",
+        "link": "https://github.com/dickwu/apple-design-skill",
+        "install_command": "git clone https://github.com/dickwu/apple-design-skill.git",
+        "reason": "Public stars: 3,850, which meets the 2,000-star bar. 288 new stars in the last 7 days, 1,789 new stars in the last 30 days (counted through 2026-11-28). Summary: Cross-platform UI/UX design reviewer based on Apple HIG. Works with Flutter, Tauri, Elect…"
+      }
+    ]
+  },
+  {
     "run_at": "2026-11-25T07:42:24+08:00",
     "run_date": "2026-11-25",
     "total_skills": 101,
