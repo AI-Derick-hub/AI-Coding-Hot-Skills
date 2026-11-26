@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-11-27
+
+- Run time (Asia/Shanghai): 2026-11-27T07:47:39+08:00
+- Total skills: 102
+- New today: 0
+- Updated today: 99
+- Removed today: 0
+
+No new skills.
+
 ## 2026-11-26
 
 - Run time (Asia/Shanghai): 2026-11-26T07:42:48+08:00
