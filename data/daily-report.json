@@ -1,805 +1,848 @@
 {
   "schema_version": 1,
   "timezone": "Asia/Shanghai",
-  "run_at": "2026-11-27T07:47:39+08:00",
-  "run_date": "2026-11-27",
-  "total_skills": 102,
-  "new_today": 0,
-  "updated_today": 99,
+  "run_at": "2026-11-28T07:44:46+08:00",
+  "run_date": "2026-11-28",
+  "total_skills": 104,
+  "new_today": 2,
+  "updated_today": 101,
   "removed_today": 0,
-  "new_items": [],
+  "new_items": [
+    {
+      "id": "asfgsrgerg/jkandf",
+      "name": "jkandf",
+      "categories": [
+        "Development"
+      ],
+      "stars": 4765,
+      "source": "https://github.com/asfgsrgerg/jkandf",
+      "download": "https://github.com/asfgsrgerg/jkandf/archive/refs/heads/main.zip",
+      "link": "https://github.com/asfgsrgerg/jkandf",
+      "install_command": "git clone https://github.com/asfgsrgerg/jkandf.git",
+      "reason": "Public stars: 4,765, which meets the 2,000-star bar. 12 new stars in the last 7 days, 58 new stars in the last 30 days (counted through 2026-11-28). Summary: Curated list of Agent Skills centered on people, relationships, commemorative scenes, and…"
+    },
+    {
+      "id": "vibe-motion/skills",
+      "name": "skills",
+      "categories": [
+        "Development"
+      ],
+      "stars": 1894,
+      "source": "https://github.com/vibe-motion/skills",
+      "download": "https://github.com/vibe-motion/skills/archive/refs/heads/main.zip",
+      "link": "https://github.com/vibe-motion/skills",
+      "install_command": "git clone https://github.com/vibe-motion/skills.git",
+      "reason": "Current stars: 1,894, below 2,000, but 168 new stars in the last 7 days, 488 new stars in the last 30 days (counted through 2026-11-28), which meets the fast-growth bar. Summary: agent skills for vibe motion"
+    }
+  ],
   "updated_items": [
     {
       "id": "addyosmani/agent-skills",
       "name": "agent-skills",
-      "stars_before": 120425,
-      "stars_after": 120608,
+      "stars_before": 120608,
+      "stars_after": 120794,
       "source": "https://github.com/addyosmani/agent-skills",
       "download": "https://github.com/addyosmani/agent-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "addyosmani/web-quality-skills",
       "name": "web-quality-skills",
-      "stars_before": 3132,
-      "stars_after": 3137,
+      "stars_before": 3137,
+      "stars_after": 3142,
       "source": "https://github.com/addyosmani/web-quality-skills",
       "download": "https://github.com/addyosmani/web-quality-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "agents365-ai/drawio-skill",
       "name": "drawio-skill",
-      "stars_before": 10947,
-      "stars_after": 10960,
+      "stars_before": 10960,
+      "stars_after": 10968,
       "source": "https://github.com/Agents365-ai/drawio-skill",
       "download": "https://github.com/Agents365-ai/drawio-skill/archive/refs/heads/main.zip"
     },
     {
       "id": "agentskills/agentskills",
       "name": "agentskills",
-      "stars_before": 27630,
-      "stars_after": 27664,
+      "stars_before": 27664,
+      "stars_after": 27699,
       "source": "https://github.com/agentskills/agentskills",
       "download": "https://github.com/agentskills/agentskills/archive/refs/heads/main.zip"
     },
     {
       "id": "alchaincyf/darwin-skill",
       "name": "darwin-skill",
-      "stars_before": 7060,
-      "stars_after": 7074,
+      "stars_before": 7074,
+      "stars_after": 7082,
       "source": "https://github.com/alchaincyf/darwin-skill",
       "download": "https://github.com/alchaincyf/darwin-skill/archive/refs/heads/master.zip"
     },
     {
       "id": "alchaincyf/huashu-design",
       "name": "huashu-design",
-      "stars_before": 30962,
-      "stars_after": 31059,
+      "stars_before": 31059,
+      "stars_after": 31135,
       "source": "https://github.com/alchaincyf/huashu-design",
       "download": "https://github.com/alchaincyf/huashu-design/archive/refs/heads/master.zip"
     },
     {
       "id": "alchaincyf/huashu-skills",
       "name": "huashu-skills",
-      "stars_before": 2349,
-      "stars_after": 2351,
+      "stars_before": 2351,
+      "stars_after": 2354,
       "source": "https://github.com/alchaincyf/huashu-skills",
       "download": "https://github.com/alchaincyf/huashu-skills/archive/refs/heads/master.zip"
     },
     {
       "id": "alirezarezvani/claude-skills",
       "name": "claude-skills",
-      "stars_before": 30483,
-      "stars_after": 30542,
+      "stars_before": 30542,
+      "stars_after": 30589,
       "source": "https://github.com/alirezarezvani/claude-skills",
       "download": "https://github.com/alirezarezvani/claude-skills/archive/refs/heads/main.zip"
     },
     {
+      "id": "amelnagdy/delegate-skills",
+      "name": "delegate-skills",
+      "stars_before": 2666,
+      "stars_after": 2671,
+      "source": "https://github.com/amElnagdy/delegate-skills",
+      "download": "https://github.com/amElnagdy/delegate-skills/archive/refs/heads/master.zip"
+    },
+    {
       "id": "anbeime/skill",
       "name": "skill",
-      "stars_before": 9899,
-      "stars_after": 9931,
+      "stars_before": 9931,
+      "stars_after": 9970,
       "source": "https://github.com/anbeime/skill",
       "download": "https://github.com/anbeime/skill/archive/refs/heads/main.zip"
     },
     {
       "id": "antfu/skills",
       "name": "skills",
-      "stars_before": 6099,
-      "stars_after": 6100,
+      "stars_before": 6100,
+      "stars_after": 6103,
       "source": "https://github.com/antfu/skills",
       "download": "https://github.com/antfu/skills/archive/refs/heads/main.zip"
     },
     {
       "id": "anthropics/skills",
       "name": "skills",
-      "stars_before": 200509,
-      "stars_after": 201029,
+      "stars_before": 201029,
+      "stars_after": 201501,
       "source": "https://github.com/anthropics/skills",
       "download": "https://github.com/anthropics/skills/archive/refs/heads/main.zip"
     },
     {
       "id": "apify/agent-skills",
       "name": "agent-skills",
-      "stars_before": 2518,
-      "stars_after": 2520,
+      "stars_before": 2520,
+      "stars_after": 2519,
       "source": "https://github.com/apify/agent-skills",
       "download": "https://github.com/apify/agent-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "appllama/appllama-skills",
       "name": "appllama-skills",
-      "stars_before": 5663,
-      "stars_after": 5668,
+      "stars_before": 5668,
+      "stars_after": 5681,
       "source": "https://github.com/Appllama/appllama-skills",
       "download": "https://github.com/Appllama/appllama-skills/archive/refs/heads/main.zip"
     },
     {
+      "id": "avdlee/swiftui-agent-skill",
+      "name": "SwiftUI-Agent-Skill",
+      "stars_before": 3943,
+      "stars_after": 3946,
+      "source": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
+      "download": "https://github.com/AvdLee/SwiftUI-Agent-Skill/archive/refs/heads/main.zip"
+    },
+    {
       "id": "awesome-skills/code-review-skill",
       "name": "code-review-skill",
-      "stars_before": 2320,
-      "stars_after": 2326,
+      "stars_before": 2326,
+      "stars_after": 2329,
       "source": "https://github.com/awesome-skills/code-review-skill",
       "download": "https://github.com/awesome-skills/code-review-skill/archive/refs/heads/main.zip"
     },
     {
       "id": "backnotprop/pstack",
       "name": "pstack",
-      "stars_before": 5172,
-      "stars_after": 5264,
+      "stars_before": 5264,
+      "stars_after": 5335,
       "source": "https://github.com/backnotprop/pstack",
       "download": "https://github.com/backnotprop/pstack/archive/refs/heads/main.zip"
     },
     {
       "id": "badlogic/pi-skills",
       "name": "pi-skills",
-      "stars_before": 2673,
-      "stars_after": 2674,
+      "stars_before": 2674,
+      "stars_after": 2675,
       "source": "https://github.com/badlogic/pi-skills",
       "download": "https://github.com/badlogic/pi-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "behisecc/awesome-claude-skills",
       "name": "awesome-claude-skills",
-      "stars_before": 10490,
-      "stars_after": 10493,
+      "stars_before": 10493,
+      "stars_after": 10498,
       "source": "https://github.com/BehiSecc/awesome-claude-skills",
       "download": "https://github.com/BehiSecc/awesome-claude-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "benjitaylor/skills",
       "name": "skills",
-      "stars_before": 4188,
-      "stars_after": 4217,
+      "stars_before": 4217,
+      "stars_after": 4244,
       "source": "https://github.com/benjitaylor/skills",
       "download": "https://github.com/benjitaylor/skills/archive/refs/heads/main.zip"
     },
     {
       "id": "bergside/awesome-design-skills",
       "name": "awesome-design-skills",
-      "stars_before": 3799,
-      "stars_after": 3805,
+      "stars_before": 3805,
+      "stars_after": 3814,
       "source": "https://github.com/bergside/awesome-design-skills",
       "download": "https://github.com/bergside/awesome-design-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "browserbase/skills",
       "name": "skills",
-      "stars_before": 3758,
-      "stars_after": 3760,
+      "stars_before": 3760,
+      "stars_after": 3761,
       "source": "https://github.com/browserbase/skills",
       "download": "https://github.com/browserbase/skills/archive/refs/heads/main.zip"
     },
     {
       "id": "caru-ini/stack-diagram",
       "name": "stack-diagram",
-      "stars_before": 2923,
-      "stars_after": 2950,
+      "stars_before": 2950,
+      "stars_after": 2976,
       "source": "https://github.com/caru-ini/stack-diagram",
       "download": "https://github.com/caru-ini/stack-diagram/releases/download/v0.8.0/stack-diagram.zip"
     },
     {
       "id": "cathrynlavery/diagram-design",
       "name": "diagram-design",
-      "stars_before": 72998,
-      "stars_after": 73827,
+      "stars_before": 73827,
+      "stars_after": 74442,
       "source": "https://github.com/cathrynlavery/diagram-design",
       "download": "https://github.com/cathrynlavery/diagram-design/archive/refs/heads/main.zip"
     },
     {
       "id": "chuspeeism/dashi-ppt-skill",
       "name": "dashi-ppt-skill",
-      "stars_before": 11162,
-      "stars_after": 11206,
+      "stars_before": 11206,
+      "stars_after": 11256,
       "source": "https://github.com/chuspeeism/dashi-ppt-skill",
       "download": "https://github.com/chuspeeism/dashi-ppt-skill/archive/refs/heads/main.zip"
     },
     {
       "id": "ciembor/agent-rules-books",
       "name": "agent-rules-books",
-      "stars_before": 3360,
-      "stars_after": 3367,
+      "stars_before": 3367,
+      "stars_after": 3381,
       "source": "https://github.com/ciembor/agent-rules-books",
       "download": "https://github.com/ciembor/agent-rules-books/releases/download/v0.5/agent-rules-books-v0.5.zip"
     },
     {
       "id": "cloudflare/security-audit-skill",
       "name": "security-audit-skill",
-      "stars_before": 78349,
-      "stars_after": 78847,
+      "stars_before": 78847,
+      "stars_after": 79268,
       "source": "https://github.com/cloudflare/security-audit-skill",
       "download": "https://github.com/cloudflare/security-audit-skill/archive/refs/heads/main.zip"
     },
     {
       "id": "coleam00/excalidraw-diagram-skill",
       "name": "excalidraw-diagram-skill",
-      "stars_before": 5343,
-      "stars_after": 5352,
+      "stars_before": 5352,
+      "stars_after": 5358,
       "source": "https://github.com/coleam00/excalidraw-diagram-skill",
       "download": "https://github.com/coleam00/excalidraw-diagram-skill/archive/refs/heads/main.zip"
     },
     {
       "id": "composio-community/awesome-codex-skills",
       "name": "awesome-codex-skills",
-      "stars_before": 17432,
-      "stars_after": 17439,
+      "stars_before": 17439,
+      "stars_after": 17453,
       "source": "https://github.com/composio-community/awesome-codex-skills",
       "download": "https://github.com/composio-community/awesome-codex-skills/archive/refs/heads/master.zip"
     },
     {
       "id": "composiohq/awesome-claude-skills",
       "name": "awesome-claude-skills",
-      "stars_before": 80320,
-      "stars_after": 80397,
+      "stars_before": 80397,
+      "stars_after": 80468,
       "source": "https://github.com/ComposioHQ/awesome-claude-skills",
       "download": "https://github.com/ComposioHQ/awesome-claude-skills/archive/refs/heads/master.zip"
     },
     {
       "id": "czlonkowski/n8n-skills",
       "name": "n8n-skills",
-      "stars_before": 6711,
-      "stars_after": 6717,
+      "stars_before": 6717,
+      "stars_after": 6723,
       "source": "https://github.com/czlonkowski/n8n-skills",
       "download": "https://github.com/czlonkowski/n8n-skills/releases/download/v1.37.1/n8n-agents-v1.37.1.zip"
     },
     {
       "id": "daveebbelaar/bama",
       "name": "bama",
-      "stars_before": 1975,
-      "stars_after": 1988,
+      "stars_before": 1988,
+      "stars_after": 1992,
       "source": "https://github.com/daveebbelaar/bama",
       "download": "https://github.com/daveebbelaar/bama/archive/refs/heads/main.zip"
     },
     {
       "id": "davidondrej/skills",
       "name": "skills",
-      "stars_before": 4366,
-      "stars_after": 4369,
+      "stars_before": 4369,
+      "stars_after": 4370,
       "source": "https://github.com/davidondrej/skills",
       "download": "https://github.com/davidondrej/skills/archive/refs/heads/main.zip"
     },
     {
       "id": "deanpeters/product-manager-skills",
       "name": "Product-Manager-Skills",
-      "stars_before": 8158,
-      "stars_after": 8171,
+      "stars_before": 8171,
+      "stars_after": 8176,
       "source": "https://github.com/deanpeters/Product-Manager-Skills",
       "download": "https://github.com/deanpeters/Product-Manager-Skills/releases/download/v0.86/01-core-pm-starter-pack.zip"
     },
     {
       "id": "dickwu/apple-design-skill",
       "name": "apple-design-skill",
-      "stars_before": 3850,
-      "stars_after": 3889,
+      "stars_before": 3889,
+      "stars_after": 3927,
       "source": "https://github.com/dickwu/apple-design-skill",
       "download": "https://github.com/dickwu/apple-design-skill/archive/refs/heads/main.zip"
     },
     {
       "id": "dotnet/skills",
       "name": "skills",
-      "stars_before": 6370,
-      "stars_after": 6375,
+      "stars_before": 6375,
+      "stars_after": 6386,
       "source": "https://github.com/dotnet/skills",
       "download": "https://github.com/dotnet/skills/archive/refs/heads/main.zip"
     },
     {
       "id": "emilkowalski/skills",
       "name": "skills",
-      "stars_before": 59575,
-      "stars_after": 60104,
+      "stars_before": 60104,
+      "stars_after": 60563,
       "source": "https://github.com/emilkowalski/skills",
       "download": "https://github.com/emilkowalski/skills/archive/refs/heads/main.zip"
     },
     {
       "id": "ericjujianzou/rederive",
       "name": "rederive",
-      "stars_before": 1722,
-      "stars_after": 1751,
+      "stars_before": 1751,
+      "stars_after": 1792,
       "source": "https://github.com/EricJujianZou/rederive",
       "download": "https://github.com/EricJujianZou/rederive/archive/refs/heads/master.zip"
     },
     {
       "id": "expo/skills",
       "name": "skills",
-      "stars_before": 4242,
-      "stars_after": 4247,
+      "stars_before": 4247,
+      "stars_after": 4249,
       "source": "https://github.com/expo/skills",
       "download": "https://github.com/expo/skills/archive/refs/heads/main.zip"
     },
     {
       "id": "foryourhealth111-pixel/vibe-skills",
       "name": "Vibe-Skills",
-      "stars_before": 3846,
-      "stars_after": 3853,
+      "stars_before": 3853,
+      "stars_after": 3855,
       "source": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
       "download": "https://github.com/foryourhealth111-pixel/Vibe-Skills/releases/download/v4.1.2/vibe-skills-4.1.2-public.zip"
     },
     {
       "id": "gamedev-skills/awesome-gamedev-agent-skills",
       "name": "awesome-gamedev-agent-skills",
-      "stars_before": 11178,
-      "stars_after": 11493,
+      "stars_before": 11493,
+      "stars_after": 11715,
       "source": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
       "download": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "gentleman-programming/gentle-ai",
       "name": "gentle-ai",
-      "stars_before": 9581,
-      "stars_after": 9607,
+      "stars_before": 9607,
+      "stars_after": 9619,
       "source": "https://github.com/Gentleman-Programming/gentle-ai",
-      "download": "https://github.com/Gentleman-Programming/gentle-ai/releases/download/v5.0.0/gentle-ai-release-provenance-v1.tar.gz"
+      "download": "https://github.com/Gentleman-Programming/gentle-ai/releases/download/v5.1.0/gentle-ai-release-provenance-v1.tar.gz"
     },
     {
       "id": "github/awesome-copilot",
       "name": "awesome-copilot",
-      "stars_before": 41563,
-      "stars_after": 41602,
+      "stars_before": 41602,
+      "stars_after": 41635,
       "source": "https://github.com/github/awesome-copilot",
       "download": "https://github.com/github/awesome-copilot/archive/refs/heads/main.zip"
     },
     {
       "id": "google-labs-code/stitch-skills",
       "name": "stitch-skills",
-      "stars_before": 12966,
-      "stars_after": 13279,
+      "stars_before": 13279,
+      "stars_after": 13583,
       "source": "https://github.com/google-labs-code/stitch-skills",
       "download": "https://github.com/google-labs-code/stitch-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "google/skills",
       "name": "skills",
-      "stars_before": 24678,
-      "stars_after": 24710,
+      "stars_before": 24710,
+      "stars_after": 24784,
       "source": "https://github.com/google/skills",
       "download": "https://github.com/google/skills/archive/refs/heads/main.zip"
     },
     {
       "id": "gotalab/cc-sdd",
       "name": "cc-sdd",
-      "stars_before": 3779,
-      "stars_after": 3781,
+      "stars_before": 3781,
+      "stars_after": 3782,
       "source": "https://github.com/gotalab/cc-sdd",
       "download": "https://github.com/gotalab/cc-sdd/archive/refs/heads/main.zip"
     },
     {
       "id": "greensock/gsap-skills",
       "name": "gsap-skills",
-      "stars_before": 19062,
-      "stars_after": 19117,
+      "stars_before": 19117,
+      "stars_after": 19189,
       "source": "https://github.com/greensock/gsap-skills",
       "download": "https://github.com/greensock/gsap-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "heilcheng/awesome-agent-skills",
       "name": "awesome-agent-skills",
-      "stars_before": 6434,
-      "stars_after": 6438,
+      "stars_before": 6438,
+      "stars_after": 6439,
       "source": "https://github.com/heilcheng/awesome-agent-skills",
       "download": "https://github.com/heilcheng/awesome-agent-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "hesreallyhim/awesome-claude-code",
       "name": "awesome-claude-code",
-      "stars_before": 58805,
-      "stars_after": 58873,
+      "stars_before": 58873,
+      "stars_after": 58940,
       "source": "https://github.com/hesreallyhim/awesome-claude-code",
       "download": "https://github.com/hesreallyhim/awesome-claude-code/archive/refs/heads/main.zip"
     },
     {
       "id": "htdt/godogen",
       "name": "godogen",
-      "stars_before": 7408,
-      "stars_after": 7427,
+      "stars_before": 7427,
+      "stars_after": 7438,
       "source": "https://github.com/htdt/godogen",
       "download": "https://github.com/htdt/godogen/archive/refs/heads/master.zip"
     },
     {
       "id": "jakeschincariol/replica-skill",
       "name": "replica-skill",
-      "stars_before": 10664,
-      "stars_after": 10742,
+      "stars_before": 10742,
+      "stars_after": 10828,
       "source": "https://github.com/Jakeschincariol/replica-skill",
       "download": "https://github.com/Jakeschincariol/replica-skill/archive/refs/heads/main.zip"
     },
     {
       "id": "jakubkrehel/skills",
       "name": "skills",
-      "stars_before": 12763,
-      "stars_after": 12871,
+      "stars_before": 12871,
+      "stars_after": 12933,
       "source": "https://github.com/jakubkrehel/skills",
       "download": "https://github.com/jakubkrehel/skills/archive/refs/heads/main.zip"
     },
     {
       "id": "janestreet/agent_skills",
       "name": "agent_skills",
-      "stars_before": 11826,
-      "stars_after": 11962,
+      "stars_before": 11962,
+      "stars_after": 12062,
       "source": "https://github.com/janestreet/agent_skills",
       "download": "https://github.com/janestreet/agent_skills/archive/refs/heads/master.zip"
     },
     {
       "id": "jeffallan/claude-skills",
       "name": "claude-skills",
-      "stars_before": 12519,
-      "stars_after": 12532,
+      "stars_before": 12532,
+      "stars_after": 12545,
       "source": "https://github.com/Jeffallan/claude-skills",
       "download": "https://github.com/Jeffallan/claude-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "jimliu/baoyu-skills",
       "name": "baoyu-skills",
-      "stars_before": 27876,
-      "stars_after": 27901,
+      "stars_before": 27901,
+      "stars_after": 27933,
       "source": "https://github.com/JimLiu/baoyu-skills",
       "download": "https://github.com/JimLiu/baoyu-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "jnmetacode/superpowers-zh",
       "name": "superpowers-zh",
-      "stars_before": 8601,
-      "stars_after": 8613,
+      "stars_before": 8613,
+      "stars_after": 8621,
       "source": "https://github.com/jnMetaCode/superpowers-zh",
       "download": "https://github.com/jnMetaCode/superpowers-zh/archive/refs/heads/main.zip"
     },
     {
       "id": "jtydhr88/screenwriting-skills",
       "name": "screenwriting-skills",
-      "stars_before": 2175,
-      "stars_after": 2191,
+      "stars_before": 2191,
+      "stars_after": 2198,
       "source": "https://github.com/jtydhr88/screenwriting-skills",
       "download": "https://github.com/jtydhr88/screenwriting-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "kkkkhazix/khazix-skills",
       "name": "khazix-skills",
-      "stars_before": 22539,
-      "stars_after": 22573,
+      "stars_before": 22573,
+      "stars_after": 22627,
       "source": "https://github.com/KKKKhazix/khazix-skills",
       "download": "https://github.com/KKKKhazix/khazix-skills/releases/download/v1.3.1/aihot-1.3.1.zip"
     },
     {
       "id": "lennney/stop-that-shit",
       "name": "stop-that-shit",
-      "stars_before": 4097,
-      "stars_after": 4107,
+      "stars_before": 4107,
+      "stars_after": 4115,
       "source": "https://github.com/lennney/stop-that-shit",
       "download": "https://github.com/lennney/stop-that-shit/releases/download/0.2.6/stop-that-shit-0.2.6.zip"
     },
     {
       "id": "leonxlnx/taste-skill",
       "name": "taste-skill",
-      "stars_before": 121553,
-      "stars_after": 121972,
+      "stars_before": 121972,
+      "stars_after": 122330,
       "source": "https://github.com/Leonxlnx/taste-skill",
       "download": "https://github.com/Leonxlnx/taste-skill/archive/refs/heads/main.zip"
     },
     {
-      "id": "libukai/awesome-agent-skills",
-      "name": "awesome-agent-skills",
-      "stars_before": 5233,
-      "stars_after": 5235,
-      "source": "https://github.com/libukai/awesome-agent-skills",
-      "download": "https://github.com/libukai/awesome-agent-skills/archive/refs/heads/main.zip"
-    },
-    {
       "id": "majidmanzarpour/threejs-game-skills",
       "name": "threejs-game-skills",
-      "stars_before": 2904,
-      "stars_after": 2905,
+      "stars_before": 2905,
+      "stars_after": 3013,
       "source": "https://github.com/majidmanzarpour/threejs-game-skills",
       "download": "https://github.com/majidmanzarpour/threejs-game-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "markdown-viewer/skills",
       "name": "skills",
-      "stars_before": 3432,
-      "stars_after": 3434,
+      "stars_before": 3434,
+      "stars_after": 3435,
       "source": "https://github.com/markdown-viewer/skills",
       "download": "https://github.com/markdown-viewer/skills/archive/refs/heads/main.zip"
     },
     {
       "id": "mattpocock/skills",
       "name": "skills",
-      "stars_before": 332866,
-      "stars_after": 333583,
+      "stars_before": 333583,
+      "stars_after": 334256,
       "source": "https://github.com/mattpocock/skills",
       "download": "https://github.com/mattpocock/skills/archive/refs/heads/main.zip"
     },
     {
       "id": "mengto/skills",
       "name": "Skills",
-      "stars_before": 8320,
-      "stars_after": 8401,
+      "stars_before": 8401,
+      "stars_after": 8495,
       "source": "https://github.com/MengTo/Skills",
       "download": "https://github.com/MengTo/Skills/archive/refs/heads/main.zip"
     },
     {
       "id": "microsoft/skills",
       "name": "skills",
-      "stars_before": 3248,
-      "stars_after": 3253,
+      "stars_before": 3253,
+      "stars_after": 3255,
       "source": "https://github.com/microsoft/skills",
       "download": "https://github.com/microsoft/skills/archive/refs/heads/main.zip"
     },
     {
       "id": "multica-ai/andrej-karpathy-skills",
       "name": "andrej-karpathy-skills",
-      "stars_before": 235705,
-      "stars_after": 235924,
+      "stars_before": 235924,
+      "stars_after": 236195,
       "source": "https://github.com/multica-ai/andrej-karpathy-skills",
       "download": "https://github.com/multica-ai/andrej-karpathy-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "muratcankoylan/agent-skills-for-context-engineering",
       "name": "Agent-Skills-for-Context-Engineering",
-      "stars_before": 18429,
-      "stars_after": 18434,
+      "stars_before": 18434,
+      "stars_after": 18444,
       "source": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
       "download": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/archive/refs/heads/main.zip"
     },
     {
       "id": "nateherkai/scroll-craft",
       "name": "scroll-craft",
-      "stars_before": 5476,
-      "stars_after": 5510,
+      "stars_before": 5510,
+      "stars_after": 5534,
       "source": "https://github.com/nateherkai/scroll-craft",
       "download": "https://github.com/nateherkai/scroll-craft/archive/refs/heads/main.zip"
     },
     {
       "id": "nextlevelbuilder/ui-ux-pro-max-skill",
       "name": "ui-ux-pro-max-skill",
-      "stars_before": 154199,
-      "stars_after": 154626,
+      "stars_before": 154626,
+      "stars_after": 155146,
       "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
       "download": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/archive/refs/heads/main.zip"
     },
     {
       "id": "ningzimu/codex-ppt-skill",
       "name": "codex-ppt-skill",
-      "stars_before": 8180,
-      "stars_after": 8201,
+      "stars_before": 8201,
+      "stars_after": 8221,
       "source": "https://github.com/ningzimu/codex-ppt-skill",
       "download": "https://github.com/ningzimu/codex-ppt-skill/releases/download/v0.6.0/codex-ppt-skill-v0.6.0.zip"
     },
     {
       "id": "nvidia/skills",
       "name": "skills",
-      "stars_before": 4155,
-      "stars_after": 4167,
+      "stars_before": 4167,
+      "stars_after": 4179,
       "source": "https://github.com/NVIDIA/skills",
       "download": "https://github.com/NVIDIA/skills/archive/refs/heads/main.zip"
     },
     {
       "id": "obra/superpowers",
       "name": "superpowers",
-      "stars_before": 326593,
-      "stars_after": 327467,
+      "stars_before": 327467,
+      "stars_after": 328286,
       "source": "https://github.com/obra/superpowers",
       "download": "https://github.com/obra/superpowers/archive/refs/heads/main.zip"
     },
     {
       "id": "oil-oil/oil-ui",
       "name": "oil-ui",
-      "stars_before": 3991,
-      "stars_after": 4016,
+      "stars_before": 4016,
+      "stars_after": 4038,
       "source": "https://github.com/oil-oil/oil-ui",
       "download": "https://github.com/oil-oil/oil-ui/releases/download/v0.34.9/oil-ui-0.34.9.tar.gz"
     },
     {
       "id": "op7418/guizang-ppt-skill",
       "name": "guizang-ppt-skill",
-      "stars_before": 30423,
-      "stars_after": 30483,
+      "stars_before": 30483,
+      "stars_after": 30528,
       "source": "https://github.com/op7418/guizang-ppt-skill",
       "download": "https://github.com/op7418/guizang-ppt-skill/archive/refs/heads/main.zip"
     },
     {
       "id": "openai/skills",
       "name": "skills",
-      "stars_before": 29141,
-      "stars_after": 29161,
+      "stars_before": 29161,
+      "stars_after": 29180,
       "source": "https://github.com/openai/skills",
       "download": "https://github.com/openai/skills/archive/refs/heads/main.zip"
     },
     {
       "id": "orchestra-research/ai-research-skills",
       "name": "AI-Research-SKILLs",
-      "stars_before": 14827,
-      "stars_after": 14848,
+      "stars_before": 14848,
+      "stars_after": 14871,
       "source": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
       "download": "https://github.com/Orchestra-Research/AI-Research-SKILLs/archive/refs/heads/main.zip"
     },
     {
       "id": "othmanadi/planning-with-files",
       "name": "planning-with-files",
-      "stars_before": 28233,
-      "stars_after": 28250,
+      "stars_before": 28250,
+      "stars_after": 28267,
       "source": "https://github.com/OthmanAdi/planning-with-files",
       "download": "https://github.com/OthmanAdi/planning-with-files/archive/refs/heads/master.zip"
     },
     {
       "id": "plannotator/effective-html",
       "name": "effective-html",
-      "stars_before": 4318,
-      "stars_after": 4327,
+      "stars_before": 4327,
+      "stars_after": 4333,
       "source": "https://github.com/plannotator/effective-html",
       "download": "https://github.com/plannotator/effective-html/archive/refs/heads/main.zip"
     },
     {
       "id": "plugin87/ux-ui-agent-skills",
       "name": "ux-ui-agent-skills",
-      "stars_before": 3236,
-      "stars_after": 3238,
+      "stars_before": 3238,
+      "stars_after": 3242,
       "source": "https://github.com/plugin87/ux-ui-agent-skills",
       "download": "https://github.com/plugin87/ux-ui-agent-skills/releases/download/v3.1.1/ux-ui-agent-skills-gemini.tar.gz"
     },
     {
       "id": "remotion-dev/skills",
       "name": "skills",
-      "stars_before": 8006,
-      "stars_after": 8070,
+      "stars_before": 8070,
+      "stars_after": 8148,
       "source": "https://github.com/remotion-dev/skills",
       "download": "https://github.com/remotion-dev/skills/archive/refs/heads/main.zip"
     },
     {
       "id": "rohitg00/awesome-claude-code-toolkit",
       "name": "awesome-claude-code-toolkit",
-      "stars_before": 2868,
-      "stars_after": 2870,
+      "stars_before": 2870,
+      "stars_after": 2876,
       "source": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "download": "https://github.com/rohitg00/awesome-claude-code-toolkit/archive/refs/heads/main.zip"
     },
     {
       "id": "samber/cc-skills-golang",
       "name": "cc-skills-golang",
-      "stars_before": 3976,
-      "stars_after": 3985,
+      "stars_before": 3985,
+      "stars_after": 3997,
       "source": "https://github.com/samber/cc-skills-golang",
       "download": "https://github.com/samber/cc-skills-golang/archive/refs/heads/main.zip"
     },
     {
       "id": "sickn33/agentic-awesome-skills",
       "name": "agentic-awesome-skills",
-      "stars_before": 50324,
-      "stars_after": 50394,
+      "stars_before": 50394,
+      "stars_after": 50452,
       "source": "https://github.com/sickn33/agentic-awesome-skills",
       "download": "https://github.com/sickn33/agentic-awesome-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "supabase/agent-skills",
       "name": "agent-skills",
-      "stars_before": 3138,
-      "stars_after": 3144,
+      "stars_before": 3144,
+      "stars_after": 3148,
       "source": "https://github.com/supabase/agent-skills",
       "download": "https://github.com/supabase/agent-skills/releases/download/v0.1.9/supabase-postgres-best-practices.tar.gz"
     },
     {
       "id": "sybil-solutions/inference-optimisation-skill",
       "name": "inference-optimisation-skill",
-      "stars_before": 2697,
-      "stars_after": 2817,
+      "stars_before": 2817,
+      "stars_after": 2882,
       "source": "https://github.com/sybil-solutions/inference-optimisation-skill",
       "download": "https://github.com/sybil-solutions/inference-optimisation-skill/archive/refs/heads/main.zip"
     },
     {
       "id": "tech-leads-club/agent-skills",
       "name": "agent-skills",
-      "stars_before": 7212,
-      "stars_after": 7218,
+      "stars_before": 7218,
+      "stars_after": 7223,
       "source": "https://github.com/tech-leads-club/agent-skills",
       "download": "https://github.com/tech-leads-club/agent-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "travisvn/awesome-claude-skills",
       "name": "awesome-claude-skills",
-      "stars_before": 15938,
-      "stars_after": 15950,
+      "stars_before": 15950,
+      "stars_after": 15958,
       "source": "https://github.com/travisvn/awesome-claude-skills",
       "download": "https://github.com/travisvn/awesome-claude-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "trystan-sa/product-engineer-skills",
       "name": "product-engineer-skills",
-      "stars_before": 2068,
-      "stars_after": 2067,
+      "stars_before": 2067,
+      "stars_after": 2068,
       "source": "https://github.com/Trystan-SA/product-engineer-skills",
       "download": "https://github.com/Trystan-SA/product-engineer-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "tt-a1i/archify",
       "name": "archify",
-      "stars_before": 99908,
-      "stars_after": 100555,
+      "stars_before": 100555,
+      "stars_after": 100956,
       "source": "https://github.com/tt-a1i/archify",
       "download": "https://github.com/tt-a1i/archify/releases/download/v3.3.2/archify.zip"
     },
     {
+      "id": "tw93/kami",
+      "name": "Kami",
+      "stars_before": 12649,
+      "stars_after": 12653,
+      "source": "https://github.com/tw93/Kami",
+      "download": "https://github.com/tw93/Kami/releases/download/V1.20.0/kami.zip"
+    },
+    {
       "id": "tw93/waza",
       "name": "Waza",
-      "stars_before": 7650,
-      "stars_after": 7654,
+      "stars_before": 7654,
+      "stars_after": 7657,
       "source": "https://github.com/tw93/Waza",
       "download": "https://github.com/tw93/Waza/releases/download/v3.42.0/waza.zip"
     },
     {
       "id": "twostraws/swift-agent-skills",
       "name": "Swift-Agent-Skills",
-      "stars_before": 3079,
-      "stars_after": 3086,
+      "stars_before": 3086,
+      "stars_after": 3087,
       "source": "https://github.com/twostraws/Swift-Agent-Skills",
       "download": "https://github.com/twostraws/Swift-Agent-Skills/archive/refs/heads/main.zip"
     },
     {
       "id": "typesafe-ai/skills",
       "name": "skills",
-      "stars_before": 2922,
-      "stars_after": 2926,
+      "stars_before": 2926,
+      "stars_after": 2929,
       "source": "https://github.com/typesafe-ai/skills",
       "download": "https://github.com/typesafe-ai/skills/archive/refs/heads/main.zip"
     },
     {
       "id": "vercel-labs/agent-skills",
       "name": "agent-skills",
-      "stars_before": 34924,
-      "stars_after": 34982,
+      "stars_before": 34982,
+      "stars_after": 35032,
       "source": "https://github.com/vercel-labs/agent-skills",
       "download": "https://github.com/vercel-labs/agent-skills/releases/download/agent-skills-5a37a6329fbad3666c3207392a6a7c0110e92efb/vercel-composition-patterns.tar.gz"
     },
     {
       "id": "vinvcn/mattpocock-skills-zh-cn",
       "name": "mattpocock-skills-zh-CN",
-      "stars_before": 6118,
-      "stars_after": 6151,
+      "stars_before": 6151,
+      "stars_after": 6175,
       "source": "https://github.com/vinvcn/mattpocock-skills-zh-CN",
       "download": "https://github.com/vinvcn/mattpocock-skills-zh-CN/archive/refs/heads/main.zip"
     },
     {
       "id": "voltagent/awesome-agent-skills",
       "name": "awesome-agent-skills",
-      "stars_before": 37551,
-      "stars_after": 37573,
+      "stars_before": 37573,
+      "stars_after": 37596,
       "source": "https://github.com/VoltAgent/awesome-agent-skills",
       "download": "https://github.com/VoltAgent/awesome-agent-skills/archive/refs/heads/main.zip"
     },
     {
       "id": "vuejs-ai/skills",
       "name": "skills",
-      "stars_before": 3374,
-      "stars_after": 3382,
+      "stars_before": 3382,
+      "stars_after": 3388,
       "source": "https://github.com/vuejs-ai/skills",
       "download": "https://github.com/vuejs-ai/skills/archive/refs/heads/main.zip"
     },
     {
       "id": "wshobson/agents",
       "name": "agents",
-      "stars_before": 42894,
-      "stars_after": 42929,
+      "stars_before": 42929,
+      "stars_after": 42989,
       "source": "https://github.com/wshobson/agents",
       "download": "https://github.com/wshobson/agents/archive/refs/heads/main.zip"
     },
     {
       "id": "xianyu110/awesome-openclaw-tutorial",
       "name": "awesome-openclaw-tutorial",
-      "stars_before": 4593,
-      "stars_after": 4594,
+      "stars_before": 4594,
+      "stars_after": 4593,
       "source": "https://github.com/xianyu110/awesome-openclaw-tutorial",
       "download": "https://github.com/xianyu110/awesome-openclaw-tutorial/archive/refs/heads/main.zip"
     },
     {
       "id": "xinif-a/apds",
-      "name": "apds",
-      "stars_before": 4759,
-      "stars_after": 4763,
-      "source": "https://github.com/xixu-me/apds",
-      "download": "https://github.com/xixu-me/apds/archive/refs/heads/main.zip"
+      "name": "jkandf",
+      "stars_before": 4763,
+      "stars_after": 4765,
+      "source": "https://github.com/asfgsrgerg/jkandf",
+      "download": "https://github.com/asfgsrgerg/jkandf/archive/refs/heads/main.zip"
     },
     {
       "id": "xixu-me/apds",
-      "name": "apds",
-      "stars_before": 4759,
-      "stars_after": 4763,
-      "source": "https://github.com/xixu-me/apds",
-      "download": "https://github.com/xixu-me/apds/archive/refs/heads/main.zip"
+      "name": "jkandf",
+      "stars_before": 4763,
+      "stars_after": 4765,
+      "source": "https://github.com/asfgsrgerg/jkandf",
+      "download": "https://github.com/asfgsrgerg/jkandf/archive/refs/heads/main.zip"
     }
   ],
   "removed_items": [],
@@ -839,8 +882,8 @@
       "skill in:name stars:80..1999",
       "pptx OR powerpoint OR diagram skill in:description stars:80..1999"
     ],
-    "considered": 140,
+    "considered": 139,
     "rejected": 248,
-    "growth_checks": 27
+    "growth_checks": 26
   }
 }
